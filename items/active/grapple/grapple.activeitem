@@ -1,0 +1,54 @@
+﻿{
+  "itemName" : "grapple",
+  "price" : 500,
+  
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Pourquoi utilisez des plateformes alors qu'on peux utiliser des cordes ?",
+  "shortdescription" : "Grappin",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+
+  "inventoryIcon" : "grappleicon.png",
+  "animation" : "grapple.animation",
+  "animationParts" : {
+    "grapple" : "grapple.png"
+  },
+  "animationCustom" : { },
+  "animationScripts" : [
+    "/items/active/effects/rope.lua"
+  ],
+
+  "scripts" : ["grapple.lua"],
+  "fireOffset" : [1.5, 0.375],
+
+  "ropeOffset" : [1.0, 0.375],
+  "ropeWidth" : 1,
+  "ropeColor" : [128, 200, 255, 200],
+  "ropeFullbright" : true,
+
+  "returnSpeed" : 40,
+  "returnDistance" : 3.0,
+  
+  "projectileType" : "grapplehook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.25
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "active" : {
+      "duration" : 0.1,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un délicieux cake."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Cake"
+}
+]

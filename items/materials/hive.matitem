@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "hive",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "hive.png",
+  "description" : "-faire-",
+  "shortdescription" : "Bloc de Ruche",
+  "glitchdescription" : "Analysé. --faire--",
+  "florandescription" : "-faire-",
+
+  "materialId" : 41
+}

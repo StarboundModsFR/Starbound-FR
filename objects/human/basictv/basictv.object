@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "basictv",
+  "colonyTags" : ["human","humanvillage","electronic"],
+  "rarity" : "Common",
+  "description" : "Une télévision! I don't think this has worked for a long time.",
+  "shortdescription" : "Vieille Télévision",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "Un poste de télévision. Je continue à attendre de voir le visage de Big Ape.",
+  "avianDescription" : "Un moniteur, pour regarder de vieux spectacles.",
+  "floranDescription" : "Images animées.",
+  "glitchDescription" : "Admiration. La télévision est véritablement l'exportation le plus précieux de l'humanité.",
+  "humanDescription" : "Ren de mieux que de se détendre sur le canapé à regarder des dessins animés le samedi matin.",
+  "hylotlDescription" : "Alors que la technologie est impressionnante, de nombreuses émissions de télévision sont dépourvues de mérite artistique.",
+  "novakidDescription" : "Une bonne télévision. J'apprécie regarder un mystère graveleux à déplier.",
+  "inventoryIcon" : "basictvicon.png",
+  "orientations" : [
+    {
+      "image" : "basictv.png:<color>",
+      "imagePosition" : [-6, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "basictv.png:<color>",
+      "imagePosition" : [-6, 0],
+      "direction" : "right",
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

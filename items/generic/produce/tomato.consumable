@@ -1,0 +1,22 @@
+﻿{
+  "itemName" : "tomato",
+  "rarity" : "Common",
+  "price" : 60,
+  "inventoryIcon" : "tomatoicon.png",
+  "description" : "Tomate juteuse mûrs!",
+  "shortdescription" : "Tomate",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "tomatojuice" ]
+}

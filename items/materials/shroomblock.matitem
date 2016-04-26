@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "shroomblock",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "shroomblock.png",
+  "description" : "Un bloc de champignon.",
+  "shortdescription" : "Bloc Champignon",
+  "glitchdescription" : "Déclaration. Un bloc fongique.",
+  "florandescription" : "Champignonsss.",
+
+  "materialId" : 162
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerlog06",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_06.png",
+  "itemName" : "bunkerlog06Codex",
+  "rarity" : "common",
+  "description" : "Carnet personnel USCM #99999",
+  "shortdescription" : "PCarnet personnel"
+}

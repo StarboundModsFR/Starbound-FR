@@ -1,0 +1,9 @@
+{
+  "itemName" : "rocketbootsTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/rocketboots.png",
+  "description" : "Restez appuyés sur ce bouton de saut dans l'air pour activer ses chaussures à réaction. Coût : 130 energies par seconde.",
+  "shortdescription" : "Chaussures à Réaction",
+
+  "techModule" : "rocketboots"
+}

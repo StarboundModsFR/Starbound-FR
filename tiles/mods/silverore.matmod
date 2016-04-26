@@ -1,0 +1,20 @@
+{
+  "modId" : 22,
+  "modName" : "silverore",
+  "itemDrop" : "silverore",
+  "description" : "Argent.",
+  "health" : 3,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "silverore.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Tellement CHAUD"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Chaud Chaud MORT"
+}
+]

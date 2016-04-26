@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "icecream",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "icecream.png",
+  "description" : "Je glace mon sang, tu la glace à la vanille.",
+  "shortdescription" : "Glace à la vanille",
+  "handPosition" : [2, 2],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

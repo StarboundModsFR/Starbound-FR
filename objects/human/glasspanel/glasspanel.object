@@ -1,0 +1,36 @@
+﻿{
+  "objectName" : "glasspanel",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "Un panneau de verre brillant.",
+  "shortdescription" : "Panneau de Verre",
+  "race" : "human",
+
+  "apexDescription" : "Du verre coloré. Très belle.",
+  "avianDescription" : "Cet éclat de verre comme des bijoux.",
+  "floranDescription" : "Le joli verre fait toujours le grand fracas.",
+  "glitchDescription" : "Impressionné. La main de l'homme peut être assez remarquable.",
+  "humanDescription" : "Le verre coloré, comme cela peut être utilisé pour fabriquer des lunettes de soleil élégantes.",
+  "hylotlDescription" : "Ce verre scintille comme des coquillages colorés.",
+
+  "inventoryIcon" : "glasspanelicon.png",
+  "orientations" : [
+    {
+      "image" : "glasspanel.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "glasspanel.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

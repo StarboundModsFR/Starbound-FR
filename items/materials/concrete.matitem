@@ -1,0 +1,12 @@
+{
+  "itemName" : "concretematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "concrete.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Froid, dure, béton.",
+  "shortdescription" : "Béton",
+  "glitchdescription" : "déclaration. Béton.",
+  "florandescription" : "bé-ton.",
+
+  "materialId" : 5
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "goldblock.png",
+  "description" : "Tout un bloc d'or massif.",
+  "shortdescription" : "Bloc d'or",
+  "glitchdescription" : "Déclaration. Un bloc d'or.",
+  "florandescription" : "Or brillant.",
+
+  "materialId" : 33
+}

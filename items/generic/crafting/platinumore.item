@@ -1,0 +1,11 @@
+﻿{
+  "itemName" : "platinumore",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "platinumore.png",
+  "description" : "C'est du platine. Il peut-être fondu dans un four.",
+  "shortdescription" : "Minerai de Platine",
+    "learnBlueprintsOnPickup" : [
+    "platinumbar"
+  ]
+}

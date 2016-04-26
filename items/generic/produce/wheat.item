@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "wheat",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "wheat.png",
+  "description" : "Essentiel pour du pain.",
+  "shortdescription" : "Blé",
+  "itemTags" : [ "learn2farm" ]
+}

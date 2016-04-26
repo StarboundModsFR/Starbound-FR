@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossbonedragon",
+  "title" : "Textes de lecture",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossbonedragonCodex",
+  "rarity" : "common",
+  "description" : "Informations sur le dragon d'os, lézard morts-vivants de malheur.",
+  "shortdescription" : "Le dragon d'os"
+}

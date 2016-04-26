@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Lent, lourd et efficace"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Marteau Rare"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Marteau"
+}
+]

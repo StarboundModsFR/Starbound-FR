@@ -1,0 +1,13 @@
+{
+  "itemName" : "copperplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperplatform.png",
+  "description" : "Une platerforme en cuivre",
+  "shortdescription" : "Plateforme en cuivre",
+  "glitchdescription" : "Déclaration. Une plateforme en cuivre.",
+  "florandescription" : "Plateformesss.",
+
+  "materialId" : 139
+}

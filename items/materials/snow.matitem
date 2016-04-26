@@ -1,0 +1,16 @@
+﻿{
+  "itemName" : "snow",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "snow.png",
+  "shortdescription" : "Neige",
+  "description" : "Neige douce et duveuteuse.",
+  "glitchdescription" : "Certifié. Neige.",
+  "florandescription" : "Armure Neigeussse.",
+
+  "materialId" : 30,
+
+  "learnBlueprintsOnPickup" : [
+    "snowball"
+  ]
+}

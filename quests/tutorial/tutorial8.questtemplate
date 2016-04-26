@@ -1,0 +1,22 @@
+﻿{
+  "id" : "tutorial8.gearup",
+  "title" : "^yellow;Tutoriel VIII: Montez-Descendre",
+  "text" : "^green;Il est l'heure d'allez chercher ^orange;20 fragments de noyau.^white; Je peux les obtenir trés bas sous terre. ^green;Le S.A.I.L pourra me réparer les ^orange;propulseurs.",
+  "completionText" : "Génial, maintenant les ^orange;propulseurs^white; peuvent-être réparer et ^green;je peux maintenant visiter les autres planètes du système.",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "gatherRequirements" : {
+      "items" : {
+        "corefragmentore" : {
+          "count" : 20,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

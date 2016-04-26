@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "drydirt",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "drydirt.png",
+  "description" : "Terre, solide séché au soleil.",
+  "shortdescription" : "Terre Sèche",
+  "glitchdescription" : "Certifié. Terre. Clarification. Juste de la terre.",
+  "florandescription" : "Terre dégoutante!",
+
+  "materialId" : 45
+}

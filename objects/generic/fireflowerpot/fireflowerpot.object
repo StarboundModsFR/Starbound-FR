@@ -1,0 +1,31 @@
+﻿{
+  "objectName" : "fireflowerpot",
+  "colonyTags" : ["nature","pretty"],
+  "rarity" : "Common",
+  "description" : "Une fleur ardente dans un pot.",
+  "price" : 50,
+  "shortdescription" : "Fleur Ardente",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "apexDescription" : "Les pétales de cette fleur ressemblent à des langues de feu.",
+  "avianDescription" : "La fleur danse dans la brise, comme le feu.",
+  "floranDescription" : "Jolie fleur. Regardez les flammess.",
+  "glitchDescription" : "Reconnaissant. La nature est la maîtresse de la beauté.",
+  "humanDescription" : "Une belle fleur douce. Je me demande si cela me permettra de manger et de cracher des boules de feu?",
+  "hylotlDescription" : "Les fleurs de la surface sont si dynamique.",
+  "novakidDescription" : "Une fleur de type fantaisie planté ici.",
+
+  "inventoryIcon" : "fireflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fireflowerpot.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Ce pain a des champignons cuit par dessus. Miam!"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Pain aux Champignons"
+}
+]

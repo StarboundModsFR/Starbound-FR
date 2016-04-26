@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un stimpack remplit de liquide jaune, éclairez votre chemin."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "StimPack Jaune"
+}
+]

@@ -1,0 +1,23 @@
+﻿{
+  "id" : "tutorial4.gearup",
+  "title" : "^yellow;Tutorial IV: Combat contre la faim",
+  "text" : "Pour rester en bonne santé et améliorer mon combat, je devrai faire cuire une certaine nourriture.Je devrai ^green;obtenir un ^orange; steak ^green;cru.en tuant un monstre avec un ^orange;arc. Puis cuisinez-la dans un ^orange;feu de camp ^green;pour produire un ^orange; steak cuisiné^white;. ",
+  "completionText" : "Délicieux! je suis sér que je peux faire cuire quelques plats encore plus savoureux si je trouve d'autres ingrédients. Peut-être qu'avec une ^green;bèche^white, je peux découvrir des graines et donc les planter...",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial5.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "cookedalienmeat" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

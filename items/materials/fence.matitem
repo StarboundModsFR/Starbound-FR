@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "fence",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "fence.png",
+  "description" : "A sturdy wooden fence.",
+  "shortdescription" : "Barrière en Bois",
+  "glitchdescription" : "Déclaration. Une barrière vigoureuse.",
+  "florandescription" : "Barrière vigoureusse",
+
+  "materialId" : 119
+}

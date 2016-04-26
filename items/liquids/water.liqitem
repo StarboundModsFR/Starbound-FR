@@ -1,0 +1,13 @@
+{
+  "itemName" : "liquidwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidwatericon.png",
+  "shortdescription" : "Eau",
+  "description" : "Une mesure d'eau fraîche et claire",
+
+  "liquid" : "water",
+  
+  "learnBlueprintsOnPickup" : [
+    "bottledwater"
+  ]
+}

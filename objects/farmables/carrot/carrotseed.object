@@ -1,0 +1,51 @@
+﻿{
+  "objectName" : "carrotseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Pousse de carottes délicieuses, apporté depuis les étoiles.",
+  "shortdescription" : "Graine de Carotte",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 15,
+
+  "apexDescription" : "Faire bouillir une carotte et il est un peu comme une banane ... mais il n'as pas le même goût.",
+  "avianDescription" : "Une carotte simple. Bon pour la soupe.",
+  "floranDescription" : "Carotte rend mal à l'aise Florian.",
+  "glitchDescription" : "Affamé. Les carottes sont agréablement croquante.",
+  "humanDescription" : "Carottes. Parfait pour manger, ou coller sur un bonhomme de neige.",
+  "hylotlDescription" : "Les carottes sont un appareil polyvalent, si fade, et tellement légumes.",
+  "novakidDescription" : "L'humble carotte.",
+
+  "inventoryIcon" : "carrotseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "carrotseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "carrotHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

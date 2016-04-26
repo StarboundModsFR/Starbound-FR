@@ -1,0 +1,27 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/windowtitle/title",
+        "value": "Journal de Quêtes"
+},
+{
+        "op": "replace",
+        "path": "/windowtitle/subtitle",
+        "value": "^#b9b5b2;Liste de vos quêtes ^green;[J]"
+},
+{
+        "op": "replace",
+        "path": "/btnSetAsCurrent/caption",
+        "value": "ACTIVER"
+},
+{
+        "op": "replace",
+        "path": "/btnAbandon/caption",
+        "value": "ABANDONNER"
+},
+{
+        "op": "replace",
+        "path": "/labelRewards/value",
+        "value": "RÉCOMPENSES:"
+}
+]

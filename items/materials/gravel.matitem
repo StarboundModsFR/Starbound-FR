@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "gravelmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "gravel.png",
+  "description" : "Un gravier top minceur.",
+  "shortdescription" : "Gravier",
+  "glitchdescription" : "Certifié. Gravier.",
+  "florandescription" : "Petites Pierres.",
+
+  "materialId" : 11
+}

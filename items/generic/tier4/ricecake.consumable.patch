@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un simple gâteau formé de riz, maintenu par des algues."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Gâteau de Riz"
+}
+]

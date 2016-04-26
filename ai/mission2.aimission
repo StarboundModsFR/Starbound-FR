@@ -1,0 +1,85 @@
+﻿{
+  "missionName" : "mission2",
+  "icon" : "dreadwingicon.png",
+  "missionWorld" : "penguinmission1",
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Retenté Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Le pingouin de l'avant-poste veut veut que je démonte le pirate puissant Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "avianburials",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_01.png",
+  "itemName" : "avianburialsCodex",
+  "rarity" : "common",
+  "description" : "Sépultures Avian",
+  "shortdescription" : "Sépultures Avian"
+}

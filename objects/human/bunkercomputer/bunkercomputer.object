@@ -1,0 +1,58 @@
+﻿{
+  "objectName" : "bunkercomputer",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "On dirait qu'il est principalement utilisé pour la saisie des données. Rien de trop intéressant.",
+  "shortdescription" : "Petit Ordinateur",
+  "race" : "human",
+
+  "apexDescription" : "Un ordinateur. Le clavier est trop petit pour les doigts Apex.",
+  "avianDescription" : "Comment cela fonctionne, je me demande?",
+  "floranDescription" : "Floran appuis sur le bouton, Floran a fait des achats.",
+  "glitchDescription" : "Mélancolique. Je me sens parenté avec cet ordinateur humain.",
+  "humanDescription" : "Un ordinateur. Il est en cours d'exécution un programme qui vous oblige à entrer un code à intervalles réguliers.",
+  "hylotlDescription" : "Un ordinateur humain. Technologiquement, c'est très impressionnant.",
+  "novakidDescription" : " C'est un ordinateur, pas trop valorisant.",
+  
+  "lightColor" : [61, 80, 102],
+
+  "inventoryIcon" : "bunkercomputericon.png",
+  "orientations" : [
+    {
+      "image" : "bunkercomputer.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "bunkercomputer.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "bunkercomputer.png",
+    "fg" : "bunkercomputerlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [-1, 1] ]
+}

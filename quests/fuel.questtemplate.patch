@@ -1,0 +1,17 @@
+[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "Carburant pour le trajet"
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Pour alimenter le 'FTL Drive', je devrai avoir du 'Liquide d'Erchuis', Ce liquide rose ^green;peut-être trouvé dans ^orange; les souterrains des lunes ^white; Je devrai avoir besoin de ^orange; 20 unités ^white; pour faire fonctionner mon vaisseau et donc allez dans d'autres systèmes solaire. "
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "J'ai le carburant donc j'ai besoin ! Je peux le mettre dans la ^orange; jauge de carburant ^white; du vaisseau puis je pourrai allez visiter d'autres systèmes solaire. "
+}
+]

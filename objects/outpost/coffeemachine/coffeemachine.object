@@ -1,0 +1,43 @@
+﻿{
+  "objectName" : "coffeemachine",
+  "colonyTags" : ["outpost","cooking"],
+  "rarity" : "Common",
+  "description" : "Une machine à café, pour la parfaite pick-me-up.",
+  "shortdescription" : "Machine à Café",
+  "subtitle" : "Une tasse de bonnes choses",
+  "race" : "generic",
+  "price" : 65,
+  "category" : "crafting",
+  "objectType" : "container",
+
+  "apexDescription" : "Cette machine produit, un liquide noir amer.",
+  "avianDescription" : "J'aime son odeur.",
+  "floranDescription" : "Floran dit ce que l'on appelle cercueil!",
+  "glitchDescription" : "Neutre. Une machine à Café.",
+  "humanDescription" : "Café sacrément bon.",
+  "hylotlDescription" : "Une boisson amer désagréable.",
+  "novakidDescription" : "Noir, pas de lait ni de sucre. ne faîtes pas attention!",
+
+  "recipeGroup" : "coffee",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/coffeemachine.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coffeemachine.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

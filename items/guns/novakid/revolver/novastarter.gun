@@ -1,0 +1,33 @@
+﻿{
+  "itemName" : "novastarter",
+  "price" : 75,
+  "inventoryIcon" : "novastarter.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Une révolvaire rouillé, Il n'as pas beaucoup de puissance de feu.",
+  "shortdescription" : "Revolver Rouillé",
+  "image" : "novastarter.png",
+  "handPosition" : [-4, -2],
+  "firePosition" : [17, 3],
+  "recoilTime" : 0.1,
+  "level" : 1,
+  "tooltipKind" : "gun",
+  "weaponType" : "Pistolet",
+  "itemTags" : ["weapon","ranged","pistol"],
+  "fireTime" : 0.57,
+  "inaccuracy" : 0.016,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "standardbullet",
+  "projectile" : {
+    "speed" : 150,
+    "life" : 3,
+    "power" : 1.92,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
+  }
+}

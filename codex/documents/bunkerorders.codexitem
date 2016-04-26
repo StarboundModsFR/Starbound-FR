@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerorders",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_12.png",
+  "itemName" : "bunkerordersCodex",
+  "rarity" : "common",
+  "description" : "Sujet: Attendre les ordres",
+  "shortdescription" : "Attendre les ordres"
+}

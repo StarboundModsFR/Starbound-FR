@@ -1,0 +1,10 @@
+﻿{
+  "itemName" : "limestone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "limestone.png",
+  "description" : "Cette pierre calcaire se trouve dans certains types de grottes.",
+  "shortdescription" : "Calcaire",
+
+  "materialId" : 146
+}

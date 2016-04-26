@@ -1,0 +1,22 @@
+{
+  "materialId" : 109,
+  "materialName" : "platform2",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "platform2",
+  "shortdescription" : "Plateforme en Bois",
+  "description" : "Une plateforme en bois banale.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "woodplatform2.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

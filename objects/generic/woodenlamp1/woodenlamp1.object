@@ -1,0 +1,33 @@
+﻿{
+  "objectName" : "woodenlamp1",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Une lampe en bois très mignonne.",
+  "shortdescription" : "Lampe de Table en Bois",
+  "race" : "generic",
+
+  "apexDescription" : "Une petite lampe en bois.",
+  "avianDescription" : "Bois et électricité devient lumière.",
+  "floranDescription" : "Lampe douccce.",
+  "glitchDescription" : "Identifier. Une simple lampe.",
+  "humanDescription" : "Une belle petite lampe.",
+  "hylotlDescription" : "Une lampe charmante.",
+  "novakidDescription" : "La lampe est belle.",
+
+  "category" : "light",
+  "price" : 25,
+  "lightColor" : [217, 217, 190],
+
+  "inventoryIcon" : "woodenlamp1icon.png",
+  "orientations" : [
+    {
+      "image" : "woodenlamp1.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

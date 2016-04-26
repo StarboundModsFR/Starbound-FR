@@ -1,0 +1,42 @@
+﻿{
+  "objectName" : "ironbed",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Un lit de fer. Parfait pour une petite sieste de puissance.",
+  "shortdescription" : "Lit de Fer",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "Un lit à l'air inconfortable.",
+  "avianDescription" : "Le lit est exceptionnellement aiguisé.",
+  "floranDescription" : "Le lit est aiguisé et piquant.",
+  "glitchDescription" : "Bonheur. Un lit confortable de fer. On peux se reposer facilement ici.",
+  "humanDescription" : "Je ne pense pas que j'obtiendrais beaucoup de sommeil sur un lit comme ceci.",
+  "hylotlDescription" : "Un lit remarquablement brutal. Un tel design ne suggère pas de confort.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/ironbed/ironbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "ironbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironbed.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

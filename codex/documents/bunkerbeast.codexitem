@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerbeast",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_09.png",
+  "itemName" : "bunkerbeastCodex",
+  "rarity" : "common",
+  "description" : "Notes de Greenfinger: La Bête",
+  "shortdescription" : "La Bête"
+}

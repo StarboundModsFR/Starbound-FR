@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une lumière murale."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lumière Murale d'Avant-Poste"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une lumière murale fonctionnel."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "C'est une lumière murale."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Belle lumière!"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Remarque. Cette lumière mural est efficace."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une lumière murale assez standard."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une lumière murale, elle est fonctionnel mais désagréable."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Cette lumière est correct, mais il est pas aussi brillante que moi."
+}
+]

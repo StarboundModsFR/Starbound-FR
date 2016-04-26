@@ -1,0 +1,75 @@
+﻿{
+  "objectName" : "floranchandelier",
+  "colonyTags" : ["floran","floranvillage","light"],
+  "rarity" : "Common",
+  "description" : "Des torches ont été collé à un jeune arbre au lieu d'un lustre de fantaisie.",
+  "shortdescription" : "Lustre Primitive",
+  "race" : "floran",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "Il me semble qu'un jeune arbre a été pendu par les pieds attachés avec des torches.",
+  "avianDescription" : "Un lustre fabriqué à partir d'un arbre.",
+  "floranDescription" : "Floran faire traîner la lumière du petit arbre. Floran joindre torche avec os. Assurez-vous que la lumière ne brûle pas.",
+  "glitchDescription" : "Amusé. C'est un petit arbre qui pendent du plafond.",
+  "humanDescription" : "Il semble que Floran ai utilisé un jeune arbre pour faire un lustre.",
+  "hylotlDescription" : "Ceci est l'une des rares créations floran qui ne sont pas fabriqués à partir d'os d'une certaine façon. Attendez ... c'est quoi qui tient les torches ?",
+
+  "category" : "light",
+  "price" : 105,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "floranchandeliericon.png",
+  "orientations" : [
+    {
+      "image" : "floranchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [-16, -16],
+
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "floranchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      
+      "direction" : "right",
+      "animationPosition" : [-16, -16],
+
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+
+  "animation" : "floranchandelier.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "floranchandelier.png",
+    "fg" : "floranchandelierlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

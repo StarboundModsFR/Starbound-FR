@@ -1,0 +1,92 @@
+{
+  "objectImage" : {
+    "type" : "image",
+    "position" : [75, 125],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [38, 38],
+    "minSize" : [38, 38]
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [107, 19],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [119, 19],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [130, 80],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 80],
+    "hAnchor" : "left",
+    "value" : "Dommages Par Coup:"
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [130, 71],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 71],
+    "hAnchor" : "left",
+    "value" : "Cadence de Tir:"
+  },
+  "comboFinisherLabel" : {
+    "type" : "label",
+    "position" : [130, 62],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "comboFinisherTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 62],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [40, 90],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 122,
+    "value" : ""
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 179],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [35, 171],
+    "hAnchor" : "left",
+    "color" : [176, 162, 152],
+    "value" : ""
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png"
+  },  
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [21, 19],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  }
+}

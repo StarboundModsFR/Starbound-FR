@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "pinkdye",
+  "rarity" : "Common",
+  "inventoryIcon" : "pinkdye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour changer sa couleur.",
+  "shortdescription" : "Colorant Rose",
+
+  "dyeColorIndex" : 10
+}

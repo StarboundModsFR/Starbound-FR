@@ -1,0 +1,57 @@
+﻿{
+  "commandName" : "enableTeleporter",
+  "onlyOnce" : true,
+  "icon" : "teleporter.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "enableTeleporter"
+    },
+    { 
+      "action" : "upgradeShip",
+      "shipParameters" : { 
+      "capabilities" : [ "teleport" ] 
+      }
+    },
+    { 
+      "action" : "StartQuest",
+      "quest" : "tutorial1.gearup"
+    },
+    { 
+      "action" : "PlaySound",
+      "sound" : "/sfx/interface/ship_confirm1.ogg",
+      "loops" : 0
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "^orange;Activer le Téléporteur",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> Je peux activer l'alimentation du téléporteur à courte portée.
+> Cela vous permettra de visiter la planète juste en dessous.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ activation_teleporteur
+mot_de_passe: _____________
+^cyan;> Activation du Téléporteur...                     
+^green;Le téléporteur a été activé.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

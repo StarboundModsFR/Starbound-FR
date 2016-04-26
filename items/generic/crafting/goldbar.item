@@ -1,0 +1,8 @@
+{
+  "itemName" : "goldbar",
+  "price" : 80,
+  "rarity" : "Common",
+  "inventoryIcon" : "goldbar.png",
+  "description" : "C'est un lingot d'or qui doit avoir une grande valeur!",
+  "shortdescription" : "Lingot d'Or"
+}

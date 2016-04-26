@@ -1,0 +1,10 @@
+{
+  "codexId" : "excommunication",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_04.png",
+  "itemName" : "excommunicationCodex",
+  "rarity" : "common",
+  "description" : "Notes de Greenfinger sur l'excommunication",
+  "shortdescription" : "Notes sur l'excommunication"
+}

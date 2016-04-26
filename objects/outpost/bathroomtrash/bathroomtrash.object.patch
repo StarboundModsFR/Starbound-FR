@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une poubelle. Juste une poubelle. Ou est-ce ? Réponse: Oui"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Poubelle"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Jour de la poubelle!!!."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Poubelle."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Belles ordures."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Déclaration. Des déchets"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Il est temps de sortir les poubelles."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Méchantes poubelles."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Ce n'est rien qu'une poubelle."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Ce n'est rien qu'une poubelle."
+}
+]

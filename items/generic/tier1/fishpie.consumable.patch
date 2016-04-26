@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Le poisson au four en sauce garnie de purée crémeuse."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Paté de Poisson"
+}
+]

@@ -1,0 +1,37 @@
+{
+  "itemName" : "bow",
+  "price" : 40,
+  "inventoryIcon" : "bowicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "weaponType" : "Arc",
+  "description" : "Permet de récolter de la viande et d'autres choses.",
+  "shortdescription" : "Arc",
+  "image" : "bowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-2, 0.5],
+  "firePosition" : [20, 0.5],
+  "level" : 1,
+  "fireTime" : 0.25,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "woodenarrow",
+  "powerProjectileType" : "chargedarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 3.2
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+  }
+}

@@ -1,0 +1,50 @@
+﻿{
+  "objectName" : "ironanvil",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "uncommon",
+  "description" : "Cette enclume de fer me permet de forger des armures de base, des outils et armes.",
+  "shortdescription" : "^orange;Enclume en Fer^white;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  IRON ANVIL",
+        "subtitle" : "  For producing shiny things.",
+        "icon" : {
+          "file" : "/interface/crafting/anvil.png"
+        }
+      }
+    },
+    "filter" : [ "anvil" ]
+  },
+  "printable" : false,
+  "price" : 65,
+
+  "apexDescription" : "Une enclume. L'Apex n'ont pas utilisé ces derniers pour le travail des métaux.",
+  "avianDescription" : "Une glande plaque de fer avec une surface plane.",
+  "floranDescription" : "Trés lourde, utile dans un piège.",
+  "glitchDescription" : "Fier. Le Glitch peut fabriquer des armes sur ces enclumes...",
+  "humanDescription" : "Une enclume. Les humains n'ont pas utilisés cela depuis longtemps, .",
+  "hylotlDescription" : "Probablement utilisé dans le travail du métal.",
+  "novakidDescription" : "An anvil. I'm no stranger to these.",
+
+  "inventoryIcon" : "ironanvilicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironanvil.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

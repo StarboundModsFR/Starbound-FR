@@ -1,0 +1,21 @@
+﻿{
+  "itemName" : "coffeebeans",
+  "rarity" : "Common",
+  "price" : 90,
+  "inventoryIcon" : "coffeebeans.png",
+  "description" : "Grains de café amer",
+  "shortdescription" : "Grains de café",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 90
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

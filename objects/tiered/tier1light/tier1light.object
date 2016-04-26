@@ -1,0 +1,59 @@
+﻿{
+  "objectName" : "tier1light",
+  "colonyTags" : ["light","tier1"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 20,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "description" : "Une lanterne à huile à portée de main . Attention à ne pas renverser.",
+  "shortdescription" : "Lanterne en Fer",
+  "race" : "generic",
+
+  "apexDescription" : "Rien d'extraordinaire , mais sert bien.",
+  "avianDescription" : "Rien d'extraordinaire , mais sert à allumer même la salle sombre.",
+  "floranDescription" : "Lanterne sûr pour Floran.",
+  "glitchDescription" : "Déclaration. Une lanterne robuste.",
+  "humanDescription" : "Une lanterne robuste.",
+  "hylotlDescription" : "Une source de lumière utile.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [166, 137, 116],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
+
+  "inventoryIcon" : "tier1lighticon.png",
+  "orientations" : [
+
+    {
+      "image" : "tier1light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "tier1light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, 2] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.ogg",
+
+  "animation" : "/objects/wired/light/light4.animation",
+  "animationParts" : {
+    "light" : "tier1light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60
+}

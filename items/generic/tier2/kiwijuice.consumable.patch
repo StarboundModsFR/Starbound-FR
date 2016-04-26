@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un doux jus de fruit tropical fait de kiwi."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Jus de Kiwi"
+}
+]

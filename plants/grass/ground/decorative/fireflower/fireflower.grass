@@ -1,0 +1,8 @@
+﻿{
+  "name" : "fireflower",
+  "description" : "A vibrant fire flower.",
+  "shortdescription" : "Fleur de Feu.",
+  "floranDescription" : "Floran confond la fleur.",
+  "glitchDescription" : "Certifié. Une fleur de feu.",
+  "images" : [ "fireflower1.png", "fireflower2.png", "fireflower3.png", "fireflower4.png", "fireflower5.png" ]
+}

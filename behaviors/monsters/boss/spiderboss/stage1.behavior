@@ -1,0 +1,74 @@
+﻿{
+  "name": "spiderboss-stage1",
+  "description": "",
+  "scripts": [],
+  "parameters": {},
+  "root": {
+    "title": "repeater",
+    "type": "decorator",
+    "name": "repeater",
+    "parameters": {},
+    "child": {
+      "title": "sequence",
+      "type": "composite",
+      "name": "sequence",
+      "parameters": {},
+      "children": [
+        {
+          "title": "Claquement",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+        {
+          "title": "succeeder",
+          "type": "decorator",
+          "name": "succeeder",
+          "parameters": {},
+          "child": {
+            "title": "cooldown",
+            "type": "decorator",
+            "name": "cooldown",
+            "parameters": {
+              "cooldown": 30,
+              "onFail": false
+            },
+            "child": {
+              "title": "sequence",
+              "type": "composite",
+              "name": "sequence",
+              "parameters": {
+                "type": "sliding",
+                "state": "off",
+                "fromEntity": "attackTarget",
+                "toEntity": "fleeTarget"
+              },
+              "children": [
+                {
+                  "title": "Retour D'Ixodoom",
+                  "type": "module",
+                  "name": "spiderboss-return",
+                  "parameters": {}
+                },
+                {
+                  "title": "Capture",
+                  "type": "module",
+                  "name": "spiderboss-hatch",
+                  "parameters": {
+                    "hatchNumber": 5
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Jet D'Acide",
+          "type": "module",
+          "name": "spiderboss-acid",
+          "parameters": {}
+        }
+      ]
+    }
+  }
+}

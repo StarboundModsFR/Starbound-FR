@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidmilk",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidmilkicon.png",
+  "shortdescription" : "Lait de coco",
+  "description" : "Du lait de coco, délicieux.",
+
+  "liquid" : "milk",
+  "learnBlueprintsOnPickup" : [ "coconutrice" ]
+}

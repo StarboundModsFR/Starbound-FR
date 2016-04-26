@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Pour être maître de l'art"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Épée de Combat"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Épée de Combat"
+}
+]

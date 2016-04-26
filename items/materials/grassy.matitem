@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "grassy",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "grassy.png",
+  "description" : "A block of sod.",
+  "shortdescription" : "Bloc de Gazon",
+  "glitchdescription" : "Déclaration. Gazon de toiture.",
+  "florandescription" : "Toit de gazon.",
+
+  "materialId" : 1007
+}

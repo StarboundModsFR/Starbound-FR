@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Numéro quatre"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Quatre"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Quatre."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Quatre."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Quatre."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Neutre. Quatre"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Quatre."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Quatre."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un quatre."
+}
+]

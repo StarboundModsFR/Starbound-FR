@@ -1,0 +1,46 @@
+﻿{
+  "objectName" : "tier1bed",
+  "colonyTags" : ["misc","tier1"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Un simple lit en fer.",
+  "shortdescription" : "Lit en Fer",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "Un lit de base. assez confortableh.",
+  "avianDescription" : "Ceci est un endroit assez confortable pour se reposer mes plumes.",
+  "floranDescription" : "Floran ressste au lit.",
+  "glitchDescription" : "Fier. Mon propre lit simple.",
+  "humanDescription" : "Un lit décent. Je Devrais être en mesure d'obtenir un peu de repos ici.",
+  "hylotlDescription" : "ce n'est pas la meilleure qualité de construction, mais faut faire avec.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/tiered/tier1bed/tier1bedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "tier1bedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier1bed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

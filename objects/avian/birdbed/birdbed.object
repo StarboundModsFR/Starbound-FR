@@ -1,0 +1,56 @@
+﻿{
+  "objectName" : "birdbed",
+  "colonyTags" : ["avian","aviantemple"],
+  "rarity" : "Common",
+  "description" : "Un lit de pierre solide surmonté de foin.",
+  "shortdescription" : "Lit Aviaire",
+  "race" : "avian",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "Un lit de pierre remplit de foin. Il semble remarquablement confortable.",
+  "avianDescription" : "Un nid du chef. Les gardiens protègent la terre sacrée Avian. Ce sont des guerriers entraînés par la piété.",
+  "floranDescription" : "Floran a fait le nid. Floran utilise le même.",
+  "glitchDescription" : "Concerné. L'ergonomie de ce lit est mal conçue.",
+  "humanDescription" : "Un lit de pierre. Il offre peu de confort. La pierre est froide au toucher.",
+  "hylotlDescription" : "Il faut être dur comme un roc pour dormir parmi les pierres. Le lit de guerrier.",
+  "novakidDescription" : "Ce gars-là n'a pas fait de lit confortable.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "birdbedicon.png",
+  "orientations" : [
+    {
+      "image" : "birdbed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [-4.5, 11.5]
+    },
+    {
+      "image" : "birdbed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [-4.5, 11.5]
+    }
+  ]
+}

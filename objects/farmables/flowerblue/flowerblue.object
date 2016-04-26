@@ -1,0 +1,50 @@
+﻿{
+  "objectName" : "flowerblue",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Une fleur avec des pétales bleu vif. Utile pour du colorant.",
+  "shortdescription" : "Fleur Bleu",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Une fleur bleu.",
+  "avianDescription" : "Une fleur assez bleu.",
+  "floranDescription" : "Assez.",
+  "glitchDescription" : "Certifié. Une fleur bleu.",
+  "humanDescription" : "Une fleur verte. Attend, non, elle est bleu.",
+  "hylotlDescription" : "Une fleur bleu délicieuse.",
+  "novakidDescription" : "Une fleur bleue? Ca doit être utile à quelque chose'.",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerblue.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "flowerblueHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "petalblue", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.25
+}

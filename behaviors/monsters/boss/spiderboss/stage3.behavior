@@ -1,0 +1,56 @@
+{
+  "name": "spiderboss-stage3",
+  "description": "",
+  "scripts": [],
+  "parameters": {},
+  "root": {
+    "title": "repeater",
+    "type": "decorator",
+    "name": "repeater",
+    "parameters": {},
+    "child": {
+      "title": "sequence",
+      "type": "composite",
+      "name": "sequence",
+      "parameters": {},
+      "children": [
+        {
+          "title": "Retour au Spawn",
+          "type": "module",
+          "name": "spiderboss-return",
+          "parameters": {}
+        },
+        {
+          "title": "Capture",
+          "type": "module",
+          "name": "spiderboss-hatch",
+          "parameters": {
+            "hatchNumber": 10,
+            "spawnOffset": [
+              "hatchX",
+              "hatchY"
+            ]
+          }
+        },
+        {
+          "title": "Claquage",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+        {
+          "title": "Jet d'Acide",
+          "type": "module",
+          "name": "spiderboss-acid",
+          "parameters": {}
+        },
+        {
+          "title": "Balayage",
+          "type": "module",
+          "name": "spiderboss-sweep",
+          "parameters": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "On dirai que quelqu'un a le même cas les lundis."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Grand Miroir Brisé"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un miroir brisé. Je dois faire attention à ne pas me couper."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Je ne vais pas lisser mes ailes ici."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Frappe frappe le verre brissé."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Calculateur. Il y a au moins quatre et six cent tessons de verre ici."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "On dirait que quelqu'un à eu sept ans de malchance. Et pour une fois, ce n'est pas moi!"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une telle rupture ne peut avoir été fait que dans la colère."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Du verre brisé en poussières étoilées"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Du verre brisé en poussières étoilées"
+}
+]

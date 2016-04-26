@@ -1,0 +1,10 @@
+{
+  "codexId" : "townposter",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_09.png",
+  "itemName" : "townposterCodex",
+  "rarity" : "common",
+  "description" : "Une affiche Apex",
+  "shortdescription" : "Une affiche Apex"
+}

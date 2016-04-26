@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerpolicy",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_07.png",
+  "itemName" : "bunkerpolicyCodex",
+  "rarity" : "common",
+  "description" : "Une nouvelle politique",
+  "shortdescription" : "Nouvelle politique"
+}

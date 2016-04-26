@@ -1,0 +1,50 @@
+﻿{
+  "objectName" : "flowerred",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Une fleur avec des pétales rouges vif. Utile pour du colorant.",
+  "shortdescription" : "Fleur Rouge",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Une fleur assez rouge.",
+  "avianDescription" : "Le rouge est la couleur de... cette fleur.",
+  "floranDescription" : "Fleurissez rouge comme la colère de Floran.",
+  "glitchDescription" : "Certifié. Quelques personnes disent que le problème ne peux pas venir du rouge. Révélation, ils sont couchés.",
+  "humanDescription" : "C'est...une fleur rouge.",
+  "hylotlDescription" : "Vibrant, riche, très jolie.",
+  "novakidDescription" : "Une fleur rouge, je veux toujours sentir son odeur. je me demande pourquoi?",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerred.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "flowerredHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "petalred", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.25
+}

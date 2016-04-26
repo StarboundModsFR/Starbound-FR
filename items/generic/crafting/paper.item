@@ -1,0 +1,12 @@
+{
+  "itemName" : "paper",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "paper.png",
+  "description" : "C'est une feuille de papier.",
+  "shortdescription" : "Papier",
+
+  "learnBlueprintsOnPickup" : [
+    "paper"
+  ]
+}

@@ -1,0 +1,56 @@
+﻿{
+  "objectName" : "apexshiplightBroken",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [170, 170, 170],
+
+  "flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+
+  "price" : 50,
+  "description" : "Une lumière qui fonctionne mal.",
+  "shortdescription" : "Lumière de Vaisseau Brisée",
+  "race" : "apex",
+
+  "apexDescription" : "La lumière ne reçoit pas assez de puissance.",
+  "avianDescription" : "Une lumière vacillante.",
+  "floranDescription" : "Lumière Vierge!",
+  "glitchDescription" : "Analysé. Cette lumière est défectueuse.",
+  "humanDescription" : "Ce lumière clignote.",
+  "hylotlDescription" : "Une lumière de faible puissance.",
+  "novakidDescription" : "Cette lumière n'as pas assez de puissance.",
+
+  "inventoryIcon" : "apexshiplightBrokenicon.png",
+  "orientations" : [
+    {
+      "image" : "apexshiplight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+      
+      "lightPosition" : [-1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "apexshiplight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

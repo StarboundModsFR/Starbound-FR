@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une porte en grès friable."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Porte en Grès"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "Une porte faîte en grès."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une porte en grès."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Porte de sssable."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Observation. Une porte en grès dur."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une porte assez agréable."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une porte de sable rugueux. Brut."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "C'est une lourde porte. Rugueux au toucher."
+}
+]

@@ -1,0 +1,606 @@
+﻿{
+  "name": "merchant",
+  "scripts": [
+    "/scripts/behavior.lua",
+    "/scripts/actions/math.lua",
+    "/scripts/actions/position.lua",
+    "/scripts/actions/overrides.lua",
+    "/scripts/actions/merchant.lua",
+    "/npcs/bmain.lua",
+    "/scripts/actions/movement.lua",
+    "/scripts/actions/entities.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {
+    "play": true,
+    "beamOutWhenNotInUse": false
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "entityConfigParameter",
+        "type": "action",
+        "name": "entityConfigParameter",
+        "parameters": {
+          "default": -1,
+          "path": "merchant.storeRadius"
+        },
+        "output": {
+          "number": "storeRadius"
+        }
+      },
+      {
+        "title": "entityConfigParameter",
+        "type": "action",
+        "name": "entityConfigParameter",
+        "parameters": {
+          "default": 40,
+          "path": "merchant.waitTime"
+        },
+        "output": {
+          "number": "waitTime"
+        }
+      },
+      {
+        "title": "parallel",
+        "type": "composite",
+        "name": "parallel",
+        "parameters": {
+          "fail": -1,
+          "success": -1
+        },
+        "children": [
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "selector",
+                "type": "composite",
+                "name": "selector",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "inverter",
+                    "type": "decorator",
+                    "name": "inverter",
+                    "parameters": {},
+                    "child": {
+                      "title": "greaterThan",
+                      "type": "action",
+                      "name": "greaterThan",
+                      "parameters": {
+                        "first": "storeRadius",
+                        "second": 0
+                      }
+                    }
+                  },
+                  {
+                    "title": "inRange",
+                    "type": "action",
+                    "name": "inRange",
+                    "parameters": {
+                      "position": "self",
+                      "target": "spawn",
+                      "range": "storeRadius"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "selector",
+                "type": "composite",
+                "name": "selector",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "matchingOverrides",
+                    "type": "action",
+                    "name": "matchingOverrides",
+                    "parameters": {
+                      "overrideName": "notification"
+                    },
+                    "output": {
+                      "list": ""
+                    }
+                  },
+                  {
+                    "title": "enableTrading",
+                    "type": "action",
+                    "name": "enableTrading",
+                    "parameters": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Villageois",
+            "type": "composite",
+            "name": "dynamic",
+            "parameters": {},
+            "children": [
+              {
+                "title": "Locataire Basique",
+                "type": "module",
+                "name": "Locataire Basique",
+                "parameters": {}
+              },
+              {
+                "type": "module",
+                "name": "flee",
+                "parameters": {}
+              },
+              {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "wasInteracted",
+                    "type": "action",
+                    "name": "wasInteracted",
+                    "parameters": {}
+                  },
+                  {
+                    "title": "setEntity",
+                    "type": "action",
+                    "name": "setEntity",
+                    "parameters": {
+                      "entity": "interactionSource"
+                    },
+                    "output": {
+                      "entity": "customer"
+                    }
+                  },
+                  {
+                    "title": "",
+                    "type": "action",
+                    "name": "faceEntity",
+                    "parameters": {
+                      "entity": "interactionSource"
+                    }
+                  },
+                  {
+                    "title": "selector",
+                    "type": "composite",
+                    "name": "selector",
+                    "parameters": {},
+                    "children": [
+                      {
+                        "title": "sequence",
+                        "type": "composite",
+                        "name": "sequence",
+                        "parameters": {},
+                        "children": [
+                          {
+                            "title": "matchingOverrides",
+                            "type": "action",
+                            "name": "matchingOverrides",
+                            "parameters": {
+                              "overrideName": "notification"
+                            },
+                            "output": {
+                              "list": ""
+                            }
+                          },
+                          {
+                            "title": "sayToEntity",
+                            "type": "action",
+                            "name": "sayToEntity",
+                            "parameters": {
+                              "dialogType": "dialog.merchant.busy",
+                              "entity": "customer"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "title": "sequence",
+                        "type": "composite",
+                        "name": "sequence",
+                        "parameters": {},
+                        "children": [
+                          {
+                            "title": "succeeder",
+                            "type": "decorator",
+                            "name": "succeeder",
+                            "parameters": {},
+                            "child": {
+                              "title": "resetLounging",
+                              "type": "action",
+                              "name": "resetLounging",
+                              "parameters": {}
+                            }
+                          },
+                          {
+                            "title": "selector",
+                            "type": "composite",
+                            "name": "selector",
+                            "parameters": {},
+                            "children": [
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "selector",
+                                    "type": "composite",
+                                    "name": "selector",
+                                    "parameters": {},
+                                    "children": [
+                                      {
+                                        "title": "inverter",
+                                        "type": "decorator",
+                                        "name": "inverter",
+                                        "parameters": {},
+                                        "child": {
+                                          "title": "greaterThan",
+                                          "type": "action",
+                                          "name": "greaterThan",
+                                          "parameters": {
+                                            "first": "storeRadius",
+                                            "second": 0
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "title": "inRange",
+                                        "type": "action",
+                                        "name": "inRange",
+                                        "parameters": {
+                                          "position": "self",
+                                          "target": "spawn",
+                                          "range": "storeRadius"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "title": "sayToEntity",
+                                    "type": "action",
+                                    "name": "sayToEntity",
+                                    "parameters": {
+                                      "dialogType": "dialog.merchant.start",
+                                      "entity": "customer"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "sayToEntity",
+                                    "type": "action",
+                                    "name": "sayToEntity",
+                                    "parameters": {
+                                      "dialogType": "dialog.merchant.follow",
+                                      "entity": "customer"
+                                    }
+                                  },
+                                  {
+                                    "title": "succeeder",
+                                    "type": "decorator",
+                                    "name": "succeeder",
+                                    "parameters": {},
+                                    "child": {
+                                      "title": "sequence",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "",
+                                          "type": "module",
+                                          "name": "Locataire - Retour Maison",
+                                          "parameters": {}
+                                        },
+                                        {
+                                          "title": "entityInRange",
+                                          "type": "action",
+                                          "name": "entityInRange",
+                                          "parameters": {
+                                            "entity": "customer",
+                                            "range": "storeRadius",
+                                            "position": "self"
+                                          }
+                                        },
+                                        {
+                                          "title": "sayToEntity",
+                                          "type": "action",
+                                          "name": "sayToEntity",
+                                          "parameters": {
+                                            "dialogType": "dialog.merchant.welcome",
+                                            "entity": "customer"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "entityInRange",
+                            "type": "action",
+                            "name": "entityInRange",
+                            "parameters": {
+                              "entity": "customer",
+                              "range": 6,
+                              "position": "self"
+                            }
+                          },
+                          {
+                            "title": "",
+                            "type": "action",
+                            "name": "faceEntity",
+                            "parameters": {
+                              "entity": "customer"
+                            }
+                          },
+                          {
+                            "title": "succeeder",
+                            "type": "decorator",
+                            "name": "succeeder",
+                            "parameters": {},
+                            "child": {
+                              "title": "parallel",
+                              "type": "composite",
+                              "name": "parallel",
+                              "parameters": {
+                                "fail": 1,
+                                "success": -1
+                              },
+                              "children": [
+                                {
+                                  "title": "runner",
+                                  "type": "action",
+                                  "name": "runner",
+                                  "parameters": {}
+                                },
+                                {
+                                  "title": "sequence",
+                                  "type": "composite",
+                                  "name": "sequence",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "entityInRange",
+                                      "type": "action",
+                                      "name": "entityInRange",
+                                      "parameters": {
+                                        "entity": "customer",
+                                        "range": 6,
+                                        "position": "self"
+                                      }
+                                    },
+                                    {
+                                      "title": "timer",
+                                      "type": "action",
+                                      "name": "timer",
+                                      "parameters": {
+                                        "time": 1
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "sequence",
+                                  "type": "composite",
+                                  "name": "sequence",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "",
+                                      "type": "action",
+                                      "name": "faceEntity",
+                                      "parameters": {
+                                        "entity": "customer"
+                                      }
+                                    },
+                                    {
+                                      "title": "enableTrading",
+                                      "type": "action",
+                                      "name": "enableTrading",
+                                      "parameters": {}
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "sayToEntity",
+                            "type": "action",
+                            "name": "sayToEntity",
+                            "parameters": {
+                              "dialogType": "dialog.merchant.end",
+                              "entity": "customer"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "greaterThan",
+                    "type": "action",
+                    "name": "greaterThan",
+                    "parameters": {
+                      "first": "storeRadius",
+                      "second": 0
+                    }
+                  },
+                  {
+                    "title": "inverter",
+                    "type": "decorator",
+                    "name": "inverter",
+                    "parameters": {},
+                    "child": {
+                      "title": "inRange",
+                      "type": "action",
+                      "name": "inRange",
+                      "parameters": {
+                        "position": "self",
+                        "target": "spawn",
+                        "range": "storeRadius"
+                      }
+                    }
+                  },
+                  {
+                    "title": "entityConfigParameter",
+                    "type": "action",
+                    "name": "entityConfigParameter",
+                    "parameters": {
+                      "default": -1,
+                      "path": "noticePlayersRadius"
+                    },
+                    "output": {
+                      "number": "noticePlayersRadius"
+                    }
+                  },
+                  {
+                    "title": "greaterThan",
+                    "type": "action",
+                    "name": "greaterThan",
+                    "parameters": {
+                      "first": "noticePlayersRadius",
+                      "second": 0
+                    }
+                  },
+                  {
+                    "title": "cooldown",
+                    "type": "decorator",
+                    "name": "cooldown",
+                    "parameters": {
+                      "cooldown": 20,
+                      "onFail": false
+                    },
+                    "child": {
+                      "title": "queryEntity",
+                      "type": "action",
+                      "name": "queryEntity",
+                      "parameters": {
+                        "entityTypes": [
+                          "player"
+                        ],
+                        "orderBy": "nearest",
+                        "position": "self",
+                        "range": "noticePlayersRadius",
+                        "withoutEntity": "self"
+                      },
+                      "output": {
+                        "entity": "customer"
+                      }
+                    }
+                  },
+                  {
+                    "title": "entityInSight",
+                    "type": "action",
+                    "name": "entityInSight",
+                    "parameters": {
+                      "entity": "customer"
+                    }
+                  },
+                  {
+                    "title": "succeeder",
+                    "type": "decorator",
+                    "name": "succeeder",
+                    "parameters": {},
+                    "child": {
+                      "title": "resetLounging",
+                      "type": "action",
+                      "name": "resetLounging",
+                      "parameters": {}
+                    }
+                  },
+                  {
+                    "title": "",
+                    "type": "action",
+                    "name": "faceEntity",
+                    "parameters": {
+                      "entity": "customer"
+                    }
+                  },
+                  {
+                    "title": "selector",
+                    "type": "composite",
+                    "name": "selector",
+                    "parameters": {},
+                    "children": [
+                      {
+                        "title": "matchingOverrides",
+                        "type": "action",
+                        "name": "matchingOverrides",
+                        "parameters": {
+                          "overrideName": "notification"
+                        },
+                        "output": {
+                          "list": ""
+                        }
+                      },
+                      {
+                        "title": "sequence",
+                        "type": "composite",
+                        "name": "sequence",
+                        "parameters": {},
+                        "children": [
+                          {
+                            "title": "sayToEntity",
+                            "type": "action",
+                            "name": "sayToEntity",
+                            "parameters": {
+                              "dialogType": "dialog.merchant.tout",
+                              "entity": "customer"
+                            }
+                          },
+                          {
+                            "title": "",
+                            "type": "module",
+                            "name": "Locataire - Retour Maison",
+                            "parameters": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "NPC Paresseux",
+                "type": "module",
+                "name": "NPC Paresseux",
+                "parameters": {
+                  "play": "<play>",
+                  "beamOutWhenNotInUse": "<beamOutWhenNotInUse>"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

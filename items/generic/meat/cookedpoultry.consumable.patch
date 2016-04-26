@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un gigot de jambon rôti."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Jambon Rôti."
+}
+]

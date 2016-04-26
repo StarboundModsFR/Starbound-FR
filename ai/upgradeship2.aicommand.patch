@@ -1,0 +1,142 @@
+﻿[
+  {
+    "op": "replace",
+    "path": "/speciesText/apex/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/apex/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/apex/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/apex/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/avian/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/avian/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/avian/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/avian/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/floran/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/floran/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/floran/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/floran/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/glitch/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/glitch/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/glitch/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/glitch/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/human/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/human/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/human/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/human/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/novakid/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/novakid/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/novakid/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/novakid/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/hylotl/buttonText",
+    "value": "Réparer Propulseurs"
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/hylotl/selectSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/hylotl/successSpeech/0/text",
+    "value": "Les propulseurs du vaisseau ont été réparés! Vous pouvez voyager dans ce système solaire. ^green; Nous devons maintenant corriger le FTL du vaisseau avec ^orange; 20 cristaux d'Erchuis. ^green; Nos scanners ont également détécter ^orange; une étrange porte, ^green; vous devriez allez voir."
+  },
+  {
+    "op": "replace",
+    "path": "/speciesText/hylotl/failSpeech/0/text",
+    "value": "Erreur! Vous n'avez pas tout les matériaux requis."
+  }
+]

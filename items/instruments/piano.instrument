@@ -1,0 +1,18 @@
+﻿{
+  "itemName" : "piano",
+  "price" : 1000,
+  "inventoryIcon" : "keytaricon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un piano. Vraiment un instrument clé.",
+  "shortdescription" : "Piano",
+  "largeImage" : "keytar.png",
+  "image" : "keytar.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "keytar.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "grandpiano"
+}

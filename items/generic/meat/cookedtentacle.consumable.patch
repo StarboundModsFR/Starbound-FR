@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "C'est une tentacule rôti. Élastique mais encore assez bon."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Tentacule Rôti"
+}
+]

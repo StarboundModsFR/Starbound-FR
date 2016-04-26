@@ -1,0 +1,13 @@
+{
+  "itemName" : "FTLrepairkit",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "FTLrepairkit.png",
+  "image" : "FTLrepairkit.png",
+  "largeImage" : "FTLrepairkitBig.png",
+  
+  "shortdescription" : "Kit de réparation au FTL",
+  "description" : "Vous pouvez complétement réparer le FTL de votre vaisseau avec ceci!",
+
+  "shipUpgrade" : 2,
+  "unlockMessage" : "Brillant! Le lecteur FTL est capable de fonctionner à pleine capacité. Nous pouvons enfin tester ce système solaire!"
+}

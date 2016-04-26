@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "tier6chair",
+  "colonyTags" : ["misc","tier6"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une chaise exceptionnellement confortable en Ferozium.",
+  "shortdescription" : "Chaise en Ferozium",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 160,
+
+  "apexDescription" : "Une chaise trés confortable. Je suis heureux avec elle.",
+  "avianDescription" : "Un endroit très facile à siéger.",
+  "floranDescription" : "Floran asseoir sur une chaise et de réfléchir à la chasse.",
+  "glitchDescription" : "Détendu. Cette chaise est exceptionnellement confortable pour le Glitch.",
+  "humanDescription" : "Une chaise très douce. Rappelle-moi d'être à la maison.",
+  "hylotlDescription" : "Presque le luxe Hylotl est utilisé. Il ya beaucoup de satisfaction à gagner ici.",
+
+  "inventoryIcon" : "tier6chairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier6chair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

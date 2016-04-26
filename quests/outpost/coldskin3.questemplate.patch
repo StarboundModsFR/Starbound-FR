@@ -1,0 +1,17 @@
+[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "^orange;Quelques Questions..."
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Je devrais ^green;parler à la ^orange;Floran ^green; de l'avant-poste ^blanc; et voir ce qu'elle a à dire."
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "Oh... Floran ne vous attendez pas à vous revoir de nouveau. Piège? Floran juste pensé que vous apprécieriez! Prenez-ceci comme une excussse. C'est un ^orange implant de biome ^white; qui vous permettra de sssurvivre dans le froid."
+}
+]

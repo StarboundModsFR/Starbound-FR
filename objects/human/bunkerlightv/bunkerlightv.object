@@ -1,0 +1,47 @@
+﻿{
+  "objectName" : "bunkerlightv",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 85,
+  "description" : "Une lumière fluorescente aveuglante.",
+  "shortdescription" : "Grand Lampe Fluorescente",
+  "race" : "human",
+
+  "apexDescription" : "Une lumière brillante. Ca me rappelle des cellules Miniknog.",
+  "avianDescription" : "Cette lumière est trop brillante.",
+  "floranDescription" : "Lumière Vacillante Brillante.",
+  "glitchDescription" : "Calculateur. Les niveaux de luminosité sont légèrement trop élevé pour les yeux humains.",
+  "humanDescription" : "Une lumière désagréablement brillantes.",
+  "hylotlDescription" : "Le créateur de cette lumière a un peu été emporté.",
+
+  "lightColor" : [108, 134, 166],
+
+  "inventoryIcon" : "bunkerlightvicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerlightv.png:<color>.<frame>",
+      "imagePosition" : [0, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "bunkerlightv.png",
+    "fg" : "bunkerlightvlit.png"
+  },
+  "animationPosition" : [0, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg"
+
+}

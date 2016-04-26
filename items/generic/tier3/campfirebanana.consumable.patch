@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une banane rôtie sur un feu de camp, avec des quantités gratuites de chocolat."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Banane de Feu de Camp"
+}
+]

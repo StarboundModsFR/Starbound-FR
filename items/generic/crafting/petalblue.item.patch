@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une pétale bleu, Elle peut-être transformée en colorant."
+},
+{
+        "op": "replace",
+        "path": "/shortDescription",
+        "value": "Pétale Bleu"
+}
+]

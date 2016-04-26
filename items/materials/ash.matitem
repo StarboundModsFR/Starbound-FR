@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "ash",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "ash.png",
+  "description" : "La cendre a  été emballé puis serré dans un bloc solide.",
+  "shortdescription" : "Bloc de Cendre",
+  "glitchdescription" : "Curieux. Une bloc de cendre.",
+  "florandescription" : "Bloc Chaud.",
+
+  "materialId" : 37
+}

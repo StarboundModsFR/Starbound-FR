@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/paneLayout/volumeLabel/value",
+        "value": "VOLUME"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/sfxLabel/value",
+        "value": "SFX"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/musicLabel/value",
+        "value": "Musiq."
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/resLabel/value",
+        "value": "RÉSOLUTION D'ÉCRAN"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/zoomLabel/value",
+        "value": "NIV. ZOOM"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/speechBubbleLabel/value",
+        "value": "BULLE DE DISC."
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/fullscreenLabel/value",
+        "value": "PLEIN ÉCRAN"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/backButton/caption",
+        "value": "Annuler"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/acceptButton/caption",
+        "value": "Appliquer"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/showKeybindings/caption",
+        "value": "Contrôles"
+}
+]

@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "woodencookingtable",
+  "colonyTags" : ["cooking","cooking"],
+  "printable" : false,
+  "price" : 55,
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "kitchen" ]
+  },
+  "description" : "Ce tableau me permet de préparer et de combiner des ingrédients crus, pour des repas sains!",
+  "shortdescription" : "^orange;Table en Bois de Cuisson^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "Cette table contient tout ce dont on aurait besoin pour créer presque tous les plats.",
+  "avianDescription" : "Presque tous les plats aviaire pourrait être préparé ici.",
+  "floranDescription" : "Floran préparer la nourriture avec les mains nues. Mais table utile.",
+  "glitchDescription" : "Inspiré. Créons des aliments!",
+  "humanDescription" : "Le chef de table.Tout un tas de différents outils pour faire de la nourriture...",
+  "hylotlDescription" : "La préparation des aliments est un art et il ne faut pas le gacher.",
+  "novakidDescription" : "Je pourrais cuisiner un ragoûts...Cela pourrai faire l'affaire.",
+
+  "inventoryIcon" : "woodencookingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodencookingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

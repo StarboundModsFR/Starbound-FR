@@ -1,0 +1,10 @@
+{
+  "codexId" : "townrhyme",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_12.png",
+  "itemName" : "townrhymeCodex",
+  "rarity" : "common",
+  "description" : "Un poème d'enfant",
+  "shortdescription" : "Poème d'enfant"
+}

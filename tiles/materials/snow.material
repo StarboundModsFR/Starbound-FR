@@ -1,0 +1,25 @@
+﻿{
+  "materialId" : 30,
+  "materialName" : "snow",
+  "particleColor" : [245, 249, 250, 255],
+  "itemDrop" : "snow",
+  "shortdescription" : "Neige",
+  "description" : "La neige douce et fondante.",
+  "glitchDescription" : "Cetifié. Neige.",
+  "floranDescription" : "Des vétements de neige.",
+  "footstepSound" : "/sfx/blocks/footstep_snow.ogg",
+  "health" : 1,
+  "category": "materials",
+  "soil" : true,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "snow.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 420
+  }
+}

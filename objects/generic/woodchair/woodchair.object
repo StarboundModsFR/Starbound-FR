@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "woodchair",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Une simple chaise en bois.",
+  "shortdescription" : "Chaise en Bois",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "Une chaise en bois très laide.",
+  "avianDescription" : "Une chaise en bois avec un oreiller rouge sur elle.",
+  "floranDescription" : "L'oreiller de la chaise est doucce.",
+  "glitchDescription" : "Mépris. Objet inintéressante.",
+  "humanDescription" : "Une simple chaise.",
+  "hylotlDescription" : "Une chaise en bois banale.",
+  "novakidDescription" : "Une chaise en bois.",
+
+  "inventoryIcon" : "woodchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

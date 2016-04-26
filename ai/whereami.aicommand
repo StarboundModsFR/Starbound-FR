@@ -1,0 +1,43 @@
+﻿{
+  "commandName" : "whereami",
+  "icon" : "question.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "whereami"
+    },
+    { 
+      "action" : "EnableCommand",
+      "command" : "whathappened"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Où sommes-nous?",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> Vous avez une question, Chef?",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ report_location
+^cyan;> Les systèmes de navigation ont été endommagés dans notre évasion. 
+> Notre location est inconnue.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

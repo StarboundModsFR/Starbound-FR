@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Il y a quelques partitions ici."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Piano Standart"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "Tout Apex doit apprendre à jouer. Cependant un micro est caché dedans..."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Les boutons produisent des sons agréables."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran fait de la musique avec de la peau est des os, je suis maître du tambour..."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Observation. Les mathématiques derrière cetteb machine sont assez simple. "
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Un piano... Je peux jouer "Chopsticks"..
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "La musique. Il a le pouvoir de faire disparaitre les ténèbres."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Je ne dirai pas non à quelques sons de piano. Dommage que personne ne jouent."
+}
+]

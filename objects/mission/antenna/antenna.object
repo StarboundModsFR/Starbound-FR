@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "antenna",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "Une antenne, ceux-ci sont généralement utilisés pour augmenter les signaux de communication.",
+  "shortdescription" : "Antenne",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "Une antenne.",
+  "avianDescription" : "Une antenne de signal stimulant.",
+  "floranDescription" : "Floran pourrai l'utiliser pour poignarder.",
+  "glitchDescription" : "Ennui. Cette antenne ravage mes capteurs.",
+  "humanDescription" : "Y a-t'il quelqu'un là-bas ?.",
+  "hylotlDescription" : "Une antenne.",
+  "novakidDescription" : "Un dispositif pour recevoit des signaux.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "antenna.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-12, 0],
+
+      "spaces" : [ [0, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [-1, 4], [0, 4], [1, 4], [-1, 5], [0, 5], [1, 5], [0, 6] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "antenna.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-12, 0],
+
+      "spaces" : [ [0, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [-1, 4], [0, 4], [1, 4], [-1, 5], [0, 5], [1, 5], [0, 6] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

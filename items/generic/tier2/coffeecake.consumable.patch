@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un gâteau moite enrichi avec du café. Savourez sans ..."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Gâteau au Café"
+}
+]

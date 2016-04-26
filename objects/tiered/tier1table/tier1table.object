@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "tier1table",
+  "colonyTags" : ["commerce","tier1"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une simple table en fer.",
+  "shortdescription" : "Table en Fer",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 40,
+
+  "apexDescription" : "Cette table en fer.",
+  "avianDescription" : "Une table en fer solide.",
+  "floranDescription" : "La table est asssez bonne pour Floran pour trancher la viande.",
+  "glitchDescription" : "Approuvant. Une table en fer bien faite.",
+  "humanDescription" : "Une belle table en fer.",
+  "hylotlDescription" : "En ce qui concerne les tables en fer, celle-ci est pas mal.",
+
+  "inventoryIcon" : "tier1tableicon.png",
+  "orientations" : [
+    {
+      "image" : "tier1table.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "tier1table.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

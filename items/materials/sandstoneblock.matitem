@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "sandstoneblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sandstoneblock.png",
+  "description" : "Briques en grès lisse.",
+  "shortdescription" : "Briques de Grès",
+  "glitchdescription" : "Déclaration. Briques de grès.",
+  "florandescription" : "Des briques de grèss.",
+
+  "materialId" : 128
+}

@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "anvil",
+  "colonyTags" : ["glitch","glitchvillage","crafting"],
+  "category" : "crafting",
+  "rarity" : "Common",
+  "description" : "Une enclume, utilisée pour le métal.",
+  "shortdescription" : "Enclume",
+  "race" : "glitch",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  ENCLUME DE FER",
+        "subtitle" : "  For producing shiny things.",
+        "icon" : {
+          "file" : "/interface/crafting/anvil.png"
+        }
+      }
+    },
+    "filter" : [ "anvil" ]
+  },
+  "printable" : true,
+  "price" : 70,
+
+  "apexDescription" : "Une enclume. L'Apex n'a pas utilisé ceci depuis très longtemps.",
+  "avianDescription" : "Un grand bloc de fer avec une surface plate.",
+  "floranDescription" : "Très lourde, utile dans un piège.",
+  "glitchDescription" : "Éduquer. Le Glitch fabrique toutes sortes d'armes sur ces enclumes. Ils l'ont fait sur une autre enclume.",
+  "humanDescription" : "Une enclume. Les humains ne sont pas utilisés depuis le début de leur histoire.",
+  "hylotlDescription" : "Probablement utilisé dans la métallurgie.",
+
+  "inventoryIcon" : "anvilicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "anvil.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}

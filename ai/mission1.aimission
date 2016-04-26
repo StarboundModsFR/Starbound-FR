@@ -1,0 +1,85 @@
+﻿{
+  "missionName" : "mission1",
+  "icon" : "lunarbaseicon.png",
+  "missionWorld" : "lunarbase",
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Faciliter le minage d'Erchuis",
+      "repeatButtonText" : "Répeter Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Nous avons reçu un signal de détresse d'un avant-poste lunaire se présentant comme le FEM (Erchuis Mining Facility). L'Erchius est utilisé pour construire et réparer les disques FTL. Je pense que nous devrions enquêter. Je vous recommande l'équipement en acier avant de partir.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

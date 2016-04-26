@@ -1,0 +1,54 @@
+{
+  "name" : "steelchair",
+  "price" : 170,
+  "weaponType" : "Chaise d'Acier",
+  "bladeBehindHandle" : false,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "baseDps" : [11, 11.5],
+  "rateOfSwing" : [0.8, 1.1],
+  "multiplier" : 1,
+  "firePosition" : [4, 2],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_broadsword.ogg" ],
+  "kind" : "steelchair",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : false,
+    "projectileTypes" : [ "steelchairswoosh" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2, -18],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 100,
+      "swordAngle" : 110,
+      "handPosition" : [-3, -16],
+      "duration" : 0.15,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -35,
+      "swordAngle" : -100,
+      "handPosition" : [-1, -29],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  },
+  "palette" : [
+    { "cccccc" : "cccccc", "9e9e9e" : "9e9e9e", "616161" : "616161", "383838" : "383838" }, //default//
+    { "cccccc" : "a8a8a8", "9e9e9e" : "7c7c7c", "616161" : "4b4b4b", "383838" : "2c2c2c" }, //black//
+    { "cccccc" : "e8e8e8", "9e9e9e" : "c3c3c3", "616161" : "7d7d7d", "383838" : "484848" } //silver//
+  ],
+  "nameGenerator" : "steelchairnames.config:nameGen"
+}

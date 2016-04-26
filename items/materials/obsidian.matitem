@@ -1,0 +1,11 @@
+{
+  "itemName" : "obsidian",
+  "rarity" : "Common",
+  "inventoryIcon" : "obsidian.png",
+  "description" : "Solid obsidian. It reflects the light.",
+  "shortdescription" : "Obsidienne",
+  "glitchdescription" : "Déclaration. Roche dur type obsidienne.",
+  "florandescription" : "Obsssidienne. Noir comme l'âme du Floran.",
+
+  "materialId" : 36
+}

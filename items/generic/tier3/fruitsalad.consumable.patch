@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Divers fruits tous facilement mélangés."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Salade de Fruits"
+}
+]

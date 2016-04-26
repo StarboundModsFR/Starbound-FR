@@ -1,0 +1,12 @@
+{
+  "itemName" : "cobblestonematerial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "cobblestone.png",
+  "shortdescription" : "Cobblestone",
+  "description" : "Pierre dur, lisse au toucher.",
+  "glitchdescription" : "Certifié. Cobblestones.",
+  "florandescription" : "Cobblessstone.",
+
+  "materialId" : 3
+}

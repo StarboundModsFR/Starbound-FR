@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "copperladder",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperladder.png",
+  "description" : "Une échelle en cuivrer",
+  "shortdescription" : "Échelle en Cuivre",
+  "glitchdescription" : "Déclaration. Une échelle en cuivre.",
+  "florandescription" : "Échellle.",
+
+  "materialId" : 140
+}

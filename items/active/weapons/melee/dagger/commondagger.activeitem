@@ -1,0 +1,83 @@
+﻿{
+  "itemName" : "commondagger",
+  "price" : 80,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Rasoir et rapide comme l'éclair.",
+  "shortdescription" : "Dague Commune",
+  "tooltipKind" : "sword",
+  "weaponType" : "Dague",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "animation" : "dagger.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+  "primaryAttack" : {
+    "fireTime" : [0.27, 0.42],
+    "baseDps" : [7, 8],
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : [10, 15],
+      "timeoutGroup" : "primary"
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "weaponOffset" : [0, 2.25],
+
+      "allowFlip" : true,
+      "allowRotate" : true
+    },
+    "windup" : {
+      "duration" : 0.05,
+      "armRotation" : -20,
+      "weaponRotation" : -20,
+      "weaponOffset" : [0, 2.25],
+
+      "allowFlip" : true,
+      "allowRotate" : false
+    },
+    "fire" : {
+      "duration" : 0.2,
+      "armRotation" : -135,
+      "weaponRotation" : 40,
+      "weaponOffset" : [0, 2.5],
+
+      "allowFlip" : true,
+      "allowRotate" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "daggernames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 17,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 31,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade", "handle" ]
+  }]
+}

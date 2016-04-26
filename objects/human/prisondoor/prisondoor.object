@@ -1,0 +1,47 @@
+﻿{
+  "objectName" : "prisondoor",
+  "colonyTags" : ["human","humanprison","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 95,
+  "description" : "Une porte faite de barres métalliques épaisses.",
+  "shortdescription" : "Portes à Barreaux",
+  "race" : "human",
+
+  "apexDescription" : "De bonnes barres métalliques. D'une certaine manière, elles sont assez jolie.",
+  "avianDescription" : "Ces barres semblent très robuste.",
+  "floranDescription" : "Floran détruit les barres! Floran échec.",
+  "glitchDescription" : "Impressionné. Un ensemble de barres assez fortes.",
+  "humanDescription" : "Peu importe de quel côté nous sommes , nous ne sommes pas toujours derrière eux ? Et maintenant, j'ai un mal de tête.",
+  "hylotlDescription" : "Un ensemble de barres d'acier.",
+
+  "inventoryIcon" : "prisondooricon.png",
+  "orientations" : [
+    {
+      "image" : "prisondoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/bardoor_open.ogg" ],
+      "close" : [ "/sfx/objects/bardoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "prisondoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

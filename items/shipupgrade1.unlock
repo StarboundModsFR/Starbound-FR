@@ -1,0 +1,11 @@
+{
+  "itemName" : "shipT1",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "upgradeT1.png",
+  "image" : "upgradeT2.png",
+
+  "shortdescription" : "Quelque-chose",
+  "description" : "C'est un truc",
+
+  "shipUpgrade" : 1
+}

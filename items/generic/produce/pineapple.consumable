@@ -1,0 +1,23 @@
+﻿{
+  "itemName" : "pineapple",
+  "rarity" : "Common",
+  "price" : 160,
+  "inventoryIcon" : "pineappleicon.png",
+  "description" : "Un régal tropical!",
+  "shortdescription" : "Ananas",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pineapplepizzaslice", "pineapplejuice" ]
+}

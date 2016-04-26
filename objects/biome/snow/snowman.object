@@ -1,0 +1,46 @@
+﻿{
+  "objectName" : "snowman",
+  "colonyTags" : ["ice"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+
+  "description" : "Un petit bonhomme de neige parfait.",
+  "shortdescription" : "Bonhomme de neige",
+  "race" : "generic",
+
+  "apexDescription" : "Un bonhomme de neige adorable. Comment allez-vous aujourd'hui?",
+  "avianDescription" : "Un bonhomme de neige. Il me semble qu'il manque quelque chose.",
+  "floranDescription" : "Floran chasse bonhomme de neige. Bonhomme de neige se souciait pas. Snowman crumble.",
+  "glitchDescription" : "Jaloux. Organismes de Glitch avec trop de coins pour moi pour créer un pépin de neige précis.",
+  "humanDescription" : "Un bonhomme de neige! Tentation pour lancer sa tête hors ... monte ...",
+  "hylotlDescription" : "Cette effigie de neige va fondre un jour, et retournera d'ou il vient. Il dispose également d'un nez 'carotte' mignon.",
+  "novakidDescription" : "Est-ce une sculpture de neige? Ou quelqu'un ne tiennent autour dans une tempête de neige pendant trop longtemps?",
+
+
+  "inventoryIcon" : "snowmanicon.png",
+  "orientations" : [
+    {
+      "image" : "snowman.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "snowman.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/bed_leave.ogg" ],
+  "smashDropOptions" : [
+    [ [ "giganticsnowball", 1, { } ], [ "largesnowball", 1, { } ], [ "mediumsnowball", 1, { } ], [ "carrot", 1, { } ], [ "fullwood1", 1, { } ], [ "coalore", 2, { } ] ]
+  ]
+}

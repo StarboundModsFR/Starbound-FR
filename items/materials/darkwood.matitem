@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "darkwoodmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "darkwood.png",
+  "description" : "Je pense que ce bois est d'origine Alien.",
+  "shortdescription" : "Planches de Bois",
+  "glitchdescription" : "Cetifié. Bois.",
+  "florandescription" : "Sssublime bois.",
+
+  "materialId" : 7
+}

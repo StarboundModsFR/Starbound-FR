@@ -1,0 +1,47 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/description",
+        "value": "Ce coffre envoie un signal lorsque l'on l'ouvre."
+},
+  {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Coffre Piége"
+},
+  {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un coffre au trésor classique. Ou est-ce...?"
+},
+  {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un coffre rempli de trésors! Ou est-ce...?"
+}, 
+  {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Un coffre qui garde un trésor."
+},
+  {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Excitable. Un coffre au trésor! Qui a-t'il à l'intérieur ...?"
+},
+  {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "C'est un coffre au trésor. Mais que contient t'il?"
+},
+  {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Un coffre créé à partir de bois et de métal. Il semble légèrement patinée."
+},
+  {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un coffre au trésor! Ce doit être mon jour de chance! Ou est-ce...?"
+}
+]

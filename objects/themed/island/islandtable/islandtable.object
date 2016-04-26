@@ -1,0 +1,42 @@
+﻿{
+  "objectName" : "islandtable",
+  "colonyTags" : ["island","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Il y a un visage plutôt sombre sculpté dans la base de cette table.",
+  "shortdescription" : "Table d'Île",
+  "race" : "generic",
+
+  "apexDescription" : "Cette table est beaucoup trop expressive. Je préfaire un simple décor.",
+  "avianDescription" : "Cette table est faite que de bois. J'apprécie ça.",
+  "floranDescription" : "La table a le visssage en colère. Floran est impressssionné .",
+  "glitchDescription" : "Alarmé. Cette tableau tropicale a un visage très expressif à la base.",
+  "humanDescription" : "Quelqu'un l'as sculpté à la main. C'est gentil de leur part.",
+  "hylotlDescription" : "Cette table est plutôt agressive. Pourquoi ne pas avoir une table calme?",
+  "novakidDescription" : "Pourquoi les gens aiment-ils une table comme ça?",
+
+  "inventoryIcon" : "islandtableicon.png",
+  "orientations" : [
+    {
+      "image" : "islandtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "islandtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

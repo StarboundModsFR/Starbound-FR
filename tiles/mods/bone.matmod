@@ -1,0 +1,16 @@
+{
+  "modId" : 6,
+  "modName" : "bone",
+  "description" : "Yes, de l'os broyé!",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "grass" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bone.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "id" : "license1.gearup",
+  "prerequisites" : [ "outpost1.gearup", "bountyhunter1.gearup", "floranfan1.gearup", "hylotlperformer1.gearup", "radardish1.gearup" ],
+  "requiredShipLevel" : 3,
+  "title" : "^green;Psst",
+  "text" : "Bonjour, vous êtes intéressé par une licence de vaisseau. Il n'est pas exactement ce que vous appelleriez...réglo. Mais votre logiciel devrait l'accepter et vous permettre d'améliorer votre vaisseau. Amenez-moi ^orange; 2 diamants ^green; et il sera pour vous.",
+  "completionText" : "Nous avons un accord! Profitez de la licence! Parlez à votre S.A.I.L pour obtenir l'amélioration! Aidez encore et vous pourrez avoir mieux.",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "completionCinema" : "/cinematics/licenses/license1.cinematic",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "enableAiCommands" : ["upgradeShip4"],
+    "requireTurnIn" : true,
+    "gatherRequirements" : {
+      "items" : {
+        "diamond" : {
+          "count" : 2,
+          "consume" : true
+        }
+      }
+    }
+  }
+}

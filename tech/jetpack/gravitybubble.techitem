@@ -1,0 +1,9 @@
+{
+  "itemName" : "gravitybubbletech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/gravityball.png",
+  "description" : "Appuyer et maintenez sauter en l'air pour utiliser le jetpack, et geler la gravité.  Coût: energies par secondes 60.",
+  "shortdescription" : "Jetpack à Bulles",
+
+  "techModule" : "gravitybubble"
+}

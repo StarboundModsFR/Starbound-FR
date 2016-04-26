@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/paneLayout/btnAccept/caption",
+        "value": "ACCEPTER"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/btnDecline/caption",
+        "value": "REFUSER"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labelRewards/value",
+        "value": "BUTIN"
+}
+]

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une miche de pain avec de la carotte. Soyons honnête, c'est juste du pain."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Pain à la Carotte"
+}
+]

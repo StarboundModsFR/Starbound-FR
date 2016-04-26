@@ -1,0 +1,39 @@
+﻿{
+  "objectName" : "woodenchest",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "Un simple coffre en bois.",
+  "shortdescription" : "Coffre en Bois",
+  "race" : "generic",
+
+  "apexDescription" : "Un coffre! Qu'y-a t'il à l'intérieur.",
+  "avianDescription" : "Souvent, ces coffres stockes les objets de valeur. Je suis surexcité!",
+  "floranDescription" : "Cofresss! Floran cherccche!",
+  "glitchDescription" : "Anticipation. Qu'est-ce qui pourrai y avoir?",
+  "humanDescription" : "Un coffre! Ouvrons le.",
+  "hylotlDescription" : "Il ya peu d'aussi excitant que la poitrine d'un non ouvert.",
+  "novakidDescription" : "C'est toujours un frisson d'ouvrir un coffre.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

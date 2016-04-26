@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "meteoriterock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "meteoriterock.png",
+  "description" : "Une roche extrêmement dure trouvé juste à l'extérieur de l'atmosphèree.",
+  "shortdescription" : "Roche de Météorite",
+  "glitchdescription" : "Analysé. cette roche est d'origine extraterrestre.",
+  "florandescription" : "Floran aime les chutes de pierres.",
+
+  "materialId" : 161
+}

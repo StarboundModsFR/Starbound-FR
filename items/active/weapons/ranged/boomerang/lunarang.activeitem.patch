@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Ce n'est pas la lune."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lunarang"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Boomerang"
+}
+]

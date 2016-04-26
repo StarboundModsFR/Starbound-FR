@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "woodenplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "woodenplatformicon.png",
+  "description" : "Plateformes en bois joliment sculpté .",
+  "shortdescription" : "Plateforme en Bois",
+  "glitchdescription" : "Déclaration. Une plateforme en bois sculptée impeccablement.",
+  "florandescription" : "Plateformess.",
+
+  "materialId" : 70
+}

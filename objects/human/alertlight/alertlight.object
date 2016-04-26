@@ -1,0 +1,117 @@
+﻿{
+  "objectName" : "alertlight",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 50,
+  "description" : "Le clignotant est destiné à signaler qu'il ya une sorte d'urgence...",
+  "shortdescription" : "Signalisation Lumineuse",
+  "race" : "generic",
+
+  "apexDescription" : "Ces alarmes étaient communs dans le logement Apex, signalant un comportement inacceptable.",
+  "avianDescription" : "La machine, il cris comme un oiseau.",
+  "floranDescription" : "Lumière tourbillonnante. Comme une luciole dans un bocal.",
+  "glitchDescription" : "Congédiement. Une lumière colorée.",
+  "humanDescription" : "Ces choses crient danger.",
+  "hylotlDescription" : "A la lumière de la danse maladroite !!",
+  "novakidDescription" : "La lampe nous demande de l'attention.",
+
+  "inventoryIcon" : "alertlighticon.png",
+  "orientations" : [
+    {
+      "image" : "alertlightceiling.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "alarm" : "alertlightceiling.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "alertlightceiling.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "alarm" : "alertlightceiling.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "alertlightground.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "alarm" : "alertlightground.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "alertlightground.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "animationParts" : {
+        "alarm" : "alertlightground.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "alertlightleft.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "alarm" : "alertlightleft.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "alertlightright.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "alarm" : "alertlightright.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/alarm/alarm.lua" ],
+  "scriptDelta" : 3,
+
+  "animation" : "alertlight.animation",
+
+  "inboundNodes" : [ [0, 0] ],
+
+  "alarmSoundDuration" : 1
+
+}

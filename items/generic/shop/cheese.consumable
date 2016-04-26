@@ -1,0 +1,19 @@
+{
+  "itemName" : "cheese",
+  "rarity" : "Common",
+  "price" : 30,
+  "inventoryIcon" : "cheese.png",
+  "description" : "Un morceau de fromage.",
+  "shortdescription" : "Fromage",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "pizzaslice" ]
+}

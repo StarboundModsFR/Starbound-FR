@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "redlight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [185, 0, 0],
+  "price" : 60,
+  "printable" : false,
+  "description" : "Une faible lumière touge.",
+  "shortdescription" : "Lumière Rouge",
+  "race" : "generic",
+
+  "apexDescription" : "Ces lumières sont généralement utilisées sur des vaisseaux.",
+  "avianDescription" : "Une lampe.",
+  "floranDescription" : "Une lumière rouge! Rouge!",
+  "glitchDescription" : "Analysé. Cette lumière génère de la lumière à faible puissance.",
+  "humanDescription" : "Une lumière rouhe d'humeur changeante.",
+  "hylotlDescription" : "Une lumière passable.",
+
+  "inventoryIcon" : "redlighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "redlight.png:<color>.<frame>", "fullbright" : true }, { "image" : "redlightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "redlight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+  
+}

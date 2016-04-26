@@ -1,0 +1,11 @@
+﻿{
+  "itemName" : "yellowdye",
+  "rarity" : "Common",
+  "inventoryIcon" : "yellowdye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour changer sa couleur.",
+  "shortdescription" : "Colorant Jaune",
+
+  "dyeColorIndex" : 6,
+
+  "learnBlueprintsOnPickup" : [ "greendye", "orangedye", "browndye" ]
+}

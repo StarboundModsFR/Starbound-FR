@@ -1,0 +1,23 @@
+﻿{
+  "id" : "tutorial2.gearup",
+  "title" : "^yellow;Tutoriel II: Créer, Créeons",
+  "text" : "Il est temps de faire une ^orange;table de craft^white;! Je devrai descendre sur la planète et ^green;utiliser le manipulateur de matières pour faire tomber des arbres^white; pour avoir du ^orange;bois^white;. Ensuite pressez la touche ^green;[C]^white; pour ouvrir la table de craft du perso, et regarder ce que vous pouvez faire.",
+  "completionText" : "Bravo, je peux maintenant utiliser la ^orange;table de craft^white; pour créer beaucoup d'éléments que je ne peux pas faire avec mes mains.",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial3.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "woodencraftingtable" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

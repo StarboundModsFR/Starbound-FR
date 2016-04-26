@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "sandstonechest",
+  "colonyTags" : ["sandstone","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 40,
+  "description" : "Un coffre très grossièrement taillé.",
+  "shortdescription" : "Sable en Grès",
+  "race" : "generic",
+
+  "apexDescription" : "Un coffre en grès.",
+  "avianDescription" : "Un beau coffre en grès.",
+  "floranDescription" : "Coffre de sssable.",
+  "glitchDescription" : "Observateur. Un coffre en grès.",
+  "humanDescription" : "Peut-être que ce coffre est venue d'un château de sable.",
+  "hylotlDescription" : "Un coffre grossièrement fait.",
+  "novakidDescription" : "Un coffre de grès. J'espère qu'il n'est pas plein de sable.",
+
+  "inventoryIcon" : "sandstonechesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sandstonechest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

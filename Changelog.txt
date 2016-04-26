@@ -1,0 +1,9 @@
+CHANGELOG PROCHAINE VERSION
+
+- Objets
+	- Missions:
+		- Base Lunaire:
+			- Ajout de traductions
+	- Thèmes:
+		- "Spooky"
+			- Ajout de traductions

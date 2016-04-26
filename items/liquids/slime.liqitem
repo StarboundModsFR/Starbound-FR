@@ -1,0 +1,14 @@
+{
+  "itemName" : "liquidslime",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidslimeicon.png",
+  "shortdescription" : "Vase",
+  "description" : "Liquide vaseuse.",
+
+  "liquid" : "slimeliquid",
+
+  "learnBlueprintsOnPickup" : [
+    "mininglantern",
+    "lanternstickback"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "dragonbone",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "dragonbone.png",
+  "description" : "Un os de dragon, il est trop chaud. la chaleur ne meurt jamais.",
+  "shortdescription" : "Os de Dragon"
+}

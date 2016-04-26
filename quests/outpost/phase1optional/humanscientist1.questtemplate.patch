@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "^green;Papillonage"
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Je déteste chercher des papillons! Peux-tu m'aider à en trouver? Si tu en ^orange;capture un pour moi ^green;dans un filet à papillons^white;, Je vais vous donner un module pour ton manipulateur que j'ai trouvé."
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "Un pas de plus vers un univers sans papillons! Voici le module pour ton manipulateur comme promis. Vous trouverez cela utile."
+}
+]

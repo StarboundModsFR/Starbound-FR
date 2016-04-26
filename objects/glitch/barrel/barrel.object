@@ -1,0 +1,42 @@
+﻿{
+  "objectName" : "barrel",
+  "colonyTags" : ["glitch","glitchvillage","storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "Un tonneau. Je souhaite qu'il n'y a pas de pirate à l'intérieur.",
+  "shortdescription" : "Petit Tonneau",
+  "race" : "glitch",
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "Un tonneau en bois. Quelque chose dedans ?",
+  "avianDescription" : "Un récipient rond en bois maintenus ensemble avec du fer.",
+  "floranDescription" : "Floran peut mettre les choses à l'intérieur et rouler autour.",
+  "glitchDescription" : "Observer. Un baril, le stockage des produits est bon marché.",
+  "humanDescription" : "Un tonneau. Bon pour la conservation des aliments et des matériaux.",
+  "hylotlDescription" : "Le baril pour le stockage de produits.",
+
+  "inventoryIcon" : "barrelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "barrel.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

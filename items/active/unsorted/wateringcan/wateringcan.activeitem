@@ -1,0 +1,34 @@
+{
+  "itemName" : "wateringcan",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Arrosez vos plantes avec cette Arrosoir.",
+  "shortdescription" : "Arrosoir",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+
+  "inventoryIcon" : "wateringcan.png",
+
+  "animation" : "wateringcan.animation",
+  "animationParts" : {
+    "wateringcan" : "wateringcan.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["wateringcan.lua"],
+
+  "waterTime" : 1.0,
+  "waterAngle" : 30,
+
+  "cooldownTime" : 1.0,
+
+  "projectileRate" : 0.15,
+  "projectileInaccuracy" : 0.4,
+  "projectileType" : "watersprinkledroplet",
+  "projectileParameters" : {
+    "speed" : 13,
+    "power" : 0,
+    "timeToLive" : 5,
+    "color" : [10, 255, 10]
+  }
+}

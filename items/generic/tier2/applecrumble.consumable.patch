@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Délicieux, une compote de pomme sous une couche de crumble doré."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Crumble aux Pommes"
+}
+]

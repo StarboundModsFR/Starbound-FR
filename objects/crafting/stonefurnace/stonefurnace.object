@@ -1,0 +1,100 @@
+﻿{
+  "objectName" : "stonefurnace",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurnace.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  FOUR EN PIERRE",
+        "subtitle" : "  Vieille Fonderie démodée.",
+        "icon" : {
+          "file" : "/interface/crafting/stonefurnace.png"
+        }
+      }
+    },
+    "filter" : [ "stonefurnace" ]
+  },
+  "description" : "Utile pour l'artisanat! Cela me permet de fondre du minerai de base .",
+  "shortdescription" : "^orange;Four en Pierre^white;",
+  "race" : "generic",
+  "subtitle" : "Vieille Fonderie démodée.",
+  "category" : "crafting",
+  "price" : 55,
+  "printable" : false,
+
+  "apexDescription" : "Un four de pierre. Je peux faire cuire des choses ici.",
+  "avianDescription" : "Un four parfait pour l'artisanat.",
+  "floranDescription" : "Four, broche, bréler.Floran en bave.",
+  "glitchDescription" : "Confidentiel. Le four est la température idéale pour les minerais en fusion.",
+  "humanDescription" : "Un four de fusion. Chaud.",
+  "hylotlDescription" : "A chaud, un four imposant.",
+  "novakidDescription" : "Ce four est chaud comme la bouche de l'enfer. Je ferais mieux de garder mes doigts.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "stonefurnaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un lavabo. Pour ce lavez les mains."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lavabo"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un simple lavabo."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un lavabo."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Ccce Lavabo"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Déclaration. Un lavabo"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Un lavabo."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Trop petit pour y nager."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Un lavabo."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un lavabo."
+}
+]

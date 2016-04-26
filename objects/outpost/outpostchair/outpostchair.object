@@ -1,0 +1,37 @@
+{
+  "objectName" : "outpostchair",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "Une chaise. Vous pouvez vous asseoir. Oui.",
+  "shortdescription" : "Chaise d'Avant-Poste",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "Une simple chaise.",
+  "avianDescription" : "Une simple chaise.",
+  "floranDescription" : "S'asseoir!",
+  "glitchDescription" : "Déclaration. Une chaise.",
+  "humanDescription" : "Une chaise décente.",
+  "hylotlDescription" : "Une simple chaise.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outpostchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

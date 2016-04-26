@@ -1,0 +1,11 @@
+{
+  "itemName" : "copperore",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperore.png",
+  "description" : "Un mineai de cuivre. Il peut-être fondue.",
+  "shortdescription" : "Minerai de Cuivre",
+  "learnBlueprintsOnPickup" : [
+    "copperbar"
+  ]
+}

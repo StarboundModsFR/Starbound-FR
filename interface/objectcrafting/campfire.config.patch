@@ -1,0 +1,50 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "Cuire"
+},
+{
+        "op": "replace",
+        "path": "/gui/toggleCrafting/position",
+        "value": [42, 36]
+},
+{
+        "op": "add",
+        "path": "/gui/close",
+        "value": {
+        "type" : "button",
+        "base" : "/interface/inventory/x.png",
+        "hover" : "/interface/inventory/xhover.png",
+        "press" : "/interface/inventory/xpress.png",
+        "position" : [123, 105]
+      }
+},
+{
+        "op": "add",
+        "path": "/gui/lblText",
+        "value": {
+        "type" : "label",
+        "position" : [70, 78],
+        "hAnchor" : "mid",
+        "wrapWidth" : 125,
+        "value" : "^#b9b5b2;Placer les ingrédients dans l'emplacement de gauche." 
+        }
+},
+{
+        "op": "replace",
+        "path": "/gui/itemGrid/position",
+        "value": [40, 54]
+},
+{
+        "op": "replace",
+        "path": "/gui/outputItemGrid/position",
+        "value": [76, 54]
+},
+{
+        "op": "replace",
+        "path": "/gui/pointer/position",
+        "value": [62, 57]
+}
+
+]

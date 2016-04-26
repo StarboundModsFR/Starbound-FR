@@ -1,0 +1,9 @@
+{
+  "codexId" : "floranprologue",
+  "title" : "Voyage Floran",
+  "codexkind" : "codex",
+  "itemName" : "floranprologueCodex",
+  "rarity" : "common",
+  "description" : "Un Floran apprend l'honneur. Peut-être.",
+  "shortdescription" : "Floran Prologue"
+}

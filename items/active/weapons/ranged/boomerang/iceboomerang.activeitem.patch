@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un boomerang froid avec un noyau congelé"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Boomerang Gelé"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Boomerang"
+}
+]

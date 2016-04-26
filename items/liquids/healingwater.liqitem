@@ -1,0 +1,14 @@
+﻿{
+  "itemName" : "liquidhealing",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidhealingicon.png",
+  "shortdescription" : "Eau Régénératrice",
+  "description" : "De l'eau fraiche, claire, régénératrice. Boire pour restaurer le corps.",
+
+  "liquid" : "healingliquid",
+  
+  "learnBlueprintsOnPickup" : [
+    "bottledhealingwater",
+	"dyeremover"
+  ]
+}

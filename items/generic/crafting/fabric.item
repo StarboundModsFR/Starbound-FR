@@ -1,0 +1,8 @@
+{
+  "itemName" : "fabric",
+  "price" : 3,
+  "rarity" : "common",
+  "inventoryIcon" : "fabric.png",
+  "description" : "Un bout de tissu.",
+  "shortdescription" : "Tissu"
+}

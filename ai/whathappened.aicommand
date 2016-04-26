@@ -1,0 +1,43 @@
+{
+  "commandName" : "whathappened",
+  "icon" : "question.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "whathappened"
+    },
+    { 
+      "action" : "EnableCommand",
+      "command" : "whoareyou"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Qu'est-il arrivé?",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> Vous avez une autre question, Chef?",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ report_status
+^cyan;> La terre a été attaquée par une force étrangère inconnue.
+> Les victimes sont estimées entre 80-90%, avec une marge d'erreur de 1%.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

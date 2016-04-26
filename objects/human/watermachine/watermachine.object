@@ -1,0 +1,56 @@
+﻿{
+  "objectName" : "watermachine",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "description" : "Il est un de ces machines à boire les gens utilisent pour faire les papotages.",
+  "shortdescription" : "Refroidisseur d'eau",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "Eau fraîche et claire. Rafraîchissant!",
+  "avianDescription" : "Je pourrais l'utiliser avec un verre.",
+  "floranDescription" : "Floran tenir au cracheur d'eau...",
+  "glitchDescription" : "Bavardage. Avez-vous vu ce que cela Hylotl portait ? Atroce. Aussi ceci semble être un distributeur d'eau.",
+  "humanDescription" : "Je suis tellement assoifé, je pouvais boire un cheval. Si le cheval a été faite d'eau.",
+  "hylotlDescription" : "Un petit récipient d'eau. Pour voir si rares me donne envie pour la maison.",
+
+  "inventoryIcon" : "watermachineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "watermachine.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "watercoolerCollect",
+      "watercoolerConsume",
+      "watercoolerComplete"
+    ],
+    "defaultReactions" : {
+      "watercoolerCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "watercoolerConsume" : [
+        [1.0, "drink"]
+      ],
+      "watercoolerComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

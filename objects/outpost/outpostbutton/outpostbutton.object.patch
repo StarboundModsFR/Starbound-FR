@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un bouton."
+},
+{
+        "op": "replace",
+        "path": "/shortDescription",
+        "value": "Bouton de l'Avant-Poste "
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un bouton tentant."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un bouton, pour appuyer "
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran poussse le bouton"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Déclaration. Un boutton"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Tentant."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Un bouton."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Il faut appuyer dessus."
+}
+]

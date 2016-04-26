@@ -1,0 +1,51 @@
+﻿{
+  "objectName" : "ancientchest",
+  "colonyTags" : ["ancient","storage"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "race" : "ancient",
+
+  "category" : "storage",
+  "price" : 0,
+  "description" : "Un ancien coffre avec des origines inconnus.",
+  "shortdescription" : "Coffre Ancien",
+
+  "apexDescription" : "Un très vieux coffre. Il pourrait contenir quoi que ce soit.",
+  "avianDescription" : "Ce coffre semble être très ancien.",
+  "floranDescription" : "Floran curieux...Floran peut ouvrir?",
+  "glitchDescription" : "Prudent. La structure de ce coffre brouille mes capteurs.",
+  "humanDescription" : "C'est un vieux coffre d'apparence.",
+  "hylotlDescription" : "Ce coffre a un design familier, je suis incapable de déterminer son créateur.",
+  "novakidDescription" : "Il est étonnant que ce coffre est toujours debout après tout ce temps.",
+
+  "inventoryIcon" : "ancientchesticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ancientchest.png:<color>.<key>", "fullbright" : true }, { "image" : "ancientchestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "ancientchest.png:<color>.<key>", "fullbright" : true }, { "image" : "ancientchestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

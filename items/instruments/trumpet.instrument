@@ -1,0 +1,20 @@
+{
+  "itemName" : "trumpet",
+  "price" : 1000,
+  "inventoryIcon" : "trumpet.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un trompette. Essayez de ne pas faire exploser votre propre klaxon.",
+  "shortdescription" : "Trompette",
+  "largeImage" : "trumpet.png",
+  "image" : "trumpet.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "trumpet.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.25, 0.375],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "trumpet"
+}

@@ -1,0 +1,23 @@
+﻿{
+  "itemName" : "banana",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "banana.png",
+  "description" : "Une banane génétiquement amélioré.",
+  "shortdescription" : "Banane",
+  "handPosition" : [-2, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "bananacon", "batteredbanana", "luckydip" ]
+}

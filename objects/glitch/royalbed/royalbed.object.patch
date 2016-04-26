@@ -1,0 +1,52 @@
+[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un beau lit fait d'or brillant"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lit Royale Glitch"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un lit de soie et de l'or. Digne d'un roi."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un lit forgé de métaux précieux. Qui dort parmi ces matériaux précieux ?"
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Voulez-vous tester un lit brillant ?"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Identifier. Un lit construit pour les redevances. Le Glitch ne doit pas hésiter sur les dépenses lorsque l'on veux choyer leurs monarques."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Je soupçonne le Glitch de construire ces lits pour les redevances."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": " Est-ce qu'une roi qui exigent cette splendeur? Faut-il lui faire un meilleur roi?"
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Un luxueux lit, digne d'un roi presque !"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Il semble inutile de porter cette armure pour 80 coups"
+}
+]

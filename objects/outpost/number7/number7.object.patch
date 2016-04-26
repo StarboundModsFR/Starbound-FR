@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Numéro sept"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Sept"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Sept."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Sept."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Sept."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Neutre. Sept"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Sept."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Sept."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un sept."
+}
+]

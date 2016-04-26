@@ -1,0 +1,46 @@
+﻿{
+  "objectName" : "medievalbed",
+  "colonyTags" : ["glitch","glitchvillage"],
+  "rarity" : "Common",
+  "description" : "Un lit ferme avec des draps soyeux.",
+  "shortdescription" : "Lit Médiévale",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "Le lit est dur, mais les draps sont soyeux.",
+  "avianDescription" : "Les feuilles sont agréables au toucher.",
+  "floranDescription" : "Floran proffite des draps sssoyeux.",
+  "glitchDescription" : "Heureux. Les draps de glitch ont tendance à rester soyeux, comme notre coque en métal.",
+  "humanDescription" : "Draps soyeux sur un lit dur.",
+  "hylotlDescription" : "Beaux draps soyeux. Hylotl en fait bon usage.",
+  "novakidDescription" : "Beaux draps de lit, pour un bon lit.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 13.2],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/glitch/medievalbed/medievalbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "medievalbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "^orange;Une invitation..."
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Floran voudrait savoir sssi vous aimeriez allez à une partie de... Floran? Floran vous donnera les coordonnées que si vous avérez à Floran que vous êtes fort.^green;Montrez à Floran une ^orange; armure en duracier ^green; et Floran vous dira où aller."
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "Une armure forte agréable. Vous ferez un concurrent parfait pour la partie."
+}
+]

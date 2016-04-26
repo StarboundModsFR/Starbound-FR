@@ -1,0 +1,39 @@
+﻿{
+  "objectName" : "florantoilet",
+  "colonyTags" : ["floran","floranvillage"],
+  "rarity" : "Common",
+
+  "description" : "... elle ne semble pas trés étanche.",
+  "shortdescription" : "Toilette Primitive",
+  "race" : "floran",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "Cela ressemble à des toilettes...",
+  "avianDescription" : "Il est difficile d'imaginer Floran utilisant la salle de bain.",
+  "floranDescription" : "Floran viande magasin de cerveau dans un bol spécial.",
+  "glitchDescription" : "Alarmé analyse. Cette toilette contient des traces de sang et de chair.",
+  "humanDescription" : "Une toilette. Il n'a pas l'air très propre.",
+  "hylotlDescription" : "Je suis étonné de l'Floran sont assez civilisée pour construire des toilettes.",
+
+  "inventoryIcon" : "florantoileticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florantoilet.png:<color>",
+
+      "imagePosition" : [-5, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/toilet_flush.ogg" ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 22]
+}

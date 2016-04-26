@@ -1,0 +1,76 @@
+﻿{
+  "objectName" : "roboticcraftingtable",
+  "colonyTags" : ["crafting","mechanical"],
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  TABLE DE FABRICATION ROBOTIQUE",
+        "subtitle" : "  Fabrication High tech!",
+        "icon" : {
+          "file" : "/interface/crafting/roboticcraftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable", "ironcraftingtable", "roboticcraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "Cette table à des mains! La précision supplémentaire me permet de fabriquer des trucs sérieux avancée ",
+  "shortdescription" : "^orange;Table de Fabrication Robotique^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [35, 51, 51],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "Une table robotique. Cela me permet de fabriquer de meilleurs choses.",
+  "avianDescription" : "Une table d'artisanat mécanique.",
+  "floranDescription" : "Floran va allez combattre avec une table comme ça.",
+  "glitchDescription" : "Curieux. Un table de fabrication mécanique.",
+  "humanDescription" : "A robot table! The revolution begins!",
+  "hylotlDescription" : "Comme c'est étrange. Une table d'artisanat robotique.",
+  "novakidDescription" : "Une table robotique. Il doit être mieux que celui en bois.",
+
+  "inventoryIcon" : "roboticcraftingtableicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "lightPosition" : [ -1, 2],
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 2],
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

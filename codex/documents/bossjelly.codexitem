@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossjelly",
+  "title" : "Textes de lecture",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossjellyCodex",
+  "rarity" : "common",
+  "description" : "Information sur la Gelée, une infâme tache gélatineuse de malveillance et de framboise.",
+  "shortdescription" : "Gelée"
+}

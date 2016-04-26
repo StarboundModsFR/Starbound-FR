@@ -1,0 +1,10 @@
+{
+  "codexId" : "lasladiary03",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_11.png",
+  "itemName" : "lasladiary03Codex",
+  "rarity" : "common",
+  "description" : "Journal de Las'la Crimsongwing #3",
+  "shortdescription" : "Journal Crimsonwing"
+}

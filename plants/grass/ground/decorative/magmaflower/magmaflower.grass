@@ -1,0 +1,8 @@
+﻿{
+  "name" : "magmaflower",
+  "description" : "Une fleur de magma.",
+  "shortdescription" : "Fleur de Magma.",
+  "floranDescription" : "Une fleur très chaude.",
+  "glitchDescription" : "Certifié. Une fleur de Magma.",
+  "images" : [ "magmaflower1.png", "magmaflower2.png", "magmaflower3.png", "magmaflower4.png" ]
+}

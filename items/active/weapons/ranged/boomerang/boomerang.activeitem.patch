@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Des micropropulseurs de pointe garantissant qu'il tournera toujours"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Boomerang"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Boomerang"
+}
+]

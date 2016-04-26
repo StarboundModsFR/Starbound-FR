@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "titaniumore",
+  "price" : 40,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "titaniumore.png",
+  "description" : "C'est du titane. Il peut-être fondu.",
+  "shortdescription" : "Minerai de Titane",
+
+  "learnBlueprintsOnPickup" : [
+    "titaniumbar"
+  ]
+}

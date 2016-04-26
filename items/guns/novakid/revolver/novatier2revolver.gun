@@ -1,0 +1,34 @@
+﻿{
+  "itemName" : "novatier2revolver",
+  "price" : 150,
+  "inventoryIcon" : "novatier2revolver.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Vous n'avez rien vu....",
+  "shortdescription" : "Mains Rapides",
+  "image" : "novatier2revolver.png",
+  "handPosition" : [-6, -2],
+  "firePosition" : [19, 3],
+  "recoilTime" : 0.1,
+  "level" : 2,
+  "tooltipKind" : "gun",
+  "weaponType" : "Pistolet",
+  "itemTags" : ["weapon","ranged","pistol"],
+  "fireTime" : 0.57,
+  "inaccuracy" : 0.016,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "standardbullet",
+  "projectile" : {
+    "speed" : 150,
+    "life" : 3,
+    "power" : 2.4,
+    "knockback" : 6,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
+  }
+}

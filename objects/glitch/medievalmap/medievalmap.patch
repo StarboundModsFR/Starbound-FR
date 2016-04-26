@@ -1,0 +1,52 @@
+[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une map d'un monde inconnue"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Carte Médiévale"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une vieille carte. Mon vaisseau me dit qu'il n'est pas exact."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une fausse vieille carte. Il ne mène nulle part."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Vieille carte! Je vais chassser."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Confus. Cette carte n'est pas précise du tout." 
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Mon vaisseau me dit que cette carte est fausse."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Hylotl regarde la cartographie des océans et de la terre"
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Une carte!. Mais ou va t'elle ?"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Une carte!. Mais ou va t'elle ?"
+}
+]

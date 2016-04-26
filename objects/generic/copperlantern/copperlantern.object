@@ -1,0 +1,84 @@
+﻿{
+  "objectName" : "copperlantern",
+  "colonyTags" : ["copper","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 20,
+
+  "description" : "Une lanterne à huile en cuivre.",
+  "shortdescription" : "Lanterne à Huile en Cuivre",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Une lanterne de cuivre avec de huile comme combustible.",
+  "avianDescription" : "Le carburant maintient la flamme allumée.",
+  "floranDescription" : "Flamme sssavoure liquide à l'intérieur.",
+  "glitchDescription" : "Observer. La lanterne contient de l'huile.",
+  "humanDescription" : "Une lanterne de cuivre simpliste.",
+  "hylotlDescription" : "Le carburant dans cette lanterne ne fonctionnerai pas sous la mer.",
+  "novakidDescription" : "Une source de lumière fiable.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 155, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "copperlanternicon.png",
+  "orientations" : [
+
+    {
+      "image" : "copperlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "copperlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "copperlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.ogg",
+
+  "animation" : "copperlantern.animation",
+  "animationParts" : {
+    "bg" : "copperlantern.png",
+    "fg" : "copperlanternlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/oillantern_on.ogg" ],
+      "off" : [ "/sfx/objects/oillantern_off.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

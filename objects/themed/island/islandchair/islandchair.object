@@ -1,0 +1,44 @@
+﻿{
+  "objectName" : "islandchair",
+  "colonyTags" : ["island"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 90,
+  "description" : "Une chaise faite de bamboo et de feuilles.",
+  "shortdescription" : "Chaise d'Île",
+  "race" : "generic",
+
+  "apexDescription" : "Une chaise plus efficace ne se concentrait pas que sur l'esthétique.",
+  "avianDescription" : "Une chaise qui apporte des pensées de la nature.",
+  "floranDescription" : "La chaise est faites de plantes. C'est un bon choix.",
+  "glitchDescription" : "Nerveux. La chaise sent bon, mais n'as pas l'air confortable.",
+  "humanDescription" : "Bien sûr, il est joli, mais le confort c'est pas encore ça.",
+  "hylotlDescription" : "La chaise me donne envie de s'asseoir sur une plage et regarder les vagues.",
+  "novakidDescription" : "Peut-être un peu de repos ne serait pas si mauvais.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [1, 25],
+
+  "inventoryIcon" : "islandchairicon.png",
+  "orientations" : [
+    {
+      "image" : "islandchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "islandchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

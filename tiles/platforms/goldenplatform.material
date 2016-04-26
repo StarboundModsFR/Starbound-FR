@@ -1,0 +1,22 @@
+﻿{
+  "materialId" : 1391,
+  "materialName" : "goldenplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "goldenplatform",
+  "shortdescription" : "Plateforme Dorée",
+  "description" : "Une plateforme dorée.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldenplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

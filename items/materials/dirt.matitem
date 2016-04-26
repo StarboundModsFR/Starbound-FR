@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirtmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt.png",
+  "description" : "La saleté regarde la sale.",
+  "shortdescription" : "Bloc de terre",
+  "glitchdescription" : "Déclaration. Terre. Clarification. Juste de la terre.",
+  "florandescription" : "Terre crasseuse!",
+  "category" : "Materiaux",
+  "materialId" : 8
+}

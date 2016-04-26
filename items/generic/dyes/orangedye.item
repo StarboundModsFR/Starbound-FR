@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "orangedye",
+  "rarity" : "Common",
+  "inventoryIcon" : "orangedye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vêtements pour changer sa couleur.",
+  "shortdescription" : "Colorant Orange",
+
+  "dyeColorIndex" : 5
+}

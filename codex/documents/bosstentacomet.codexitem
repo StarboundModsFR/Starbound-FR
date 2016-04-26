@@ -1,0 +1,10 @@
+{
+  "codexId" : "bosstentacomet",
+  "title" : "Textes de lecture",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bosstentacometCodex",
+  "rarity" : "common",
+  "description" : "Informations sur Tentacomète, la créature si terrifiante que personne ne peut lui donner un nom correcte.",
+  "shortdescription" : "Tentacomète"
+}

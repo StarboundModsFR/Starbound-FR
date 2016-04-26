@@ -1,0 +1,10 @@
+{
+  "itemName" : "swampwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "swampwatericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Eau marécageuse",
+  "description" : "Une mesure de l'eau des marais.",
+
+  "liquid" : "swampwater"
+}

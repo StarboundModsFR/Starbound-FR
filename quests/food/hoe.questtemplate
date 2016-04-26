@@ -1,0 +1,25 @@
+﻿{
+  "id" : "hoe.gearup",
+  "title" : "^green;Il est temps de Farmer",
+  "text" : "Pour commencer les plantations, Vous devez préparer le sol. Pour cela, créer une ^orange;bèche ^green;avec du bois et du cuivre^white;.",
+  "completionText" : "Bon travail! Et maintenant vous aurez besoin d'un arrosoire pour faire pousser les plantations.",
+  "speaker" : "player",
+  "rewards" : [
+    [ [ "wheatseed", 5] ]
+  ],
+  "moneyRange" : [10, 10],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "wateringcan.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "hoe" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

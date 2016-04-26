@@ -1,0 +1,57 @@
+﻿{
+  "objectName" : "ancientdoor",
+  "colonyTags" : ["ancient","door"],
+  "printable" : false,
+  "rarity" : "Legendary",
+
+  "category" : "door",
+  "price" : 0,
+  "description" : "Une porte ancienne prospectif.",
+  "shortdescription" : "Porte Ancienne",
+  "race" : "ancient",
+
+  "apexDescription" : "Une porte constituée d'une pierre antique.",
+  "avianDescription" : "Une porte robuste d'origine ancienne.",
+  "floranDescription" : "ressssemble à une ancienne porte",
+  "glitchDescription" : "Gardé. Il ne serait pas surprenant que cette porte ancienne n'a pas réussi à ouvrir.",
+  "humanDescription" : "Je parie que ces runes disent «ouvert» et «proximité»'.",
+  "hylotlDescription" : "Cette porte est une relique d'une époque depuis longtemps révolue.",
+  "novakidDescription" : "Cette porte est une relique.",
+
+  "inventoryIcon" : "ancientdooricon.png",
+  "orientations" : [
+    {
+      "image" : "ancientdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "ancientdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/airlock_open.ogg" ],
+      "close" : [ "/sfx/objects/airlock_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "ancientdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

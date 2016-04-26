@@ -1,0 +1,15 @@
+﻿{
+  "materialId" : 140,
+  "materialName" : "copperladder",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "copperladder.png",
+  "platformVariants" : 1,
+  "platformImage" : "copperladder.png",
+  "itemDrop" : "copperplatform",
+  "shortdescription" : "Echelle en Cuivre",
+  "description" : "Une échelle en cuivre.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports"
+}

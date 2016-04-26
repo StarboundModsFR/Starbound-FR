@@ -1,0 +1,10 @@
+{
+  "codexId" : "castleprefix",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_12.png",
+  "itemName" : "castleprefixCodex",
+  "rarity" : "common",
+  "description" : "Le problème des préfixes",
+  "shortdescription" : "Problème des préfixes"
+}

@@ -1,0 +1,50 @@
+{
+  "commandName" : "upgradeBeamaxe2",
+  "onlyOnce" : true,
+  "icon" : "beamaxe.png",
+  "actions" : [
+     { 
+      "action" : "UpdatePlayerEssentialItem",
+      "itemsRequired" : [ ["manipulatormodule", 2] ],
+      "parameters" : {
+        "canCollectLiquid" : true
+      },
+      "essentialItem" : "beamaxe"
+    },
+    {
+      "action" : "DisableCommand",
+      "command" : "upgradeBeamaxe2"
+    },
+    {
+      "action" : "EnableCommand",
+      "command" : "upgradeBeamaxe3"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Améliorer M. M. - Collecte Liquide",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^white;Avec ^orange;2 modules de manipulateur^white;,  Je peux améliorer le manipulateur de matières pour ^green;qu'il collecter les liquides^white;.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^white;Votre manipulateur de matières a été améliorer pour ^green;collecter des liquides.^green;",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^white;Échec. Il vous faut ^orange;2 modules de manipulateur ^white;pour compléter l'amélioration.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

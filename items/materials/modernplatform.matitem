@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "modernplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "modernplatform.png",
+  "description" : "Fabriqué à partir d'un matériau moderne, il est lisse au toucher.",
+  "shortdescription" : "Plateforme Moderne",
+  "glitchdescription" : "Certifié. Une plateforme moderne lisse.",
+  "florandescription" : "Plateformesss.",
+
+  "materialId" : 47
+}

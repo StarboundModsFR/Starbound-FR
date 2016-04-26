@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "irondoor",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 105,
+  "description" : "Une porte de lames croisées. On dirait qu'ils peuvent être retirés.",
+  "shortdescription" : "Porte en Fer",
+  "race" : "generic",
+
+  "apexDescription" : "Une porte en fer menaçante.",
+  "avianDescription" : "Cette porte semble conçu pour garder quelque chose ...",
+  "floranDescription" : "Floran aime les portes. Floran n'aime pas.",
+  "glitchDescription" : "Déclaration. Cette porte semble être d'origine Glitch.",
+  "humanDescription" : "Cela me rappelle les jours explorés dans les vieux châteaux.",
+  "hylotlDescription" : "Que ferait les barbares avec une porte de sortie de lames?",
+  "novakidDescription" : "Cette porte hérissés n'est pas rien pour des gens comme moi.",
+
+  "inventoryIcon" : "irondooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irondoor.png:default",
+      "imagePosition" : [-16, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/bardoor2_open.ogg" ],
+      "close" : [ "/sfx/objects/bardoor2_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "irondoor.png"
+  },
+  "animationPosition" : [-16, -32],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ [0, -4] ]
+}

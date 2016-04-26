@@ -1,0 +1,42 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une tente verte basique. "
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Tente Verte Basique"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une simple tente. Assez bien."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une maison temporaire."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Petite maison verte."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Irrité. Elle est petite."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "J'aime le camping, comme un enfant."
+},
+{
+        "op": "replace",
+        "path": "/hylotlescription",
+        "value": "Je ne suis pas trop fier pour dormir dans une tente."
+}
+]

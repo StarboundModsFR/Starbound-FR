@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une petite lampe avec une polka..."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lampe Standard"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une lampe standard apex."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Apex aime la polka?"
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Lampe tacccheté."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Joyeux. Le glitch adorent la lumière."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une vieille lampe."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "La lampe émet une lumière terne."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Une lampe. Rien de spécial à ce sujet."
+}
+]

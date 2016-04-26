@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Votre banane standard, battue et frit dans une pâte riche."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Banana Battue"
+}
+]

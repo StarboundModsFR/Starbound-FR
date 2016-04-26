@@ -1,0 +1,12 @@
+{
+  "itemName" : "bamboo",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "bamboo.png",
+  "description" : "Bamboo",
+  "shortdescription" : "Bamboo",
+  "glitchdescription" : "Déclaration. Bamboo.",
+  "florandescription" : "Bâtonsss.",
+
+  "materialId" : 117
+}

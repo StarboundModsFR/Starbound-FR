@@ -1,0 +1,8 @@
+{
+  "itemName" : "silverbar",
+  "price" : 60,
+  "rarity" : "Common",
+  "inventoryIcon" : "silverbar.png",
+  "description" : "C'est un lingot d'argent.",
+  "shortdescription" : "Lingot d'Argent"
+}

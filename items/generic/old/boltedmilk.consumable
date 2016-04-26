@@ -1,0 +1,14 @@
+﻿{
+  "itemName" : "boltedmilk",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "boltedmilk.png",
+  "description" : "Le lait dans tout ces états!",
+  "shortdescription" : "Lait Boulonné",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

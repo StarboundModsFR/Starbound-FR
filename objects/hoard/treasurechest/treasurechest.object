@@ -1,0 +1,39 @@
+﻿{
+  "objectName" : "treasurechest",
+  "colonyTags" : ["hoard","storage","valuable"],
+  "rarity" : "rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 125,
+  "description" : "Un coffre au trésor.",
+  "shortdescription" : "Coffre au Trésor",
+  "race" : "glitch",
+
+  "apexDescription" : "Un trésor classique.",
+  "avianDescription" : "Un coffre rempli de trésors!",
+  "floranDescription" : "Coffre garder bibelots et trésors.",
+  "glitchDescription" : "Excitation. Un coffre au trésor! Qui à-t'il à l'intérieur?",
+  "humanDescription" : "C'est un coffre au trésor. Mais que contient-il?",
+  "hylotlDescription" : "Un coffre créé à partir de bois et de métal. Il semble peu utilisé et résiste.",
+  "novakidDescription" : "Un coffre au trésor! Ca doit être mon jour de chance!",
+
+  "inventoryIcon" : "treasurechesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "treasurechest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_large_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_large_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

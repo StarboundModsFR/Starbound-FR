@@ -1,0 +1,49 @@
+﻿{
+  "objectName" : "islandcabinet",
+  "colonyTags" : ["island","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 135,
+  "description" : "Une armoire tropicale, avec un petit arbre.",
+  "shortdescription" : "Armoire d'Île",
+  "race" : "generic",
+
+  "apexDescription" : "Cette armoire est trop expressive pour les maisons Apex.",
+  "avianDescription" : "Cet arbre est un peu petit, on peux pas allez dessus.",
+  "floranDescription" : "Floran aime les arbres.",
+  "glitchDescription" : " Amusement. Il y a un petit arbre au sommet de cette armoire.",
+  "humanDescription" : "Une armoire avec un petit arbre sur le dessus. C'est adorable!",
+  "hylotlDescription" : "Cette armoire me rappelle une Île au sommet des vagues.",
+  "novakidDescription":  "Si cet arbre était un peu plus grand, je pourrai m'allonger à l'ombre dessous.",
+
+  "inventoryIcon" : "islandcabineticon.png",
+  "orientations" : [
+    {
+      "image" : "islandcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "islandcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

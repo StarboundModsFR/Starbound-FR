@@ -1,0 +1,10 @@
+{
+  "itemName" : "coalore",
+  "price" : 2,
+  "rarity" : "Common",
+  "inventoryIcon" : "coalore.png",
+  "description" : "C'est du charbon. Une source de carburant.",
+  "shortdescription" : "Charbon",
+
+  "learnBlueprintsOnPickup" : [ "gunpowder" ]
+}

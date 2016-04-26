@@ -1,0 +1,51 @@
+﻿{
+  "objectName" : "potatoseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Graine de pommes de terre! Faites bouillir, écrasez, et mettez les dans un Ragoût.",
+  "shortdescription" : "Graine de Pomme de Terre",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "Pommes de terre. Sans particularité.",
+  "avianDescription" : "La purée de pommes de terre fait pour un bon plat.",
+  "floranDescription" : "Pommes de terre brunes dures, croquantes.",
+  "glitchDescription" : "Admiration. Les humains créent beaucoup de plats avec une chose simple.",
+  "humanDescription" : "Ahhh, pommes de terre. Y a-t-il quoi que ce soit que vous ne pouvez pas faire?",
+  "hylotlDescription" : "Une racine comestible commune, ennuyeuse.",
+  "novakidDescription" : "Parfait pour rôtir dans un feu de camp sur une nuit froide.",
+
+  "inventoryIcon" : "potatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "potatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "potatoHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25,
+
+  "pickupQuestTemplates" : [ "hoe.gearup" ]
+}

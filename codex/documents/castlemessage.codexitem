@@ -1,0 +1,10 @@
+{
+  "codexId" : "castlemessage",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_10.png",
+  "itemName" : "castlemessageCodex",
+  "rarity" : "common",
+  "description" : "Un message à tous gardes Glitchs",
+  "shortdescription" : "Message aux gardes"
+}

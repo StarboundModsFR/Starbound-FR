@@ -1,0 +1,10 @@
+{
+  "codexId" : "labannoyance",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_11.png",
+  "itemName" : "labannoyanceCodex",
+  "rarity" : "common",
+  "description" : "Un dérangement ridicule, par Big Ape",
+  "shortdescription" : "Un dérangement ridicule"
+}

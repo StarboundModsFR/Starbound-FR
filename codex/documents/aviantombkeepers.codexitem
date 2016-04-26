@@ -1,0 +1,10 @@
+{
+  "codexId" : "aviantombkeepers",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_10.png",
+  "itemName" : "aviantombkeepersCodex",
+  "rarity" : "common",
+  "description" : "Guardien de tombeaux Avian",
+  "shortdescription" : "Guardien de tombeaux Avian"
+}

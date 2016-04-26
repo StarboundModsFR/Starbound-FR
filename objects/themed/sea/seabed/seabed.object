@@ -1,0 +1,58 @@
+﻿{
+  "objectName" : "seabed",
+  "colonyTags" : ["sea"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 190,
+  "description" : "Un lit en forme de coquillage.",
+  "shortdescription" : "Lit Coquillage",
+  "race" : "generic",
+
+  
+  "apexDescription" : "Garanti pour induire le sommeil subaquatique.",
+  "avianDescription" : "Ce lit est fait à partir d'un clapet géant, il semble confortable.",
+  "floranDescription" : "Facile à dormir dans le lit fait d'algues.",
+  "glitchDescription" : "Fier. Un ajustement de lit pour un roi Hylotl.",
+  "humanDescription" : "Ce lit est de fantaisie, il a même un matelas d'eau.",
+  "hylotlDescription" : "Il n'y a rien plus confortable que de dormir entre des feuilles d'algues.",
+  "novakidDescription" : "Ce lit est drôle à regarder. Et ça sent les crevettes.",
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/themed/sea/seabed/seabedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration3",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "seabedicon.png",
+  "orientations" : [
+    {
+      "image" : "seabed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-7, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "seabed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-7, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

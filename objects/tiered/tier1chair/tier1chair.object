@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "tier1chair",
+  "colonyTags" : ["misc","tier1"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une simple chaise en fer.",
+  "shortdescription" : "Chaise en Fer",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 40,
+
+  "apexDescription" : "Ce n'est pas la chaise la plus confortable, mais je suis heureux avec elle.",
+  "avianDescription" : "Un endroit assez décent pour s'asseoir .",
+  "floranDescription" : "Floran s'asseois sur une chaise et réfléchit à la chasse.",
+  "glitchDescription" : "Détendu. Cette chaise est parfaite pour le Glitch.",
+  "humanDescription" : "Une chaise dure. Rappelle-moi d'être à l'école.",
+  "hylotlDescription" : "Ce n'est pas le luxe Hylotl, mais il y a la satisfaction d'être gagnant ici.",
+
+  "inventoryIcon" : "tier1chairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier1chair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

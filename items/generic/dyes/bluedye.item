@@ -1,0 +1,11 @@
+﻿{
+  "itemName" : "bluedye",
+  "rarity" : "Common",
+  "inventoryIcon" : "bluedye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour changer sa couleur..",
+  "shortdescription" : "Colorant Bleu",
+
+  "dyeColorIndex" : 8,
+
+  "learnBlueprintsOnPickup" : [ "greendye", "purpledye", "browndye" ]
+}

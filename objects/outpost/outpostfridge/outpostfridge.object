@@ -1,0 +1,63 @@
+﻿{
+  "objectName" : "outpostfridge",
+  "colonyTags" : ["outpost","cooking","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "Un frigo. Il est rempli de gourmandises.",
+  "shortdescription" : "Frigo d'Avant-Poste",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+  "lightColor" : [19, 27, 31],
+
+  "apexDescription" : "Un frigo. Espérons qu'il y ai des gourmandises.",
+  "avianDescription" : "Qu'y a-t-il a l'intérieur?",
+  "floranDescription" : "Froid!",
+  "glitchDescription" : "Alarmer. Ce réfrigérateur sent insalubre.",
+  "humanDescription" : "Un frigo. Je me demande si il ya des oeufs dans ici?",
+  "hylotlDescription" : "Un dispositif de refroidissement alimentaire.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "outpostfridge.png:<color>", "fullbright" : true }, { "image" : "outpostfridgelit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "outpostfridge.png:<color>", "fullbright" : true }, { "image" : "outpostfridgelit.png:<color>" } ],
+      "direction" : "right",
+      
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+
+}

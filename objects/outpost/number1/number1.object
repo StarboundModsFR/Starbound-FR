@@ -1,0 +1,33 @@
+{
+  "objectName" : "number1",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "Un numéro.",
+  "shortdescription" : "Un",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "Un.",
+  "avianDescription" : "Un.",
+  "floranDescription" : "Un-Pointu.",
+  "glitchDescription" : "Neutre. Un.",
+  "humanDescription" : "One.",
+  "hylotlDescription" : "One.",
+  "novakidDescription" : "A one.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "number1.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

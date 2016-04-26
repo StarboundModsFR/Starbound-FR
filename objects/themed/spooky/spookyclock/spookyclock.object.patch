@@ -1,0 +1,47 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/description",
+        "value": "Une vieille horloge de grand-père, surmonté d'une chauve-souris."
+},
+  {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Pendule Effrayante"
+},
+  {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Je préfère les horloges numériques - Le tic-tac ne tire pas attention."
+},
+  {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Cette horloge semble être coincé à un certain moment ..."
+},  
+  {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran comme chaive-sssouris. Je ne sais pas ce qui reste."
+},
+  {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Impressionné. Le dispositif utilise des rouages d'un ancien temps."
+},
+  {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Vous savez, obtenir une montre serait moins cher que cela."
+},
+  {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Le but est de faire peur ? Échoué."
+},
+  {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Cette ancien 'garde-temps' me donne des frissons."
+}
+]

@@ -1,0 +1,43 @@
+{
+  "commandName" : "whoareyou",
+  "icon" : "question.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "whoareyou"
+    },
+    { 
+      "action" : "EnableCommand",
+      "command" : "enableTeleporter"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Qui êtes-Vous ?",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> J'admire votre curiosité, Chef.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ sail version -plainspeech
+^cyan;> Je suis le S.A.I.L. Le réseau d'intelligence artificielle du vaisseau.
+> Je gère la maintenance et l'entretien du vaisseau.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

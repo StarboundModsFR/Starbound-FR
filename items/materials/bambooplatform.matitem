@@ -1,0 +1,13 @@
+{
+  "itemName" : "bambooplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "bambooplatformicon.png",
+  "description" : "Quel charme construit des platess-formes de bamboo.",
+  "shortdescription" : "Plateforme en Bamboo",
+  "glitchdescription" : "Déclaration. Une plateforme en Bamboo.",
+  "florandescription" : "Plafeffformess.",
+
+  "materialId" : 118
+}

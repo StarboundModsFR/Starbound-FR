@@ -1,0 +1,19 @@
+﻿{
+  "itemName" : "saxophone",
+  "price" : 1000,
+  "inventoryIcon" : "saxophoneicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un saxophone. Car quand vous avez le blues spatial.",
+  "shortdescription" : "Saxophone",
+  "largeImage" : "saxophone.png",
+  "image" : "saxophone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "saxophone.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "saxophone"
+}

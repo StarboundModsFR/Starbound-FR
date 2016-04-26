@@ -1,0 +1,10 @@
+{
+  "codexId" : "townfriends",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_05.png",
+  "itemName" : "townfriendsCodex",
+  "rarity" : "common",
+  "description" : "Amis jusqu'au bout",
+  "shortdescription" : "Amis jusqu'au bout"
+}

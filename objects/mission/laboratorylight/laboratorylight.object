@@ -1,0 +1,47 @@
+﻿{
+  "objectName" : "laboratorylight",
+  "colonyTags" : ["apex","light","apexmission1"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 85,
+  "description" : "Une lampe de mur élégant.",
+  "shortdescription" : "Lumière de Laboratoire",
+  "race" : "apex",
+
+  "apexDescription" : "Cette lampe Miniknog est faite pour fonctionner, même à faible puissance.",
+  "avianDescription" : "Cette lampe est illuminé.",
+  "floranDescription" : "La lumière rend Floran en découdre.",
+  "glitchDescription" : "Impressionné. Ceci est une très grande lampe rouge.",
+  "humanDescription" : "Cette lampe dégage une chaude lueur rouge. Il est un peu désagréable.",
+  "hylotlDescription" : "Celui-ci utilise la lumière ",
+
+  "lightColor" : [185, 0, 0],
+
+  "inventoryIcon" : "laboratorylighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "laboratorylight.png:<color>.<frame>", "fullbright" : true }, { "image" : "laboratorylightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "laboratorylight.png",
+    "fg" : "laboratorylightlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg"
+
+}

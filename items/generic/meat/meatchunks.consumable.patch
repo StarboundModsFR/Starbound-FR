@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Des morceaux de viande pulvérisés. Un peu trop cuit."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Morceaux de Viande"
+}
+]

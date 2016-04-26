@@ -1,0 +1,18 @@
+﻿{
+  "itemName" : "titaniumbar",
+  "price" : 80,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "titaniumbar.png",
+  "description" : "C'est un lingot de titane. Utile pour l'artisanat des armes avancées, armures et plus!",
+  "shortdescription" : "Lingot de Titane",
+
+  "learnBlueprintsOnPickup" : [
+    "tier3bed",
+    "tier3chair",
+    "tier3door",
+    "tier3light",
+    "tier3switch",
+    "tier3table",
+    "titaniumbow"
+  ]
+}

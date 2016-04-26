@@ -1,0 +1,12 @@
+{
+  "itemName" : "silverblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "silverblock.png",
+  "description" : "Un bloc entier fait d'argent.",
+  "shortdescription" : "Bloc d'argent",
+  "glitchdescription" : "Déclaration. Un bloc d'argent.",
+  "florandescription" : "Argentssss.",
+
+  "materialId" : 34
+}

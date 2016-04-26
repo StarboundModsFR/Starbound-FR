@@ -1,0 +1,65 @@
+﻿{
+  "objectName" : "islandlamp",
+  "colonyTags" : ["island","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 100,
+  "description" : "Cette lampe en verre dégage une lueur chaude.",
+  "shortdescription" : "Lampe d'Île",
+  "race" : "generic",
+
+  "lightColor" : [179, 149, 89],
+  "lightPosition" : [0, -1],
+
+  "apexDescription" : "Cette lampe a aussi un parfum d'herbe. Je me demande si elle est intentionnelle.",
+  "avianDescription" : "Cette lampe est comme un petit soleil en verre. J'aime ça.",
+  "floranDescription" : "Floran aime les lampes à feuilles.",
+  "glitchDescription" : "Calme. Cette lumière m'endort.",
+  "humanDescription" : "Cette lampe est parfumée?",
+  "hylotlDescription" : "Je peux aprecier le verlisse avec la lumière.",
+  "novakidDescription":  "Je peux apporter à la lueur de la lampe une étoile.",
+
+  "inventoryIcon" : "islandlampicon.png",
+  "orientations" : [
+    {
+      "image" : "islandlamp.png:<color>.<frame>",
+      "imagePosition" : [-8, -16],
+      "animationPosition" : [-8, -16],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 1] ]
+    },
+    {
+      "image" : "islandlamp.png:<color>.<frame>",
+      "imagePosition" : [-8, -16],
+      "animationPosition" : [-8, -16],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 1] ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "islandlamp.png",
+    "fg" : "islandlamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inboundNodes" : [ [0, 0] ]
+}

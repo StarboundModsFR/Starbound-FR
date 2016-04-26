@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "mirror",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "mirror.png",
+  "description" : "A non-functioning mirror block.",
+  "shortdescription" : "Bloc Mirroir",
+  "glitchdescription" : "Déclaration. Un bloc brillant, réfléchissant.",
+  "florandescription" : "Brillant.",
+
+  "materialId" : 24
+}

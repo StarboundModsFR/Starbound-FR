@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "bunkertv2",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "Un ensemble de trois écrans mises dans des directions différentes.'",
+  "shortdescription" : "Écrans de Télévision USCM",
+  "race" : "human",
+
+  "apexDescription" : "Une série de moniteurs. Ils ne disent rien d'intéressant.",
+  "avianDescription" : "Un certain nombre d'écrans.",
+  "floranDescription" : "Écransss.",
+  "glitchDescription" : "Ennuyé. Quelques écrans.",
+  "humanDescription" : "Écrans. Ils ne semblent pas afficher quoi que ce soit.",
+  "hylotlDescription" : "Il y a plusieurs écrans.",
+
+  "inventoryIcon" : "bunkertv2icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkertv2.png:<color>",
+
+      "imagePosition" : [-24, -10],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, 1], [-1, 1], [0, 1], [1, 1] ]
+    },
+
+    {
+      "image" : "bunkertv2.png:<color>",
+
+      "imagePosition" : [-24, -10],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "copperbar",
+  "price" : 20,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperbar.png",
+  "description" : "C'est un lingot de cuivre.",
+  "shortdescription" : "Lingot de Cuivre"
+}

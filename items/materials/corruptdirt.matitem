@@ -1,0 +1,11 @@
+﻿{
+  "itemName" : "corruptdirtmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "corruptdirt.png",
+  "description" : "Ick. Terre Corrompu.",
+  "shortdescription" : "Bloc de Terre Corrompu",
+  "glitchdescription" : "Déclaration. Corrupted dirt.",
+  "florandescription" : "Terre Malade.",
+  "materialId" : 145
+}

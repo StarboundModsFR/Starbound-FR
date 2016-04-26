@@ -1,0 +1,34 @@
+﻿{
+  "objectName" : "marsmodel",
+  "colonyTags" : ["astronaut"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 35,
+  "description" : "Un modèle détaillé de la planète rouge du système solaire, Mars.",
+  "shortdescription" : "Modèle de Mars",
+  "race" : "generic",
+
+  
+  "apexDescription" : "Mars est la quatrième planète solaire du système solaire. Il a été modifié pour y habiter.",
+  "avianDescription" : "Mars est nommé d'après un ancien dieu de la terre et de la guerre. Elle est également apellé 'Planète Rouge'.",
+  "floranDescription" : "Marsss avait une Académie Protectorat Terrienne, Ccc'est l'autre maison après que la Terre fut détruite...",
+  "glitchDescription" : "Tristesse. Mars était une maison à plusieurs milliers d'habitants. Je me demande comment ils sont partis.",
+  "humanDescription" : "Mars avait plusieurs colonies et des miliers de personnes. Il a été utilisé à cause de la destruction de la Terre...",
+  "hylotlDescription" : "Mars était dans le milieu de la terraformation majeure lorsque la terre a été détruite...",
+  "novakidDescription":  "Mars avait une colonie de vagabonds Novakid. Je me demande si ils sont toujours là...",
+  
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "marsmodel.png:<color>",
+      "imagePosition" : [0, -24],
+      
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, -1], [0, -2], [0, -3] ],
+      "fgAnchors" : [ [0, 1] ]
+    }
+  ]
+}

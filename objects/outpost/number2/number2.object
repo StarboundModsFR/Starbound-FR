@@ -1,0 +1,33 @@
+{
+  "objectName" : "number2",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "Deux marqueurs.",
+  "shortdescription" : "Deux",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "Deux.",
+  "avianDescription" : "Deux.",
+  "floranDescription" : "Deux Sssineux.",
+  "glitchDescription" : "Neutre. Deux.",
+  "humanDescription" : "Un nombre deux. Hehe.",
+  "hylotlDescription" : "Deux.",
+  "novakidDescription" : "Deux.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "number2.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

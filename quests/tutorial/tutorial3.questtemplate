@@ -1,0 +1,23 @@
+﻿{
+  "id" : "tutorial3.gearup",
+  "title" : "^yellow;Tutoriel III: Préparez-vous",
+  "text" : "Les ^orange;Fibres de plantes^white; peuvent-être utilisé pour faire des ^orange;bandages ^white;au cas ou je me blesse . Je devrai ^green;detruire des vignes pour avoir des ^orange;fibres de plantes ^green;et le transformer en ^orange;bandage^white; avec les mains. Mieux prévenir que guérir.",
+  "completionText" : "Cela n'as pas été trop mauvais. Je pouvais faire toutes sortes de choses à partir de ^orange;fibres de plantes^white;, avec des ^orange;cordes^white; pour faire du ^orange;tissu^white;.",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial4.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "bandage" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Toute une pizza! Allez-vous tout...manger ?"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Pizza"
+}
+]

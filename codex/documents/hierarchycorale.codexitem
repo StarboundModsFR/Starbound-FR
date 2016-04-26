@@ -1,0 +1,10 @@
+{
+  "codexId" : "hierarchycorale",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_08.png",
+  "itemName" : "hierarchycoraleCodex",
+  "rarity" : "common",
+  "description" : "Hiérarchie Glitch.",
+  "shortdescription" : "Hiérarchie Glitch"
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "La meilleure raison de fissurer une noix de coco. Le goût est incroyable."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lait de Coco"
+}
+]

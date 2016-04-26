@@ -1,0 +1,12 @@
+{
+  "itemName" : "neonblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "neonblockicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Un néon",
+  "shortdescription" : "Bloc de Neon",
+  "glitchdescription" : "Déclaration. Un bloc de néon lumineux.",
+  "florandescription" : "Bloc lumineux.",
+
+  "materialId" : 151
+}

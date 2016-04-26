@@ -1,0 +1,18 @@
+{
+  "itemName" : "bones",
+  "price" : 1000,
+  "inventoryIcon" : "bonexylophoneicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un xylophone en os. Pour créer un son de tueur.",
+  "shortdescription" : "Xylophone en os de Floran",
+  "largeImage" : "bonexylophone.png",
+  "image" : "bonexylophone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "bonexylophone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "bones"
+}

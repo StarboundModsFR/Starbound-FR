@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "yarnspinner",
+  "colonyTags" : ["crafting"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Une machine pour faire des vétements!",
+  "shortdescription" : "^orange;Machine à Coudre^white;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/spinningwheel.config",
+    "filter" : [ "spinningwheel" ]
+  },
+  "category" : "crafting",
+  "price" : 50,
+
+  "apexDescription" : "Un rouet. Un outil pour les tailleurs.",
+  "avianDescription" : "Un outil pour les discussions de travail.",
+  "floranDescription" : "Floran aime les roues de rotation et aime le travail.",
+  "glitchDescription" : "Observateur. Un outil de couture.",
+  "humanDescription" : "Un rouet en bois. Démodé.",
+  "hylotlDescription" : "Hylotl considère que la machine à coudre est une forme d'art",
+  "novakidDescription" : "Peut-être que je devrai me faire une nouvelle chemise.",
+
+  "inventoryIcon" : "yarnspinnericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "yarnspinner.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

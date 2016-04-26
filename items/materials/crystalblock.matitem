@@ -1,0 +1,12 @@
+{
+  "itemName" : "crystalblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Un bloc bleu brillant fait de cristaux.",
+  "shortdescription" : "Bloc de Cristal",
+  "glitchdescription" : "Analyse... Ce bloc est fait de cristaux",
+  "florandescription" : "Bloc Brillant.",
+
+  "materialId" : 164
+}

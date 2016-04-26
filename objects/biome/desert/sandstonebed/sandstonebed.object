@@ -1,0 +1,47 @@
+﻿{
+  "objectName" : "sandstonebed",
+  "colonyTags" : ["sandstone"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Un lit de grès. Assurez-vous de l'époussetez avant l'utilisation.",
+  "shortdescription" : "Lit en Grès",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "Un lit de grès rugueux. Assez confortable avec le bon matelas.",
+  "avianDescription" : "Un lit de grès rugueux.",
+  "floranDescription" : "Floran dort dans un lit de grès.",
+  "glitchDescription" : "Observateur. Rebondissant sur ce lit juste au bon angle causerait le grès à se désagréger.",
+  "humanDescription" : "Ce lit semble digne d'un pharaon.",
+  "hylotlDescription" : "Ha, un lit sablonneux rugueux. Pas un endroit de repos idéal.",
+  "novakidDescription" : "Je ne me sens pas à l'aise. En fait, je préfère dormir sur le sol à côté de lui.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/desert/sandstonebed/sandstonebedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "sandstonebedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sandstonebed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

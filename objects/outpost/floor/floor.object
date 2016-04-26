@@ -1,0 +1,33 @@
+{
+  "objectName" : "floor",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "Floor marker.",
+  "shortdescription" : "Floor",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "Floor sign.",
+  "avianDescription" : "A floor sign.",
+  "floranDescription" : "Floory sssign.",
+  "glitchDescription" : "Statement. Floor sign.",
+  "humanDescription" : "A floor sign.",
+  "hylotlDescription" : "A floor sign.",
+  "novakidDescription" : "It's a floor sign! Whoopie!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "floor.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

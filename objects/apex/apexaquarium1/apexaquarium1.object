@@ -1,0 +1,37 @@
+﻿{
+  "objectName" : "apexaquarium1",
+  "colonyTags" : ["apex","apexvillage","pretty","nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "Regarde! Des poissons!",
+  "shortdescription" : "Aquarium en Bois",
+  "race" : "apex",
+
+  "apexDescription" : "Retour à la maison. J'avais un amis poisson vert mais il n'a spas duré longtemps.",
+  "avianDescription" : "Cette créature traverse l'eau alors que nous pouvons venir sur ts.",
+  "floranDescription" : "Hooo, un casse croûte.",
+  "glitchDescription" : "Apathique. Cette forme de vie est piégé.",
+  "humanDescription" : "Cela me rappelle du mobilier antique humain.",
+  "hylotlDescription" : "Un jour, je vais vous libérer, frère.",
+  "novakidDescription" : "Un seul poisson. Peut-être qu'il a besoin d'un ami?",
+
+  "inventoryIcon" : "apexaquarium1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexaquarium1.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/aquarium1.ogg"
+
+}

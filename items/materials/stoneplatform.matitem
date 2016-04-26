@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "stoneplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "stoneplatform.png",
+  "description" : "Une plateforme de pierre naturelle.",
+  "shortdescription" : "Plateforme en Pierre",
+  "glitchdescription" : "Déclaration. Une plateforme de pierre naturelle.",
+  "florandescription" : "Pierre pour sse tenir.",
+
+  "materialId" : 125
+}

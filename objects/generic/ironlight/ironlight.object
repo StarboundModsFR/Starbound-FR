@@ -1,0 +1,35 @@
+﻿{
+  "objectName" : "ironlight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+
+  "description" : "Est-ce une lumière , ou est-ce un sabre ? Peut-être les deux.",
+  "shortdescription" : "Lumière en Fer",
+  "race" : "generic",
+
+  "apexDescription" : "Une épée inhabituelle qui émet de la lumière.",
+  "avianDescription" : "Étrange. Cette épée sert comme une lumière , pas une arme.",
+  "floranDescription" : "Vive lumière qui coupe l'ombre. Floran énervé.",
+  "glitchDescription" : "Pratique. Cette lumière pourrait servir comme une torche et une arme.",
+  "humanDescription" : "Une épée qui s'allume. Je possédais des choses semblables...",
+  "hylotlDescription" : "Une arme reproposai l'éclairage . j'approuve.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [247, 231, 178],
+
+  "inventoryIcon" : "ironlighticon.png",
+  "orientations" : [
+
+    {
+      "image" : "ironlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ]
+}

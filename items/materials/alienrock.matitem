@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "alienrock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "alienrock.png",
+  "description" : "Cette étrange roche viens d'un monde Alien.",
+  "shortdescription" : "Roche Alien",
+  "glitchdescription" : "Analysé. Cette roche est d'origine alien.",
+  "florandescription" : "Floran aime cccette roche.",
+  "novakiddescription" : "Cette roche est d'origine alien.",
+
+  "materialId" : 143
+}

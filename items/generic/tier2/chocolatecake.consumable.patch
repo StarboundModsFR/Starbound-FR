@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un gâteau au chocolat ! Avec d'autres ingrédients."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Gâteau au Chocolat"
+}
+]

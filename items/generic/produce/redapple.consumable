@@ -1,0 +1,19 @@
+﻿{
+  "itemName" : "redapple",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "redapple.png",
+  "description" : "Une pomme rouge mûre.",
+  "shortdescription" : "Pomme Rouge",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "candyapple" ]
+}

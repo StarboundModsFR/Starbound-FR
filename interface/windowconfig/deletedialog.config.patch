@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/areYouSure/value",
+        "value": "Êtes-vous sur de supprimer ce personnage ?"
+},
+{
+        "op": "replace",
+        "path": "/delete/caption",
+        "value": "SUPPRIMER"
+},
+{
+        "op": "replace",
+        "path": "/cancel/caption",
+        "value": "ANNULER"
+}
+]

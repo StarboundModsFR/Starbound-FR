@@ -1,0 +1,7 @@
+﻿{
+  "itemName" : "string",
+  "rarity" : "Common",
+  "inventoryIcon" : "string.png",
+  "description" : "Vous ne savez jamais quand un bout de ficelle pourrait-être utile",
+  "shortdescription" : "Ficelle"
+}

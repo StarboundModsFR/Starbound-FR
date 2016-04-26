@@ -1,0 +1,273 @@
+﻿{
+  "name": "floranmissionstart",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/movement.lua",
+    "/scripts/actions/entities.lua",
+    "/npcs/bmain.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/position.lua",
+    "/scripts/behavior.lua"
+  ],
+  "parameters": {},
+  "root": {
+    "title": "dynamic",
+    "type": "composite",
+    "name": "dynamic",
+    "parameters": {},
+    "children": [
+      {
+        "title": "limiter",
+        "type": "decorator",
+        "name": "limiter",
+        "parameters": {
+          "limit": 1
+        },
+        "child": {
+          "title": "sequence",
+          "type": "composite",
+          "name": "sequence",
+          "parameters": {},
+          "children": [
+            {
+              "title": "parallel",
+              "type": "composite",
+              "name": "parallel",
+              "parameters": {
+                "fail": 1
+              },
+              "children": [
+                {
+                  "title": "selector",
+                  "type": "composite",
+                  "name": "selector",
+                  "parameters": {},
+                  "children": [
+                    {
+                      "title": "faceEntity",
+                      "type": "action",
+                      "name": "faceEntity",
+                      "parameters": {
+                        "entity": "player"
+                      }
+                    },
+                    {
+                      "title": "cooldown",
+                      "type": "decorator",
+                      "name": "cooldown",
+                      "parameters": {
+                        "cooldown": 0.5
+                      },
+                      "child": {
+                        "title": "queryEntity",
+                        "type": "action",
+                        "name": "queryEntity",
+                        "parameters": {
+                          "entityTypes": [
+                            "player"
+                          ],
+                          "range": 10
+                        },
+                        "output": {
+                          "entity": "player"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "sequence",
+                  "type": "composite",
+                  "name": "sequence",
+                  "parameters": {},
+                  "children": [
+                    {
+                      "title": "say",
+                      "type": "action",
+                      "name": "say",
+                      "parameters": {
+                        "content": "Woah, regardez-vous! ça fait longtemps que nous avons vu un étranger ici."
+                      }
+                    },
+                    {
+                      "title": "timer",
+                      "type": "action",
+                      "name": "timer",
+                      "parameters": {
+                        "time": 6
+                      }
+                    },
+                    {
+                      "title": "say",
+                      "type": "action",
+                      "name": "say",
+                      "parameters": {
+                        "content": "Moi? Je suis Nuru. Vous parlez à la plus jeune championne de la chasse. Plutôt cool, hein?"
+                      }
+                    },
+                    {
+                      "title": "timer",
+                      "type": "action",
+                      "name": "timer",
+                      "parameters": {
+                        "time": 6
+                      }
+                    },
+                    {
+                      "title": "say",
+                      "type": "action",
+                      "name": "say",
+                      "parameters": {
+                        "content": "Il est impréssionnant que vous êtes ici et tout. Mais j'espère que vous savez ce que vous faîtes."
+                      }
+                    },
+                    {
+                      "title": "timer",
+                      "type": "action",
+                      "name": "timer",
+                      "parameters": {
+                        "time": 6
+                      }
+                    },
+                    {
+                      "title": "say",
+                      "type": "action",
+                      "name": "say",
+                      "parameters": {
+                        "content": "Floran passent leurs vies entières à apprendre à chasser dans ces tunnels. Beaucoup meurs ici."
+                      }
+                    },
+                    {
+                      "title": "timer",
+                      "type": "action",
+                      "name": "timer",
+                      "parameters": {
+                        "time": 6
+                      }
+                    },
+                    {
+                      "title": "say",
+                      "type": "action",
+                      "name": "say",
+                      "parameters": {
+                        "content": "Bien... Si vous êtes sûrs. Je ferai de mon mieux pour vous aider. Il est agréable de voir du nouveau sang. Voyons si vous le gardez."
+                      }
+                    },
+                    {
+                      "title": "timer",
+                      "type": "action",
+                      "name": "timer",
+                      "parameters": {
+                        "time": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "selector",
+              "type": "composite",
+              "name": "selector",
+              "parameters": {},
+              "children": [
+                {
+                  "title": "move",
+                  "type": "action",
+                  "name": "move",
+                  "parameters": {
+                    "direction": 1
+                  }
+                },
+                {
+                  "title": "sequence",
+                  "type": "composite",
+                  "name": "sequence",
+                  "parameters": {},
+                  "children": [
+                    {
+                      "title": "offsetPosition",
+                      "type": "action",
+                      "name": "offsetPosition",
+                      "parameters": {
+                        "offset": [
+                          0,
+                          -25
+                        ],
+                        "position": "self"
+                      },
+                      "output": {
+                        "position": "switchposition"
+                      }
+                    },
+                    {
+                      "title": "Find switch",
+                      "type": "action",
+                      "name": "findObject",
+                      "parameters": {
+                        "position": "switchposition",
+                        "range": 10,
+                        "name": "medievalswitchlever"
+                      },
+                      "output": {
+                        "entity": "switch"
+                      }
+                    },
+                    {
+                      "title": "Retourner Interrupteur",
+                      "type": "action",
+                      "name": "interactObject",
+                      "parameters": {
+                        "entity": "switch"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "setFlag",
+              "type": "action",
+              "name": "setFlag",
+              "parameters": {
+                "name": "beamout"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "failer",
+        "type": "decorator",
+        "name": "failer",
+        "parameters": {},
+        "child": {
+          "type": "module",
+          "name": "converseseq",
+          "parameters": {}
+        }
+      },
+      {
+        "title": "sequence",
+        "type": "composite",
+        "name": "sequence",
+        "parameters": {},
+        "children": [
+          {
+            "title": "hasFlag",
+            "type": "action",
+            "name": "hasFlag",
+            "parameters": {
+              "name": "beamout"
+            }
+          },
+          {
+            "type": "module",
+            "name": "beamout",
+            "parameters": {}
+          }
+        ]
+      }
+    ]
+  }
+}

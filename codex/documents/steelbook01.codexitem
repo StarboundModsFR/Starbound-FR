@@ -1,0 +1,10 @@
+{
+  "codexId" : "steelbook01",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_09.png",
+  "itemName" : "steelbook01Codex",
+  "rarity" : "common",
+  "description" : "Extrait #1 du Recueil d'Acier",
+  "shortdescription" : "Recueil d'Acier 01"
+}

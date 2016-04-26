@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "C'est un délicieux gâteaux à la carotte. Il est meilleur aparemment"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Cake à la Carotte"
+}
+]

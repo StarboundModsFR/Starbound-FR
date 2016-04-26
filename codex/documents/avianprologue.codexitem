@@ -1,0 +1,9 @@
+{
+  "codexId" : "avianprologue",
+  "title" : "Voyage Avian",
+  "codexkind" : "codex",
+  "itemName" : "avianprologueCodex",
+  "rarity" : "common",
+  "description" : "Un Avian échappe à leur Dieu.",
+  "shortdescription" : "Avian Prologue"
+}

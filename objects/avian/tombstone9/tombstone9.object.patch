@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Les mots honore un Avian déchu"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Tombe Instable"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une tombe instable. Très vieille"
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une tombe standart, il peux donc contenir quelque chose de bon"
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran marque la mort avec une fleur."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Pratiquants. Cette pierre tombale est en train de s'effriter"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une très vieille tombe. Le monde est perdu"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "La mort est un honneur avec ça"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Cette pierre tombale marque la présence de quelqu'un déchu"
+}
+]

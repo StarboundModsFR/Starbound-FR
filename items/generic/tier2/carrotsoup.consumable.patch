@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Crémeux, délicieux, nutritive!"
+},
+{
+        "op": "replace",
+        "path": "/shortDescription",
+        "value": "Soupe à la Carotte"
+}
+]

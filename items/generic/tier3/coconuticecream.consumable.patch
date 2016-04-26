@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Parfait quand vous êtes coincé sur une île tropicale."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Glace de Coco Glacée"
+}
+]

@@ -1,0 +1,9 @@
+{
+  "itemName" : "shieldTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/shield.png",
+  "description" : "Appuyer sur la touche 'F' pour créer un blouclier qui va absorber les dégâts. Durées: 10 seconds. Coût: 250 energies.",
+  "shortdescription" : "Bouclier",
+
+  "techModule" : "shield"
+}

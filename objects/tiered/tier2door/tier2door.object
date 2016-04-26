@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "tier2door",
+  "colonyTags" : ["door","tier2"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 60,
+  "description" : "Une porte basique en acier.",
+  "shortdescription" : "Porte en Acier",
+  "race" : "generic",
+
+  "apexDescription" : "Cette porte est relativement sécurisée.",
+  "avianDescription" : "Assez robuste pour une porte.",
+  "floranDescription" : "Floran cacher derrière la porte. Sortir. Coup de couteau!",
+  "glitchDescription" : "Approuvant. Une porte de base utile.",
+  "humanDescription" : "Une belle porte en acier.",
+  "hylotlDescription" : "Une simple porte en acier.",
+
+  "inventoryIcon" : "tier2dooricon.png",
+  "orientations" : [
+    {
+      "image" : "tier2door.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/wooddoor_open.ogg" ],
+      "close" : [ "/sfx/objects/wooddoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "tier2door.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

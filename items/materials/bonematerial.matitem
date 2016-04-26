@@ -1,0 +1,12 @@
+{
+  "itemName" : "bonematerial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "bonematerial.png",
+  "description" : "Polished bone made into a building material.",
+  "shortdescription" : "Bloc d'os",
+  "glitchdescription" : "Analysé. Cette os est venu d'une énorme créature.",
+  "florandescription" : "Ossss!",
+
+  "materialId" : 129
+}

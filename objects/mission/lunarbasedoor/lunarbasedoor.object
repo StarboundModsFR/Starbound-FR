@@ -1,0 +1,58 @@
+﻿{
+  "objectName" : "lunarbasedoor",
+  "colonyTags" : ["human","lunarbase","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : false,
+  "description" : "Cette porte est étanche et faite avec des matériaux incroyablement forts.",
+  "shortdescription" : "Porte de Base Lunaire",
+  "race" : "apex",
+
+  "apexDescription" : "Cette porte est solide et étanche à l'air.",
+  "avianDescription" : "Une porte qui ouvre à un angle de curieux.",
+  "floranDescription" : "Cette porte sssemble lourde. Floran ne veut pas ssse faire écrasé.",
+  "glitchDescription" : "Intrigué. Comment la porte tient.",
+  "humanDescription" : "Une porte en diagonale qui ne tombe. Technologie Approuvé.",
+  "hylotlDescription" : "Cette porte est inclinée. Peut-être pour nous rappeler à voir les choses sous des angles différents.",
+  "novakidDescription" : "C'est comme une porte normale, mais en diagonale.",
+
+  "inventoryIcon" : "lunarbasedooricon.png",
+  "orientations" : [
+    {
+      "image" : "lunarbasedoor.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "image" : "lunarbasedoor.png:default",
+      "direction" : "right",
+      "imagePosition" : [-40, 0],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "animationPosition" : [-40, 0]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "lunarbasedoor.png"
+  },
+
+  "inboundNodes" : [ [0, 2] ],
+  "outboundNodes" : [ [0, 0] ]
+}

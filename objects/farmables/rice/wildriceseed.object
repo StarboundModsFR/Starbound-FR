@@ -1,0 +1,59 @@
+﻿{
+  "objectName" : "wildriceseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Faites-le bouillir, faites-le frire, jetez-le à une jeune mariée. Riz! Pour tous vos besoins culinaires.",
+  "shortdescription" : "Graine de Riz",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 15,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Riz. Un grand complément à n'importe quel repas.",
+  "avianDescription" : "Le riz, un en-cas délicieux pour picoter.",
+  "floranDescription" : "Floran prépare un assez bon lit de riz.",
+  "glitchDescription" : "Songerie. Un Problème une fois le le riz cru mangé et donc tape comme un instrument à percussion.",
+  "humanDescription" : "Riz. Bon pour quand vous avez faim et voullez manger des milliers de quelque choseg.",
+  "hylotlDescription" : "Riz. Doux, mais utilisable.",
+  "novakidDescription" : "Le riz est bien de temps en temps. Parfait avec du piment!",
+
+  "inventoryIcon" : "riceseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "riceseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "riceHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "riceseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.17
+}

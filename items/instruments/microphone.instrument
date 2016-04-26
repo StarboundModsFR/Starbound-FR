@@ -1,0 +1,19 @@
+{
+  "itemName" : "microphone",
+  "price" : 1000,
+  "inventoryIcon" : "microphone.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un microphone. Faites de votre mieux pour imiter Elvis.",
+  "shortdescription" : "Microphone (Homme)",
+  "largeImage" : "microphone.png",
+  "image" : "microphone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "microphone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0.275],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : false,
+  "kind" : "microphone"
+}

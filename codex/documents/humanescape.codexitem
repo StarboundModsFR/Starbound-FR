@@ -1,0 +1,9 @@
+{
+  "codexId" : "humanescape",
+  "title" : "Évasion Humaine",
+  "codexkind" : "codex",
+  "itemName" : "humanescapeCodex",
+  "rarity" : "common",
+  "description" : "Le problème avec les tentacules.",
+  "shortdescription" : "Évasion Humaine"
+}

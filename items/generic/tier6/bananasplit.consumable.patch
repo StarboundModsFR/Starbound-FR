@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "L'ingrédient secret d'Apex est la banane!"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Banane Split"
+}
+]

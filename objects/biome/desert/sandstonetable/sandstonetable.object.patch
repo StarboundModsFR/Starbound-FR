@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une table en grès. Ne mettez pas d'eau dessus."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Table en Grès"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "Une table de grès. Ma nourriture est granuleuse."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une table abrasive."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran trancher ici."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Neutre. Une table en grès."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une table graveleux"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une table de grès brut."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Une table de grès et vous obtiendrez du sable partout."
+}
+]

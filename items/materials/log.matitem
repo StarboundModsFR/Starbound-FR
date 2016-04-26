@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "logblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "logicon.png",
+  "description" : "Block de rondin",
+  "shortdescription" : "Block de Rondin",
+  "glitchdescription" : "Certifié. Quelques murs de rondin.",
+  "florandescription" : "Floran apprecie les murs en rondin.",
+
+  "materialId" : 357
+}

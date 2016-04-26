@@ -1,0 +1,13 @@
+{
+  "itemName" : "clay",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "clay.png",
+  "description" : "Argile sèche et poussiéreuse.",
+  "shortdescription" : "Argile",
+  "glitchdescription" : "Déclaration. Argile.",
+  "florandescription" : "Argile.",
+
+  "materialId" : 52,
+  "learnBlueprintsOnPickup" : [ "brickmaterial", "rooftiles" ]
+}

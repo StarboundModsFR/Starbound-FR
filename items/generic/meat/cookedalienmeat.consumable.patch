@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "De la délicieuse viande bien cuite."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Steak Grillé"
+}
+]

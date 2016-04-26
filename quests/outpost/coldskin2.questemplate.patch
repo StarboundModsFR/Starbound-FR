@@ -1,0 +1,17 @@
+[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "^orange;C'est l'heure de jouer"
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Je dois savoir ce qu'est cette partie. C'est une partie de Floran bien amusante.."
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "Ce ne fut pas la partie que j'attendais. L'invitation est, en fait, une ancienne tradition de Floran. Le Floran de l'avant-poste doit avoir une meilleur explication pour moi."
+}
+]

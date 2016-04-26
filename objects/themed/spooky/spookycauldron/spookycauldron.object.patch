@@ -1,0 +1,47 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/description",
+        "value": "Un chaudron bouillonnant, assez grand pour que vous puissiez l'adapter à une personne à part entière à l'intérieur."
+},
+  {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Chaudron Effrayant"
+},
+  {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Je pense que c'est une mauvaise idée, mais je me dérangerai pas pour m'asseoir dedans."
+},
+  {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Je me demande si je serai cuit si je m'asseois dedans depuis trop longtemps?"
+},  
+  {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran veut pas être bouillie dans la soupe."
+},
+  {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Interrogation. Combien de temps devrai-je rester dans ce chaudron?"
+},
+  {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "S'asseoir dedans c'est comme ce faire chatouiller?"
+},
+  {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Ça sent bizarre, mais s'asseoir dedans est relaxant."
+},
+  {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Il est trop petit pour en faire une baignoire?"
+}
+]

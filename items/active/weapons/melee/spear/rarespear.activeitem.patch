@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Lance"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lance Rare"
+}
+]

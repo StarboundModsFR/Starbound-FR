@@ -1,0 +1,71 @@
+{
+  "objectName" : "humangenerator",
+  "tags" : ["human","electronic"],
+  "rarity" : "Legendary",
+  "description" : "Un générateur de bouclier, de protection!",
+  "shortdescription" : "Générateur de Bouclier",
+  "race" : "human",
+  "price" : 1000,
+  "lightColor" : [78, 111, 128],
+  "category" : "wire",
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Un générateur de bouclier.",
+  "avianDescription" : "Il génère un bouclier.",
+  "floranDescription" : "Bouclieerrs!",
+  "glitchDescription" : "Conforté. Un générateur de bouclier.",
+  "humanDescription" : "Cela va me garder en sécurité!",
+  "hylotlDescription" : "Un dispositif de protection brut.",
+  "novakidDescription" : "Qui a besoin d'un bouclier de toute façon?",
+
+  "inventoryIcon" : "humangeneratoricon.png",
+  "orientations" : [
+    {
+      "image" : "humangenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "humangenerator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "humangenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.wav" ],
+      "off" : [ "/sfx/objects/apexconsole2switch.wav" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "humangenerator.png",
+    "fg" : "humangeneratorlit.png"
+  },
+  
+  "animationPosition" : [-80, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [0, 2] ]
+}

@@ -1,0 +1,53 @@
+﻿{
+  "objectName" : "fridge",
+  "colonyTags" : ["human","humanvillage","cooking","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 110,
+  "description" : "Ooh, l'heure de la collation.",
+  "shortdescription" : "Frigo",
+  "race" : "human",
+
+  "apexDescription" : "Un frigo. Espérons qu'il contient du milk_shake.",
+  "avianDescription" : "Un frigo. idéalement rempli de boissons et collation.",
+  "floranDescription" : "La viande de Floran.",
+  "glitchDescription" : "Analysé. Ce frigo est à la température optimale.",
+  "humanDescription" : "Je vibre beaucoup a l'éxitation de l'essayer.",
+  "hylotlDescription" : "Sous l'eau, la réfrigération est plus facile. Ces dispositifs sont un remplaçant intelligent.",
+
+  "inventoryIcon" : "fridgeicon.png",
+  "orientations" : [
+    {
+      "image" : "fridgeleft.png:default",
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "fridgeright.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

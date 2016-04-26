@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une tentacule crue. Elle sera peut-être coméstible après l'avoir cuite..."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Tentacule Alien"
+}
+]

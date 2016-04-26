@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "copperwindow",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "copperwindowicon.png",
+  "description" : "Un cadre de la fenêtre en cuivre.",
+  "shortdescription" : "Fenêtre en Cuivre",
+  "glitchDescription" : "Certifié. Une fenêtre en cuivre.",
+  "floranDescription" : "Fenêtres.",
+
+  "materialId" : 1011
+
+}

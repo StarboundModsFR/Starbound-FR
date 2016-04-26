@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "vine",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "vineicon.png",
+  "shortdescription" : "Vigne",
+  "description" : "Une belle vigne. Elles ont l'air fortes.",
+  "glitchdescription" : "Déclaration. Des vignes.",
+  "florandescription" : "Floran aime les vignes.",
+
+  "materialId" : 171
+}

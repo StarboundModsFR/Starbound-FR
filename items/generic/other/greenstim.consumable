@@ -1,0 +1,17 @@
+{
+  "itemName" : "greenstim",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "greenstim.png",
+  "description" : "Un stimpack remplis de liquide verte, donnez un coup de pouce",
+  "shortdescription" : "Stim Pack Vert",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

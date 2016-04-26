@@ -1,0 +1,40 @@
+﻿{
+  "objectName" : "glitchshipdoorBroken",
+  "colonyTags" : ["glitch"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "Une porte. Peut convenir à un vaisseau spatial.",
+  "shortdescription" : "Porte de Vaisseau Glitch",
+  "race" : "glitch",
+
+  "apexDescription" : "Nous utilisons ces portes sur nos vaisseaux.",
+  "avianDescription" : "Une porte.",
+  "floranDescription" : "Porte!",
+  "glitchDescription" : "Déclaration. Une porte.",
+  "humanDescription" : "Porte Fraîche.",
+  "hylotlDescription" : "Une porte basique.",
+  "novakidDescription" : "La porte est cassée, il ne va pas s'ouvrir toute seul.",
+
+  "inventoryIcon" : "glitchshipdoorBrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchshipdoorBroken.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [0, 3], [-1, 4], [0, 4] ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+}

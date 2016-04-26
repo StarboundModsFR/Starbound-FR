@@ -1,0 +1,40 @@
+﻿{
+  "objectName" : "coralmirror",
+  "colonyTags" : ["sea"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "Un miroir mural situé dans un cadre de corail.",
+  "shortdescription" : "Miroir en Corail ",
+  "race" : "generic",
+
+  "apexDescription" : "Le reflet dans ce miroir est flou, comme le regard à travers l'eau.",
+  "avianDescription" : "Le reflet dans ce miroir est flou, comme le regard à travers l'eau.",
+  "floranDescription" : "En regardant dans le miroir est comme être sous l'eau.",
+  "glitchDescription" : "Insatisfait. La qualité de cette réflexion est aussi floue que de regarder dans l'eau.",
+  "humanDescription" : "Le reflet dans ce miroir est flou, comme le regard à travers l'eau.",
+  "hylotlDescription" : "Le reflet dans ce miroir est flou, comme le regard à travers l'eau.",
+  "novakidDescription" : "Le reflet dans ce miroir est flou, comme le regard à travers l'eau.",
+
+  "inventoryIcon" : "coralmirroricon.png",
+  "orientations" : [
+    {
+      "image" : "coralmirror.png:<color>.<frame>",
+      "imagePosition" : [-6, -6],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [-1, -1], [0, -1], [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "coralmirror.png:<color>.<frame>",
+      "imagePosition" : [-6, -6],
+      "direction" : "right",
+
+      "spaces" : [ [0, -1], [1, -1], [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+﻿{
+  "objectName" : "lunarbaselantern",
+  "colonyTags" : ["human","lunarbase","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 45,
+  "printable" : false,
+  "description" : "Ces lanternes électriques génèrent une lumière agréablement chaud",
+  "shortdescription" : "Lanterne de Base Lunaire",
+  "race" : "generic",
+
+  "apexDescription" : "Petite lampe mais efficace.",
+  "avianDescription" : "Une lanterne électrique avec un design simple.",
+  "floranDescription" : "Dispositif brillant pour illuminer le chemin de Floran.",
+  "glitchDescription" : "Reconnaissant. Ces lumières sont splendides.",
+  "humanDescription" : "Une source de lumière vive. Je devrais probablement pas regarder en elle.",
+  "hylotlDescription" : "Une lueur encourageante qui me rappelle de beaux jours.",
+  "novakidDescription" : "C'est une lanterne éléctrique qui ne manque pas de jus.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "lunarbaselanternicon.png",
+  "orientations" : [
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+
+  "animation" : "lunarbaselantern.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "lunarbaselantern.png",
+    "fg" : "lunarbaselanternlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

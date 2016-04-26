@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "dyeremover",
+  "rarity" : "Common",
+  "inventoryIcon" : "dyeremover.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour annuler sa couleur.",
+  "shortdescription" : "Colorant Detachant",
+
+  "dyeColorIndex" : 0
+}

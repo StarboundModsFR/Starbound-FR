@@ -1,0 +1,36 @@
+{
+  "type" : "outpostglitchmechanic",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Vantard. Nous Glitch sommes habitués à réparer des machines plus complexes que les trucs que vous voyez ici."
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Vantard. Nous Glitch sommes habitués à réparer des machines plus complexes que les trucs que vous voyez ici."
+          ],
+          "glitch" : [
+            "Sympathique. Vous devriez venir saisir peu d'huile avec moi plus tard."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier5ahead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "apextier5apants", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

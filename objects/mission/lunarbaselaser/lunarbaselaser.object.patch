@@ -1,0 +1,52 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/description",
+        "value": "Un laser fait pour creuser la pierre lunaire."
+},
+  {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Laser Lunaire"
+},
+  {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Je me demande si je peux activer ce canon laser à proximité ..."
+},
+  {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Cela semble être un grand canon de métal de toutes sortes."
+},
+  {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Cette arme géante est utile!"
+},
+  {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Observateur. Ce grand canon laser peut être activé ici."
+},
+  {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Casiers pour l'organisation de vos items."
+},
+  {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Cela semble être un canon laser."
+},
+  {
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Cette arme géante peut-être activé ici."
+},
+  {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Cette arme géante peut-être activé ici."
+}
+]

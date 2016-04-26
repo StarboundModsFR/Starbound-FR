@@ -1,0 +1,22 @@
+{
+  "materialId" : 1392,
+  "materialName" : "silverplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "silverplatform",
+  "shortdescription" : "Plateforme en Argent",
+  "description" : "Une plateforme en argent.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "silverplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

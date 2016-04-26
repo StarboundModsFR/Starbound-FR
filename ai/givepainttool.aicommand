@@ -1,0 +1,49 @@
+﻿{
+  "commandName" : "givePainttool",
+  "onlyOnce" : true,
+  "icon" : "painttool.png",
+  "actions" : [
+     { 
+      "action" : "GivePlayerItems",
+      "items" : [ "painttool", 1],
+      "essentialItem" : "painttool"
+    },       
+    { 
+      "action" : "PlayCinematic",
+      "cinematicConfig" : "/cinematics/painttool.cinematic"
+    },
+    { 
+      "action" : "DisableCommand",
+      "command" : "givePainttool"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Activer Mode Peinture",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> Le mode peinture vous permet de colorer beaucoup de blocs avec de différentes couleurs. Je peux l'activer pour vous.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ mmpaint -enable
+> ^cyan;> J'ai activé le mode peinture. 
+> > ^green; Il vous permet de peindre (avec votre Manipulateur de matières) des blocs de couleurs différentes.",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+				}
+			]
+		}		
+	}
+}

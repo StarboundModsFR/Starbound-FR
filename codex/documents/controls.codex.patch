@@ -1,0 +1,38 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/contentPages",
+        "value": [
+		
+"^orange;Mouvement - WASD^white;
+Sauter - ^green;[Space]^white;
+Interagir - ^green;[E]/[Roulette]^white; 
+Mettre un objet en premier plan - ^green;[Clique Gauche]^white; mouse click
+Mettre un objet en deuxième plan - ^green;[Clique Droit]^white;
+Attaquer (avec arme équippé) - ^green;[Left]/[Right]^white; mouse click
+Séléctionnez un seul bloc - ^green;[Shift]^white;",
+
+"^orange;Raccourcis Clavier^white;
+Menu de Fabrication  - ^green;[C]^white;
+Journal de Quêtes - ^green;[J]^white;
+Livres - ^green;[L]^white;
+Inspecter - ^green;[N]^white;
+Options/Quitter - ^green;[Esc]^white;
+^orange;Continued on next page...^white;",
+
+"^orange;Raccourcis (suite):^white;
+Lancer un Item - ^green;[Q]^white;
+Ne plus rien séléctionner - ^green;[X]^white;
+Changer les Items de G/D  - ^green;[Z]^white;
+Tenir un objet avec - ^green;[0-9]^white; ou ^green;[Roulette + Shift]^white;
+Quick Move Item - ^green;[Shift + Click]^white;
+Split Item Stack - ^green;[Right]^white; mouse click" 
+
+]
+}, 
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "Contrôlez-Vous"
+}
+]

@@ -1,0 +1,32 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/subtitle",
+        "value": "^#b9b5b2;Votre inventaire et Équipements"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labelappearance/value",
+        "value": "APPARENCE"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labelarmor/value",
+        "value": "ARMURE"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labelstats/value",
+        "value": "STATS"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labelpets/value",
+        "value": "ANIMAUX"
+},
+{
+        "op": "replace",
+        "path": "/paneLayout/labeltech/value",
+        "value": "TECH"
+}
+]

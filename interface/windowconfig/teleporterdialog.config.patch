@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/windowtitle/title",
+        "value": "Téléporteur"
+},
+{
+        "op": "replace",
+        "path": "/windowtitle/subtitle",
+        "value": "Choisir une destination"
+}
+]

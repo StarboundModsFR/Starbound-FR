@@ -1,0 +1,17 @@
+{
+  "itemName" : "yellowflashlight",
+  "price" : 100,
+  "inventoryIcon" : "yellowflashlighticon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "Une lampe torche jaune! N'ayez pas peur.",
+  "shortdescription" : "Lampe Torche",
+  "largeImage" : "yellowflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "yellowflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 255, 0],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

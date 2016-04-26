@@ -1,0 +1,47 @@
+[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un stand d'amure brillant"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Éxposition d'Armure"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Une très belle série d'armure"
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Cela ressemble à une armure de combat"
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Les hommes portent ccces armures là."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Indifférent. Ce blindage est construit uniquement à des fins de décoration. Cette armure est beaucoup plus forte en combat."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Une armure attrayante"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Ce blindage est comme s'il n'a jamais vu la bataille"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Il semble inutile de porter cette armure pour 80 coups"
+}
+]

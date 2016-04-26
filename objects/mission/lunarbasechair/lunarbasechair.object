@@ -1,0 +1,50 @@
+﻿{
+  "objectName" : "lunarbasechair",
+  "colonyTags" : ["human","lunarbase"],
+  "rarity" : "Common",
+  "description" : "Une chaise étonnamment confortable.",
+  "shortdescription" : "Chaise de Base Lunaire",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 60,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+
+  "apexDescription" : "Une jolie chaise.",
+  "avianDescription" : "Une chaise relaxante.",
+  "floranDescription" : "Chaise Douccce.",
+  "glitchDescription" : "Certifié. Une chaise confortable.",
+  "humanDescription" : "Une belle chaise confortable.",
+  "hylotlDescription" : "Une chaise passable.",
+  "novakidDescription" : "Ceci est relax.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "lunarbasechair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "sitPosition" : [2.5, 22.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "lunarbasechair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      
+      "sitPosition" : [2.5, 22.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

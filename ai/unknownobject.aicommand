@@ -1,0 +1,39 @@
+{
+  "commandName" : "unknownobject",
+  "icon" : "question.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "unknownobject"
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Objet Inconnu?",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "> Vous avez une question, protecteur ?",
+          "speedModifier" : 0.7
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ scanner -report
+^cyan;> Les capteurs du navire indiquent la présence d'un objet qui génère de grandes quantités de puissance dans ce système solaire.
+> Je peux imaginer que la structure est vraiment ancienne",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿{
+  "itemName" : "harpoongun",
+  "price" : 0,
+  "inventoryIcon" : "harpoongunicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "L'arme de choix pour les chasseurs de l'océan.",
+  "shortdescription" : "Fusils à Harpon",
+  "image" : "harpoongunfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-6, -0.5],
+  "firePosition" : [20, 1.5],
+  "level" : 3,
+  "tooltipKind" : "bow",
+  "weaponType" : "Fusils à Harpon",
+  "itemTags" : ["weapon","ranged"],
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "harpoon",
+  "powerProjectileType" : "chargedharpoon",
+  "powerProjectileTime" : [0.9, 60],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 4,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/crossbow1.ogg" } ]
+  }
+}

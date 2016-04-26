@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Cet emblème commémore le premier vol vers les étoiles des Avians."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Emblème de Lune Avian"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un oiseau et un croissant de lune."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Cette objet notre premier voyage dans l'espace. Avians croient que dans l'au-delà, ils volaient librement parmi les étoiles sur de vastes ailes à plumes."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Les Hommes-Oissseaux aime ccca?"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Intrigué. Un emblème. représentant peut-être un événement historique aviaire"
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Est-ce les Avians parmi les étoiles?"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Nous rêvons tous d'une telle liberté. Pour étendre ses ailes et planer"
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un emblème représentant la Lune. J'ai eu ma juste part de belles fois sous la lune moi"
+}
+]

@@ -1,0 +1,33 @@
+{
+  "objectName" : "alpacaruinrune",
+  "tags" : ["alpaca"],
+  "rarity" : "Common",
+  "description" : "Une ancienne rune des Alpaca, symbole des ruines.",
+  "shortdescription" : "Rune Alpaca Antique",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "C'est une ancienne rune qui me fais penser à des ruines.",
+  "avianDescription" : "Une ancienne rune similaire à certains des nôtres, celui-ci est la rune.",
+  "floranDescription" : "Une ancccciennne rune...Impossible de la maner...",
+  "glitchDescription" : "Certifié. Seul les Alpaca connaissent.",
+  "humanDescription" : "Ceci est une ancienne rune qui signifie les ruines... Il me semble familier",
+  "hylotlDescription" : "Une rune qui signifie la ruine qui se propage parmis les étoiles des Hylotl.",
+  "novakidDescription" : "Une ancienne rune qui siginie les ruines de nos étoiles ?!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacaruinrune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

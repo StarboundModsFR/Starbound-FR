@@ -1,0 +1,29 @@
+﻿{
+  "itemName" : "watergun",
+  "price" : 0,
+  "inventoryIcon" : "watergun.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Ce pistolet tire de l'eau!",
+  "shortdescription" : "Pistolet à Eau",
+  "image" : "watergun.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [11, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Pistolet à Eau",
+  "fireTime" : 0.33,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "squirt",
+  "projectile" : {
+    "power" : 0,
+    "speed" : 40
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast1.ogg" }, { "file" : "/sfx/gun/pumpgun_blast2.ogg" }, { "file" : "/sfx/gun/pumpgun_blast3.ogg" } ]
+  }
+}

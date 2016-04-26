@@ -1,0 +1,10 @@
+{
+  "codexId" : "clippedcouncil",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_03.png",
+  "itemName" : "clippedcouncilCodex",
+  "rarity" : "common",
+  "description" : "Les notes du Conseil clippé",
+  "shortdescription" : "Conseil clippé"
+}

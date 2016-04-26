@@ -1,0 +1,10 @@
+﻿{
+  "codexId" : "tombdiary05",
+  "title" : "Matériel de Lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_06.png",
+  "itemName" : "tombdiary05Codex",
+  "rarity" : "common",
+  "description" : "Journal de Tomb Keeper #5",
+  "shortdescription" : "Journal de Tomb Keeper #5"
+}

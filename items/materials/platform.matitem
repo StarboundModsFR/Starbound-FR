@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "platform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "platform.png",
+  "description" : "Une plate-forme en bois indéfinissable.",
+  "shortdescription" : "Plateforme en Bois",
+  "glitchdescription" : "Statement. A wooden platform.",
+  "florandescription" : "Platformsesss.",
+
+  "materialId" : 39
+}

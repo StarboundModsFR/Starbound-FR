@@ -1,0 +1,10 @@
+{
+  "codexId" : "townsilly",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_13.png",
+  "itemName" : "townsillyCodex",
+  "rarity" : "common",
+  "description" : "Le ridicule Miniknog",
+  "shortdescription" : "Ridicule Miniknog"
+}

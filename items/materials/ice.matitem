@@ -1,0 +1,12 @@
+{
+  "itemName" : "ice",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "ice.png",
+  "shortdescription" : "Glace",
+  "description" : "Glace solide, picotement au toucher.",
+  "glitchdescription" : "Déclaration. Froid, glacée.",
+  "florandescription" : "Glace. Doux au toucher.",
+
+  "materialId" : 32
+}

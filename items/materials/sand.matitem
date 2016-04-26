@@ -1,0 +1,12 @@
+{
+  "itemName" : "sand",
+  "price": 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sand.png",
+  "description" : "Un sable étincelant bien. Pourrait probablement être fait dans le verre!",
+  "shortdescription" : "Sable Fin",
+  "glitchdescription" : "Déclaration. Sable.",
+  "florandescription" : "Sssable.",
+
+  "materialId" : 21
+}

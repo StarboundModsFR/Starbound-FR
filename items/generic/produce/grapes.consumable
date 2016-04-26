@@ -1,0 +1,23 @@
+﻿{
+  "itemName" : "grapes",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "grapesicon.png",
+  "description" : "Raisin, un aliment à croquer.",
+  "shortdescription" : "Raison",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 90
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "grapejuice" ]
+}

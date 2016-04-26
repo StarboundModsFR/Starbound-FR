@@ -1,0 +1,54 @@
+﻿{
+  "objectName" : "bananaseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Bananes génetiquement modifiés. Ils ont plus de fruits.",
+  "shortdescription" : "Graine de Banane",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 30,
+
+  "apexDescription" : "Le plus délicieux de tout les fruits. Avec la liberté de posséder une plantation comme dans ces rêves.",
+  "avianDescription" : "Ces bananes ont un goût inhabituel.",
+  "floranDescription" : "Sssont adoré par les hommes singes.",
+  "glitchDescription" : "Cynique. Les Apex aiment ca, mais le Glitch ne voit rien de spécial.",
+  "humanDescription" : "C'est une banane, mais je l'ai mois.",
+  "hylotlDescription" : "Une banane modifié, conçu pour les papilles.",
+  "novakidDescription" : "Bananes génétiquement améliorés sont les meilleures bananes.",
+
+  "inventoryIcon" : "bananaseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bananaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4], [1, 5], [0, 5] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bananaHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.084
+}

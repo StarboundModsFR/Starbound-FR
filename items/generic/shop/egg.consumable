@@ -1,0 +1,19 @@
+{
+  "itemName" : "egg",
+  "rarity" : "Common",
+  "price" : 15,
+  "inventoryIcon" : "egg.png",
+  "description" : "C'est un oeuf!",
+  "shortdescription" : "Oeuf",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "pearlpeapancakes", "fluffyruffs" ]
+}

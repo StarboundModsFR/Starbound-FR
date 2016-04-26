@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "modernchair",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "description" : "Une chaise contemporaine.",
+  "shortdescription" : "Chaise Moderne",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 55,
+
+  "apexDescription" : "Une chaise douce.",
+  "avianDescription" : "Un coquetier géant.",
+  "floranDescription" : "Chaisse ronde ridicule.",
+  "glitchDescription" : "Satisfait. Conçu pour un confort maximum.",
+  "humanDescription" : "Cette chaise tasses mes fesses joliment.",
+  "hylotlDescription" : "Attractive, si un peu clinique.",
+  "novakidDescription" : "La chaise me regarde. J'aime ça!",
+
+  "inventoryIcon" : "modernchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "modernchair.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

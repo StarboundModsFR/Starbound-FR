@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un bouquet de fleurs. Tapez-les en amour!"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Bouquet de Fleurs"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Bouquet"
+}
+]

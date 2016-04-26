@@ -1,0 +1,9 @@
+{
+  "itemName" : "humanjeep",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanjeep.png",
+  "description" : "Appuyer sur la touche F pour l'utiliser. Traverser le terrain à toute vitesse. Elle peut aussi sauter!",
+  "shortdescription" : "Jeep d'Humain",
+
+  "techModule" : "humanjeep"
+}

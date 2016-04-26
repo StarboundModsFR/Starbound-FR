@@ -1,0 +1,19 @@
+﻿{
+  "itemName" : "microphonefem",
+  "price" : 1000,
+  "inventoryIcon" : "microphonefem.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un microphone. Pour toutes les divas attendrissantes là-bas.",
+  "shortdescription" : "Microphone (Femme)",
+  "largeImage" : "microphonefem.png",
+  "image" : "microphonefem.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "microphonefem.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0.275],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : false,
+  "kind" : "microphonefem"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "platinumbar",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "platinumbar.png",
+  "description" : "C'est un lingot de platine.",
+  "shortdescription" : "Lingot de Platine"
+}

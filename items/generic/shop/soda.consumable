@@ -1,0 +1,19 @@
+{
+  "itemName" : "soda",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "soda.png",
+  "description" : "Un bon soda rafraichissant.",
+  "shortdescription" : "Soda",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

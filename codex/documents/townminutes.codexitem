@@ -1,0 +1,10 @@
+{
+  "codexId" : "townminutes",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_07.png",
+  "itemName" : "townminutesCodex",
+  "rarity" : "common",
+  "description" : "Procès-verbal d'une réunion",
+  "shortdescription" : "Procès de réunion"
+}

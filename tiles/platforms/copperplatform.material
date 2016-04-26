@@ -1,0 +1,22 @@
+{
+  "materialId" : 139,
+  "materialName" : "copperplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "copperplatform",
+  "shortdescription" : "Plateforme en Cuivre",
+  "description" : "Une plateforme en cuivre.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "copperplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

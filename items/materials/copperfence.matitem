@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "copperfence",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperfence.png",
+  "description" : "Une clôture de cuivre robuste.",
+  "shortdescription" : "Barrière en Cuivre",
+  "glitchdescription" : "Certifié. Une clôture de cuivre robuste.",
+  "florandescription" : "Clôture de cuivre robussste.",
+
+  "materialId" : 116
+}

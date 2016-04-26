@@ -1,0 +1,17 @@
+{
+  "itemName" : "kelp",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "kelp.png",
+  "description" : "Algue spongieux et visqueux.",
+  "shortdescription" : "Algues",
+  "effects" : [ [
+    {
+        "effect" : "wellfed",
+        "duration" : 15
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "castlecurious",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_07.png",
+  "itemName" : "castlecuriousCodex",
+  "rarity" : "common",
+  "description" : "Les curieux Glitchs",
+  "shortdescription" : "Curieux Glitchs"
+}

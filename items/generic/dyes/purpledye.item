@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "purpledye",
+  "rarity" : "Common",
+  "inventoryIcon" : "purpledye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour changer sa couleur.",
+  "shortdescription" : "Colorant Violet",
+
+  "dyeColorIndex" : 9
+}

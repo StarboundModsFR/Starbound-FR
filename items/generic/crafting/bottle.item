@@ -1,0 +1,8 @@
+{
+  "itemName" : "bottle",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "bottle.png",
+  "description" : "Parfait pour stocker des liquides.",
+  "shortdescription" : "Bouteille Vide"
+}

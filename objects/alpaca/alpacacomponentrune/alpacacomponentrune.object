@@ -1,0 +1,33 @@
+{
+  "objectName" : "alpacacomponentrune",
+  "tags" : ["alpaca"],
+  "rarity" : "Common",
+  "description" : "Une ancienne rune d'alpaca qui est le symbole de l'élement de la vie.",
+  "shortdescription" : "Une rune d'Alpaca",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "C'est une ancienne rune qui signifie plusieurs choses.",
+  "avianDescription" : "Une ancienne rune similaire à certains de notre civilisation.",
+  "floranDescription" : "Une ancccciennne rune... Impossible de la manger",
+  "glitchDescription" : "Certifié. Une ancienne rune des Alpaca.",
+  "humanDescription" : "C'est une ancienne rune qui me semble familier",
+  "hylotlDescription" : "Hum...Une rune de notre époque ?",
+  "novakidDescription" : "C'est une ancienne rune. Il est donc la...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacacomponentrune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

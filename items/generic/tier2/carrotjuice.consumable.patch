@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Les carottes sous forme liquide. Étonnamment doux et nutritif"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Jus de Carotte"
+}
+]

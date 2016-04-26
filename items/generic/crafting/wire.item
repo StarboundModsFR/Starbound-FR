@@ -1,0 +1,8 @@
+{
+  "itemName" : "wire",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "wire.png",
+  "description" : "Une bobine de fil.",
+  "shortdescription" : "Fil"
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "cloudblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "cloudblock.png",
+  "description" : "Nuages emballés dans un bloc solide.",
+  "shortdescription" : "Bloc de Nuage",
+  "glitchdescription" : "Curieux. Un bloc de nuage.",
+  "florandescription" : "Je me demande si je peux le manger?",
+
+  "materialId" : 178
+}

@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une porte en bois classique infusé de bananes avec une poignée dorée."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Porte Classique"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "La poignée est en or massif et le bois est parfumé de banane."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Une telle porte est ouverte à très peu."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Le parfum de Apex vient du bois."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Irritation. Mes capteurs détectent le parfum de banane."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Est-ce que la porte à une odeur de ... banane."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Du bois parfumé, une pratique courante de l'Hylotl."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Cette clanche est puissant...brillant."
+}
+]

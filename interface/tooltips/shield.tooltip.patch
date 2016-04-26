@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/healthLabel/value",
+        "value": "Durabilité:"
+},
+{
+        "op": "replace",
+        "path": "/healthTitleLabel/value",
+        "value": "Durabilité du Bouclier:"
+}
+]

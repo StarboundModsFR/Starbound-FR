@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "bananabread",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "bananabread.png",
+  "description" : "Humide, délicieux ce pain à la banane.",
+  "shortdescription" : "Pain à la Banane",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "ironore",
+  "price" : 20,
+  "rarity" : "Common",
+  "inventoryIcon" : "ironore.png",
+  "description" : "Un minerai de fer. Il peut-être fondue.",
+  "shortdescription" : "Minerai de Fer",
+  "learnBlueprintsOnPickup" : [
+    "ironbar"
+  ]
+}

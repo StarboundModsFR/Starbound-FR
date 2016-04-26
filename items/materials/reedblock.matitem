@@ -1,0 +1,12 @@
+{
+  "itemName" : "reedblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "reedblock.png",
+  "description" : "Bloc de Roseaux",
+  "shortdescription" : "Bloc de Roseaux",
+  "glitchdescription" : "Bloc de Roseaux.",
+  "florandescription" : "Rossseaux.",
+
+  "materialId" : 114
+}

@@ -1,0 +1,47 @@
+﻿{
+  "objectName" : "woodenbed",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Un lit en bois confortable.",
+  "shortdescription" : "Lit en Bois",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+
+  "apexDescription" : "Un lit en bois simple, agréable et confortable.",
+  "avianDescription" : "Un cadre en bois et matelas confortable.",
+  "floranDescription" : "Floran dormir rarement dans telle bon lit.",
+  "glitchDescription" : "Somnolent. Les niveaux de puissances sont faibles. Mode de sommeil nécessaire.",
+  "humanDescription" : "Un lit confortable.",
+  "hylotlDescription" : "Un bon endroit pour fermer les yeux.",
+  "novakidDescription" : "Une place pour fermer les yeux.",
+
+  "inventoryIcon" : "woodenbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/woodenbed/woodenbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

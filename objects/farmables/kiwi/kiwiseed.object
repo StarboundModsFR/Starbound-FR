@@ -1,0 +1,49 @@
+﻿{
+  "objectName" : "kiwiseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Kiwi, texture douce et saveur douce, yum.",
+  "shortdescription" : "Graine de Kiwi",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 30,
+
+  "apexDescription" : "La fourrure du kiwi est semblable à celle d'un Apex.",
+  "avianDescription" : "Un fruit floue étrange, rempli de graines délicieux.",
+  "floranDescription" : "Une créature ou un fruit ?.",
+  "glitchDescription" : "Observation. Il est remarquable de voir comment de nombreux aliments ressembler à ceux qui les consomment.",
+  "humanDescription" : "Kiwis. Délicieux et sale.",
+  "hylotlDescription" : "Un autre fruit trop sucré. La surface est désagréable au toucher.",
+  "novakidDescription" : "Ce goût tout comme un kiwis réguliers!",
+
+  "inventoryIcon" : "kiwiseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kiwiseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "kiwiHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.5
+}

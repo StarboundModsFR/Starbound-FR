@@ -1,0 +1,24 @@
+﻿{
+  "id" : "tutorial1.gearup",
+  "title" : "^yellow;Tutoriel I: Une Lampe Torche",
+  "text" : "La première chose que je dois faire c'est de vérifier l'intérieur du^orange; coffre de vaisseau^white;. ^green;Je me munirai d'une ^orange; lampe torche^white;, mais je peux trouver d'autres fournitures là aussi.",
+  "completionText" : "Une ^orange;lampe torche^white;, une ^orange;arme^white;, et quelques ^orange;torches^white; Il est maintenant temps de^green; descendre sur la planète^white;!",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "enableAiCommands" : [ "upgradeBeamaxe1" ],
+    "followUp" : "tutorial2.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "flashlight" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

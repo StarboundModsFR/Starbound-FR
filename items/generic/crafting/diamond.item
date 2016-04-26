@@ -1,0 +1,8 @@
+{
+  "itemName" : "diamond",
+  "price" : 200,
+  "rarity" : "Rare",
+  "inventoryIcon" : "diamond.png",
+  "description" : "C'est un diamant magnifique..",
+  "shortdescription" : "Diamant"
+}

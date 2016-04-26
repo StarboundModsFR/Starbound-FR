@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "moonrock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "moonrockicon.png",
+  "description" : "Roche dure, graveuleuse.",
+  "shortdescription" : "Roche de Lune",
+  "glitchdescription" : "Analysé. Cette roche vient de la lune.",
+  "florandescription" : "Floran pense aux lunes faîtes de fromage...",
+
+  "materialId" : 78
+}

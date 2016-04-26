@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un lit aviaire magnifiquement sculpté."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lit Avian"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Un ensemble coloré de feuilles chaudes sur un lit confortable prospectifs."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Même si leurs yeux se sont fermer au sol. La couleur fait briller les alentours."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Lit moelleux. Floran pourrait rester ici."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Sentimental. C'est pas que je n'aime pas la lit, mais j'aime rester dedans."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Ce lit a l'air merveilleusement confortable"
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une belle série de couvertures chaudes."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Je vois un très bon lit, je dois dire."
+}
+]

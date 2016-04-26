@@ -1,0 +1,39 @@
+﻿{
+  "objectName" : "fountain1",
+  "colonyTags" : ["pretty","valuable"],
+  "rarity" : "Common",
+  "price" : 240,
+  "description" : "Une belle fontaine en pierre. L'eau semble rafraîchissante.",
+  "shortdescription" : "Fontaine en Pierre",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "apexDescription" : "Une jolie fontaine. Le son est apaisant.",
+  "avianDescription" : "Un grand bain d'oiseau.",
+  "floranDescription" : "Eau donner vie à Floran.",
+  "glitchDescription" : "Détendez-vous. L'eau me calme.",
+  "humanDescription" : "Si je devais un sou je le jeterai dans.",
+  "hylotlDescription" : "Parfois, je rate l'océan.",
+  "novakidDescription" : "Certaines statues jaillissent de l'eau .",
+
+  "inventoryIcon" : "fountainicon.png",
+  "orientations" : [
+    {
+      "image" : "fountain1.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 3,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg",
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [14, 24]
+
+}

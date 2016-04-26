@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "waste",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "waste.png",
+  "description" : "Cette roche est éclatante avec bioluminescence.",
+  "shortdescription" : "Déchets",
+  "glitchDescription" : "Une analyse. Cette roche jaune est bioluminescente.",
+  "floranDescription" : "Floran sont des rochers bioluminescents jaunes.",
+
+  "materialId" : 1433
+}

@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "drysand",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "drysand.png",
+  "description" : "Dur, le sable concassé.",
+  "shortdescription" : "Sable Sec",
+  "glitchdescription" : "Certifié. Sable.",
+  "florandescription" : "Sssable ssablonneux.",
+
+  "materialId" : 44
+}

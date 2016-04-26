@@ -1,0 +1,17 @@
+{
+  "itemName" : "iceblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "iceblock.png",
+  "shortdescription" : "Bloc de Glace",
+  "description" : "Un solide bloc de glace.",
+  "glitchdescription" : "Déclaration. Froid, glace gelée.",
+  "florandescription" : "Glace. Lissse au toucher.",
+
+  "materialId" : 130,
+
+  "learnBlueprintsOnPickup" : [
+    "iceblock"
+  ]
+}
+

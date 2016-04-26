@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une table faîte de pierre."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Table en Pierre"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "Une table très simple. Pour servir."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Quelqu'un a simplement empilé deux dalles de pierre."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Table de pierre."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Pas impressionné. Artisanat basic."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Je suppose que cela compte comme une table."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Meilleur fonction de tout les temps. Cette table..."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un petit rocher avec une grosse pierre sur le dessus."
+}
+]

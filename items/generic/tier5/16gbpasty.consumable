@@ -1,0 +1,23 @@
+{
+  "itemName" : "16gbpasty",
+  "rarity" : "Uncommon",
+  "price" : 450,
+  "inventoryIcon" : "16gbpasty.png",
+  "description" : "Une pâte assez grande pour contenir tous vos métaux et légumes.",
+  "shortdescription" : "16GB Pâtes",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 248
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 248
+    }
+  ] ],
+  "foodValue" : 55,
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

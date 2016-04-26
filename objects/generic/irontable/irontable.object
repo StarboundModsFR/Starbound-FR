@@ -1,0 +1,33 @@
+﻿{
+  "objectName" : "irontable",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "Une table avec des épées pour les jambes. Pas idéal pour jouer au Footsie.",
+  "shortdescription" : "Table Pointu",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "Ce tableau apporte un sentiment de finalité à cogner son orteil.",
+  "avianDescription" : "Assis ici serait assez pour rendre quelqu'un énervé.",
+  "floranDescription" : "Floran coupée sur la table. Maintenant, Floran coupé avec table.",
+  "glitchDescription" : "Confort. Une table décontractée. D'autres semblent se méfier de celui-ci.",
+  "humanDescription" : "Je suis extrêmement réticents à m'asseoir ici.",
+  "hylotlDescription" : "Peut-être qu'il est légèrement trop dangereux pour une utilisation alternative des armes.",
+
+  "inventoryIcon" : "irontableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irontable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

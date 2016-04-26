@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Parfait pour stocker des bananes."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Réfrigérateur Standart"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Il est rare qu'Apex épargne sa nourriture."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un dispositif pour stocker la nourriture."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Nous Floran devons apprendre à fabriquer de la nourriture froide. Gardez la viande fraîche, oui."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Déterminé. Nous devons chercher ce dispositif de stockage des aliments."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Un réfrigérateur! Je n'ai vu un comme ça dans les livres."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Nous avons pas besoin d'avoir de tels dispositifs sous l'océan. Je dois adapter à la surface de l'eau."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Il fait froid à l'intérieur pour garder les aliments frais plus longtemps."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Il fait froid à l'intérieur pour garder les aliments frais plus longtemps."
+}
+]

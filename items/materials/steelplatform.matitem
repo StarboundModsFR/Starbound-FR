@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "steelplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "steelplatformicon.png",
+  "description" : "Plateforme en acier solide.",
+  "shortdescription" : "Plateforme d'Acier",
+  "glitchdescription" : "Certifié. Une plateforme solide en acier.",
+  "florandescription" : "Accier Sssolide.",
+
+  "materialId" : 68
+}

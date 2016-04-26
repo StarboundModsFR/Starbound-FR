@@ -1,0 +1,14 @@
+{
+  "itemName" : "liquidoil",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidoilicon.png",
+  "shortdescription" : "Pétrole",
+  "description" : "Une mesure de pétrole non raffinée gluant.",
+
+  "liquid" : "tarliquid",
+
+  "learnBlueprintsOnPickup" : [
+    "mininglantern",
+    "lanternstickback"
+  ]
+}

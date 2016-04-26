@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerhumans",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_08.png",
+  "itemName" : "bunkerhumansCodex",
+  "rarity" : "common",
+  "description" : "Notes de Greenfinger: Humains",
+  "shortdescription" : "Humains"
+}

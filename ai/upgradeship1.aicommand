@@ -1,0 +1,59 @@
+{
+  "commandName" : "upgradeShip1",
+  "icon" : "ai.png",
+  "actions" : [
+    { 
+      "action" : "PlaySound",
+      "sound" : "/sfx/interface/ship_powerup.ogg",
+      "loops" : 0
+    },
+    { 
+      "action" : "UpgradeShip",
+      "shipParameters" : {
+        "shipLevel" : 1
+      }
+    },
+    { 
+      "action" : "DisableCommand",
+      "command" : "upgradeShip1"
+    },
+    { 
+      "action" : "showTech",
+      "techName" : [ "doublejumpTech", "dashTech", "bounceTech" ]  
+    }
+  ],
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Démarrer",
+      "selectSpeech" : [
+        {
+          "animation" : "unique",
+          "text" : "> Votre unité S.A.I.L est actuellement en mode veille.
+          > Zzzz...
+                  > Zzzz...
+                          > Zzzz...",
+          "speedModifier" : 0.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "^#6f6f6f;$ start -f
+^cyan;> Démarrage du S.A.I.L v3 Assistant Personnel en cours...
+> Bonjour chef. La chaleur du vaisseau est de 22C°. 
+> Cela fait quelques jours que vous ne m'avez pas redémarrer. 
+> En quoi puis-je vous aider?",
+          "speedModifier" : 0.7
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 0.7
+        }
+      ]
+    }
+  }
+}

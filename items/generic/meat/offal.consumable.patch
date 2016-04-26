@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Tout les morceaux que la plupart des gens ne vont pas toucher."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Ordures."
+}
+]

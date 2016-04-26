@@ -1,0 +1,94 @@
+﻿{
+  "objectName" : "bunkertv",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "Le moniteur affiche une liste de tâches.",
+  "shortdescription" : "Moniteur de l'USCM",
+  "race" : "human",
+
+  "apexDescription" : "Cela semble afficher une liste des tâches qui doivent se terminer. Quelqu'un va être occupé.",
+  "avianDescription" : "Une liste bien ordonnée. Un des éléments est «Nettoyage des latrines».",
+  "floranDescription" : "N'inscruivez pas Floran.",
+  "glitchDescription" : "Prudent. Un des éléments de la liste est «fixer le robot».",
+  "humanDescription" : "Une liste de choses à faire. Ce n'est pas même le mien et je me sens sous le stress.",
+  "hylotlDescription" : "Une liste propre, complète de tâches à accomplir. J'approuve une telle planification à long terme.",
+
+  "lightColor" : [61, 80, 102],
+
+  "inventoryIcon" : "bunkertvicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkertv.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "bunkertv.png",
+        "fg" : "bunkertvlit.png"
+      },
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "bunkertv.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "bunkertv.png",
+        "fg" : "bunkertvlit.png"
+      },
+      "animationPosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bunkertvceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "bunkertvceiling.png",
+        "fg" : "bunkertvceilinglit.png"
+      },
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bunkertvground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "bunkertvground.png",
+        "fg" : "bunkertvgroundlit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "bunkertv.png",
+    "fg" : "bunkertvlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  "interactive" : false
+}

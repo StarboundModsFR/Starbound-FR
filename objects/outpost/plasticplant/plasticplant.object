@@ -1,0 +1,50 @@
+﻿{
+  "objectName" : "plasticplant",
+  "colonyTags" : ["outpost","nature","pretty"],
+  "rarity" : "Common",
+  "description" : "Une fausse plante en plastique. Ce n'est pas un arbre.",
+  "shortdescription" : "Plante en Plastique",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+  "lightColor" : [18, 27, 31],
+
+  "apexDescription" : "Cette plante n'est pas réel!",
+  "avianDescription" : "Une fausse plante. Joli.",
+  "floranDescription" : "Floran poignarde l'imposssteur!",
+  "glitchDescription" : "Amusemant. Cette fausse plante ressemble à une vrai plante.",
+  "humanDescription" : "Ca me rappelle des salles d'attente.",
+  "hylotlDescription" : "Une fausse plante d'usine.",
+  "novakiddescription" : "Une fausse plante, ni sur les planètes ni sur les étoiles",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "plasticplant.png:<color>", "fullbright" : true }, { "image" : "plasticplantlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "plasticplant.png:<color>", "fullbright" : true }, { "image" : "plasticplantlit.png:<color>" } ],
+      "direction" : "right",
+      
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

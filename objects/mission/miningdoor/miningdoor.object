@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "miningdoor",
+  "colonyTags" : ["human","lunarbase","door","mining"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 100,
+  "description" : "Une porte en métal industriel.",
+  "shortdescription" : "Porte du Mineur",
+  "race" : "human",
+
+  "apexDescription" : "Cette porte peut supporter beaucoup de puissance de feu.",
+  "avianDescription" : "Une porte en métal robuste.",
+  "floranDescription" : "Porte fournit le point de vue tactique. Sssauter. Coup de poignard!",
+  "glitchDescription" : "Approuvant. Une porte en métal dur.",
+  "humanDescription" : "Une porte solide d'origine humaine.",
+  "hylotlDescription" : "Une porte laide conçue avec la fonction de l'esprit.",
+
+  "inventoryIcon" : "miningdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "miningdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

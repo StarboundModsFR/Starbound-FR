@@ -1,0 +1,7 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/toggleCrafting/caption",
+        "value": "Raffiner"
+}
+]

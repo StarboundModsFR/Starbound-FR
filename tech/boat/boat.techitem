@@ -1,0 +1,9 @@
+{
+  "itemName" : "boatTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/boat.png",
+  "description" : "Appuyer sur la touche 'F' piur être dans un bâteau. Utilisable que sur les liquides. Coût: 50 energies.",
+  "shortdescription" : "Bateaux",
+
+  "techModule" : "boat"
+}

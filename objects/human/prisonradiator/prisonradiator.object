@@ -1,0 +1,34 @@
+﻿{
+  "objectName" : "prisonradiator",
+  "colonyTags" : ["human","humanprison","mechanical"],
+  "rarity" : "Common",
+  "description" : "La chauffage émet un faible bourdonnement désagréable.",
+  "shortdescription" : "Vieux Radiateur",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "Un appareil de chauffage portatif chaleureux, confortable.",
+  "avianDescription" : "Parfait pour chauffer les plumes.",
+  "floranDescription" : "Belle chaleur, pas de feu. Conseillé pour Floran.",
+  "glitchDescription" : "Désintéressement. Un petit radiateur.",
+  "humanDescription" : "Un appareil de chauffage. Le nom fait sonner futuriste et fraîs.",
+  "hylotlDescription" : "Une façon intelligente d'obtenir la chaleur.",
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "prisonradiatoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonradiator.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

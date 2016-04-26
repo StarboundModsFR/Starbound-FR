@@ -1,0 +1,17 @@
+[
+{
+        "op": "replace",
+        "path": "/title",
+        "value": "Libre comme l'Avian."
+},
+{
+        "op": "replace",
+        "path": "/text",
+        "value": "Maintenant que je peux visiter les planètes du système solaire.¨green. J'ai besoin de commencer à regarder comment réparer le 'FTL Drive',^orange; le S.A.I.L va probablement connaître."
+},
+{
+        "op": "replace",
+        "path": "/completionText",
+        "value": "Ça marche ! Je peux pouvoir enfin visiter d'autres systèmes solaires"
+}
+]

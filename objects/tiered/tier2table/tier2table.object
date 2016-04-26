@@ -1,0 +1,34 @@
+﻿{
+  "objectName" : "tier2table",
+  "colonyTags" : ["commerce","tier2"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une simple table en acier.",
+  "shortdescription" : "Table en Acier",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 60,
+
+  "apexDescription" : "Cette table en acier sert bien.",
+  "avianDescription" : "Une table en acier massif.",
+  "floranDescription" : "Tabe assez bon pour Floran pour trancher la viande.",
+  "glitchDescription" : "Approuvant. Une table en acier bien faite.",
+  "humanDescription" : "Une belle table en acier.",
+  "hylotlDescription" : "En ce qui concerne les tables en acier, celle-ci est pas mal.",
+
+  "inventoryIcon" : "tier2tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier2table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

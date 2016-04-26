@@ -1,0 +1,56 @@
+﻿{
+  "objectName" : "islandhammock",
+  "colonyTags" : ["island"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Pour certains, un hamax est l'image même du luxe.",
+  "shortdescription" : "Hamac d'Île",
+  "race" : "generic",
+
+  "apexDescription" : "Je préfère mes lits sur la terre ferme. La sécurité d'abord.",
+  "avianDescription" : "Pour être suspendu à partir du sol pendant que vous dormez, c'est merveilleux.",
+  "floranDescription" : "Floran préfère dormir au sol",
+  "glitchDescription" : "Inquiet. Comment un hamac peut soutenir mon poids?",
+  "humanDescription" : "Hamac! Le lit de l'Everyman errant.",
+  "hylotlDescription" : "Il n'y a pas d'élégance à dormir dans un tel lit simple.",
+  "novakidlDescription" : "Un hammac, huh? Maintenant, j'ai une belle idée...",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  //"sitCoverImage" : "/objects/themed/island/islandhammock/islandhammockcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+	"regeneration4",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "islandhammockicon.png",
+  "orientations" : [
+    {
+      "image" : "islandhammock.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [6, 10],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "islandhammock.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-16, 10],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

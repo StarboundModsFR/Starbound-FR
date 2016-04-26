@@ -1,0 +1,12 @@
+{
+  "itemName" : "brains",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "brains.png",
+  "description" : "Pulsation de la matière cérébrale... je me demande ce qu'il pense.",
+  "shortdescription" : "Cerveau",
+  "glitchdescription" : "Analysé. Shémas cérébraux...Ce cerveau appartenait à un génie.",
+  "florandescription" : "Les Floran veulent poignnarder ccce ccerveau.",
+
+  "materialId" : 40
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "redflashlight",
+  "price" : 100,
+  "inventoryIcon" : "redflashlighticon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "Une lampe torche rouge! Tout a l'air chaud et plein de rage.",
+  "shortdescription" : "Lampe Torche",
+  "largeImage" : "redflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "redflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 0, 0],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

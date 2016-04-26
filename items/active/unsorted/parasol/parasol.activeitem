@@ -1,0 +1,28 @@
+{
+  "itemName" : "parasol",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "",
+  "shortdescription" : "Parasol",
+  "tooltipKind" : "gun",
+  "weaponType" : "Parasol",
+  "twoHanded" : false,
+
+  "inventoryIcon" : "parasol.png:open",
+
+  "animation" : "parasol.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["parasol.lua"],
+
+  "idleRotation" : -45,
+  "activeRotation" : 65,
+  "switchTime" : 0.3,
+  "fallingParameters" : {
+    "airForce" : 30,
+    "runSpeed" : 30,
+    "walkSpeed" : 30
+  },
+  "maxFallSpeed" : -17
+}

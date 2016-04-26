@@ -1,0 +1,9 @@
+{
+  "itemName" : "liquidlava",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidlavaicon.png",
+  "shortdescription" : "Lave",
+  "description" : "Ca bouillonne, mais pas trôp.",
+
+  "liquid" : "lava"
+}

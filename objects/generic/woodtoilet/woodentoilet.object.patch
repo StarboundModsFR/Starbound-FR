@@ -1,0 +1,52 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Des toilettes en bois.. Il va être dur à nettoyer"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Toilettes en Bois"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Des toilettes faîtes de bois... Pas très hygiènique."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Un dispositif pour attraper les excréments."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran préfèrent faire caca dans la forêt."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Une analyse. Plein de germes."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Des toilette en bois ... beurk."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "L'Hylotl ne peux pas utiliser de tels dispositifs."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Des toilettes en bois...Très malpropre."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Des toilettes en bois...Très malpropre."
+}
+]

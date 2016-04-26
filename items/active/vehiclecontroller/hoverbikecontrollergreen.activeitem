@@ -1,0 +1,32 @@
+﻿{
+  "itemName" : "hoverbikecontrollergreen",
+  "level" : 1,
+  "price" : 15000,
+  "rarity" : "rare",
+  "description" : "Créez hoverbike peint vert de nanites stocké.",
+  "shortdescription" : "Contrôleur d'Hoverbike Vert",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "hoverbikegreen",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/hoverbike/hoverbikewarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "hoverbikecontrollergreen.png"
+  },
+
+  "inventoryIcon" : "hoverbikecontrollergreen.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/hoverbikecontrollergreen.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/hoverbikecontrollergreen.png:full"
+
+}

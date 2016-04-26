@@ -1,0 +1,12 @@
+{
+  "itemName" : "magmarock",
+  "rarity" : "Common",
+  "inventoryIcon" : "magmarock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Roche de magma. Très chaud.",
+  "shortdescription" : "Roche de Magma",
+  "glitchdescription" : "Déclaration. Roche de magma.",
+  "florandescription" : "Roche bruler. Coool.",
+
+  "materialId" : 81
+}

@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "ancientblock",
+  "price" : 15,
+  "rarity" : "Common",
+  "inventoryIcon" : "ancientblock.png",
+  "description" : "Ces briques ont certainement survécu à l'épreuve du temps.",
+  "shortdescription" : "Bloc Antique",
+  "glitchdescription" : "Un bloc antique.",
+  "florandescription" : "Bloc Ancccien.",
+  "novakiddescription" : "Un bloc très anccien",
+
+  "materialId" : 186
+}

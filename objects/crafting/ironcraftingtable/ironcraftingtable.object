@@ -1,0 +1,51 @@
+﻿{
+  "objectName" : "ironcraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  TABLE DE CRAFT EN FER",
+        "subtitle" : "  Lourdes Fabrications!",
+        "icon" : {
+          "file" : "/interface/crafting/ironcraftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable", "ironcraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "On pourrait construire un certain équipement trés sophistiqué sur cette table.",
+  "shortdescription" : "^orange;Table de craft en Fer^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "Une table de craft pour ferronnerie.",
+  "avianDescription" : "Cette table de craft me permet de créer une vaste gamme d'équipement.",
+  "floranDescription" : "La table en fer permet de créer des chosess.",
+  "glitchDescription" : "Intéressé. C'est une table de craft en fer. C'est meilleur que le bois.",
+  "humanDescription" : "Je n'ai pas peur d'un certain bricolage. Faisons cela.",
+  "hylotlDescription" : "Une table de craft en fer permet de fabriquer de bons équipements.",
+  "novakidDescription" : "Une bonne table de craft en fer. C'est meilleur qu'un en bois.",
+
+  "inventoryIcon" : "ironcraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironcraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "ironcraftingtable"
+  ]
+}

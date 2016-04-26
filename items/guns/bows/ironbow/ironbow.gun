@@ -1,0 +1,37 @@
+{
+  "itemName" : "ironbow",
+  "price" : 0,
+  "inventoryIcon" : "ironbowicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "bow",
+  "weaponType" : "Arc",
+  "description" : "Permet de récolter de la viande et d'autres choses.",
+  "shortdescription" : "Arc en Fer",
+  "image" : "ironbowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [0, -1],
+  "firePosition" : [20, -0.5],
+  "level" : 1,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "woodenarrow",
+  "powerProjectileType" : "chargedarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 4
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+  }
+}

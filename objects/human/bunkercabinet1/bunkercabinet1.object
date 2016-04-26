@@ -1,0 +1,43 @@
+﻿{
+  "objectName" : "bunkercabinet1",
+  "colonyTags" : ["human","humanbunker","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "On dirait qu'il ait fait de matières dangereuses.",
+  "shortdescription" : "Cabinet en Métal",
+  "race" : "human",
+  "category" : "storage",
+  "price" : 85,
+
+  "apexDescription" : "Un cabinet métallique. Une odeur étrange émane de l'intérieur.",
+  "avianDescription" : "Le contenu semblent dangereux. Peut-être toxique ou explosif.",
+  "floranDescription" : "Boîte en métal dangereux. Délicieux?",
+  "glitchDescription" : "Amusé. Malgré le signe d'avertissement, cette caisse contient en fait une collection de chaussettes dépareillées.",
+  "humanDescription" : "Une odeur ignoble suinte sous le couvercle. Ça me rappelle mes années d'adolescence.",
+  "hylotlDescription" : "Un conteneur dangereux. Apparemment, les humains souvent disposé de ces choses dans leurs océans.",
+  "novakidDescription" : "Un cabinet avec des rayures d'avertissement..Je peux l'ouvrir.",
+  
+  "inventoryIcon" : "bunkercabinet1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkercabinet1.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

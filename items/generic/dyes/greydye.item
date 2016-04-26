@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "greydye",
+  "rarity" : "Common",
+  "inventoryIcon" : "greydye.png",
+  "description" : "Utiliser ce colorant sur une pièce d'armure ou des vétements pour changer sa couleur.",
+  "shortdescription" : "Colorant Gris",
+
+  "dyeColorIndex" : 2
+}

@@ -1,0 +1,16 @@
+﻿{
+  "id" : "humantutorial.gearup",
+  "title" : "^orange;Rien ne veut son chez soi",
+  "text" : "La terre a été détruite. j'ai été à la recherche d'une nouvelle maison pendant des temps. mon vaisseau a été endommagé et je suis en orbite sur une planète inconnue. Pour continuer à me déplacer j'aurai besoin de ^green;réparer les propulseurs et la pièce de vaisseau en haut de la feraille.",
+  "completionText" : "Le vaisseau m'as disputé! Il y a toujours le travail à faire et je dois fixer l'énergie du FTL. Mais c'est un début!",
+  "speaker" : "player",
+  "moneyRange" : [500, 500],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "ftlrepairmain.gearup",
+    "shipLevel" : 2
+  }
+}

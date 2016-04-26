@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Pour lancer des grenades très loin"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lance-Grenades Commun"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Lance-Grenades"
+}
+]

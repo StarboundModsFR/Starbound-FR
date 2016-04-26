@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossdreadwing",
+  "title" : "Textes de lecture",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossdreadwingCodex",
+  "rarity" : "common",
+  "description" : "Informations sur Dreadwing, pingouin fléau du ciel.",
+  "shortdescription" : "Dreadwing Le pingouin"
+}

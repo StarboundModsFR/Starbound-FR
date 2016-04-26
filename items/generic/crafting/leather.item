@@ -1,0 +1,8 @@
+{
+  "itemName" : "leather",
+  "price" : 5,
+  "rarity" : "common",
+  "inventoryIcon" : "leather.png",
+  "description" : "Un carré de cuir.",
+  "shortdescription" : "Cuir"
+}

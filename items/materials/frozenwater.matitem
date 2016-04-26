@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "frozenwater",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "frozenwater.png",
+  "shortdescription" : "Glace Lisse",
+  "description" : "Glace solide et lisse puis glissante!",
+  "glitchdescription" : "Certifié. Froid, lisse et glissante.",
+  "florandescription" : "Glace. Lissse au toucher.",
+
+  "materialId" : 131
+}

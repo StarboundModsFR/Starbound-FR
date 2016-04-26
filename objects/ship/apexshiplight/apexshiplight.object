@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "apexshiplight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [230, 230, 230],
+  "price" : 60,
+  "description" : "Une lumière.",
+  "shortdescription" : "Lumière de Vaisseau",
+  "race" : "apex",
+
+  "apexDescription" : "Ces lumières sont couramment utilisés sur les vaisseaux.",
+  "avianDescription" : "Une lumière.",
+  "floranDescription" : "Lumière Froide!",
+  "glitchDescription" : "Analysé. Cette lumière génère plus de lumière que de chaleur.",
+  "humanDescription" : "Lumière Froide!",
+  "hylotlDescription" : "Une lumière acceptable.",
+  "novakidDescription" : "C'est une ampoule lumineuse.",
+
+  "inventoryIcon" : "apexshiplighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "apexshiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "apexshiplightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "apexshiplight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+  
+}

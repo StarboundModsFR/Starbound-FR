@@ -1,0 +1,20 @@
+{
+  "modId" : 10,
+  "modName" : "copper",
+  "itemDrop" : "copperore",
+  "description" : "Minerai de cuivre.",
+  "breaksWithTile" : true,
+  "health" : 3,
+  "harvestLevel" : 2,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "copper.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

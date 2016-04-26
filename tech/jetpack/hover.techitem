@@ -1,0 +1,9 @@
+{
+  "itemName" : "hoverTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/hover.png",
+  "description" : "Restez appuyer sur le bouton de saut dans l'air pour utiliser ce Neutraliseur de gravité. Coût : 75 energies par seconde.",
+  "shortdescription" : "Neutraliseur de Gravité",
+
+  "techModule" : "hover"
+}

@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Une chaise en grès. Friable."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Chaise en Grès"
+},
+{
+        "op": "replace",
+        "path": "/apexDescriptin",
+        "value": "Une chaise rude, graveuleuse."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Cette chaise est rude contre les plumes."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran tortiller, chaise éfritter."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Éstimation. Si deux personnes étaient assis dessus, cette chaise n'aurai pas tenus."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Asseyez-vous ici et vous aurez plein de sable."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une chaise de grès brut. Rugueux contre la peau."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Asseyez-vous trop longtemps dessus et la personne sera engourdie"
+}
+]

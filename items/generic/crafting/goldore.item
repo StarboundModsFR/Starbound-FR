@@ -1,0 +1,11 @@
+{
+  "itemName" : "goldore",
+  "price" : 40,
+  "rarity" : "Common",
+  "inventoryIcon" : "goldore.png",
+  "description" : "C'est un minerai d'or. Peut-être utilisé pour la fonte.",
+  "shortdescription" : "Minerai d'Or",
+  "learnBlueprintsOnPickup" : [
+    "goldbar"
+  ]
+}

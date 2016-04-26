@@ -1,0 +1,19 @@
+﻿{
+  "itemName" : "electricbass",
+  "price" : 1000,
+  "inventoryIcon" : "electricbassguitaricon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Une guitare électrique. Posez un peu de rythme.",
+  "shortdescription" : "Guitare Électrique",
+  "largeImage" : "electricbassguitar.png",
+  "image" : "electricbassguitar.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "electricbassguitar.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "electricbass"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "solariumore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "inventoryIcon" : "solariumore.png",
+  "description" : "C'est du solarium. Une source fantastique d'essence.",
+  "shortdescription" : "Minerai De Solarium",
+  "fuelAmount" : 30
+}

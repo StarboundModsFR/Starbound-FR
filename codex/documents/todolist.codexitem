@@ -1,0 +1,9 @@
+{
+  "codexId" : "todolist",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "itemName" : "todolistCodex",
+  "rarity" : "common",
+  "description" : "Une liste de tâches Glitch.",
+  "shortdescription" : "liste de tâches Glitch"
+}

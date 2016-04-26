@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un os rôti avec des piments fait pour Floran, croquant..."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Os Brulant"
+}
+]

@@ -1,0 +1,8 @@
+{
+  "itemName" : "plantfibre",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "plantfibre.png",
+  "description" : "Des fibres de plantes.",
+  "shortdescription" : "Fibre de Plantes"
+}

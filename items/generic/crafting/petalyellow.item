@@ -1,0 +1,10 @@
+﻿{
+  "itemName" : "petalyellow",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "petalyellow.png",
+  "description" : "Une pétale jaune, il peut être transformé en colorant.",
+  "shortdescription" : "Pétale Jaune",
+
+  "learnBlueprintsOnPickup" : [ "yellowdye" ]
+}

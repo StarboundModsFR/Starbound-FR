@@ -1,0 +1,13 @@
+{
+  "itemName" : "goldenplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "goldenplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Une plateforme en or",
+  "shortdescription" : "Plateforme en Or",
+  "glitchdescription" : "Déclaration. Une plateforme en or.",
+  "florandescription" : "Plateforme en or.",
+
+  "materialId" : 1391
+}

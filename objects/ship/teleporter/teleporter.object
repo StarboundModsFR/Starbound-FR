@@ -1,0 +1,41 @@
+﻿{
+  "objectName" : "teleporter",
+  "colonyTags" : ["apex"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Un téléporteur, que ferais-je sans toi?",
+  "shortdescription" : "Téléporteur",
+  "race" : "apex",
+
+  "apexDescription" : "La téléportation, c'est comme des montagnes russes, ca va très vite.",
+  "avianDescription" : "Té téléportation, c'est comme le vol d'un oiseau.",
+  "floranDescription" : "Floran se sent confus lors de la téléporation.",
+  "glitchDescription" : "Eduquer. Je me suis mis à dormir pendant le processus de téléporation.",
+  "humanDescription" : "La téléportation est un énorme rush.",
+  "hylotlDescription" : "La téléportation, c'est comme plonger dans un océan depuis une montagne.",
+  "novakidDescription" : "Téléporteur du navire. Nous allons l'emmener faire un tour!",
+
+  "category" : "light",
+  "lightColor" : [99, 132, 153],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/shipteleporter.config",
+
+  "inventoryIcon" : "teleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "teleporter.png:<color>", "fullbright" : true }, { "image" : "teleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ]
+}

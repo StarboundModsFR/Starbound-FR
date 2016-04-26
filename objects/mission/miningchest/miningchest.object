@@ -1,0 +1,38 @@
+﻿{
+  "objectName" : "miningchest",
+  "colonyTags" : ["human","lunarbase","mechanical","storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 90,
+  "description" : "Idéal pour ranger des outils et des équipements!",
+  "shortdescription" : "Coffre de Mineur",
+  "race" : "generic",
+
+  "apexDescription" : "Un coffre! Regardons à l'intérieur.",
+  "avianDescription" : "Souvent, ces coffres stockent les objets de valeur. Je suis surexcité!",
+  "floranDescription" : "Coffre! Floran doit chercccher!",
+  "glitchDescription" : "Anticipation. Qu'est-ce qui pourrai être à l'intérieur?",
+  "humanDescription" : "Un coffre! Nous allons l'ouvrir.",
+  "hylotlDescription" : "Ce coffre a un look industriel à ce sujet.",
+
+  "inventoryIcon" : "miningchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

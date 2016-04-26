@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "petalblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "petalblock.png",
+  "description" : "A block made of petals and leaves. Smells lovely.",
+  "shortdescription" : "Bloc pétale",
+  "glitchdescription" : "Réfléchissant. Si de telles matières?",
+  "florandescription" : "Pour Floran ceci ressemble au bloc fait de peau.",
+
+  "materialId" : 409
+}

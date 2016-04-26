@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Qu'est-ce que vous obtenez si vous serrez un jus toxique ? C'est vrai, vous l'aurez deviné."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Jus Toxique"
+}
+]

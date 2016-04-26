@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "outdoorchair",
+  "colonyTags" : ["outdoor"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "description" : "Une chaise, conçu pour la météo.",
+  "shortdescription" : "Chaise d'Éxterieur",
+  "race" : "generic",
+
+  "floranDescription" : "Une chaise fantaisiste.",
+  "glitchDescription" : "Déclaration. Une chaise, conçu pour la météo.",
+  "apexDescription" : "Une chaise solide. On dirai qu'elle a été conçu pour durer",
+  "avianDescription" : "Une chaise d'éxterieur, Je me demande si elle est confortable?",
+  "humanDescription" : "Une chaise d'éxterieur. Pour vous asseoir dehors.",
+  "hylotlDescription" : "Il n'est pas dans mon style, mais il est fonctionnel.",
+  "novakidDescription" : "Une bonne ol'chaise.",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/themed/outdoor/outdoorchair/outdoorchaircover.png",
+
+  "inventoryIcon" : "outdoorchairicon.png",
+  "orientations" : [
+    {
+      "image" : "outdoorchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-5, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "outdoorchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [3, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

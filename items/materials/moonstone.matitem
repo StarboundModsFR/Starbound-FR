@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "moonstone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "moonstoneicon.png",
+  "description" : "Jolie, de la roche de lune lisse.",
+  "shortdescription" : "Roche de Lune",
+  "glitchdescription" : "Déclaration. Roche de lune lisse.",
+  "florandescription" : "Pierre Brillante.",
+
+  "materialId" : 79
+}

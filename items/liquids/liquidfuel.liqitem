@@ -1,0 +1,12 @@
+{
+  "itemName" : "liquidfuel",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidfuelicon.png",
+  "shortdescription" : "Liquide d'Erchuis",
+  "description" : "Un fluide dengereux et explosif couramment utilisé comme combustible de vaisseau.",
+
+  "liquid" : "fuel",
+  
+  "fuelAmount" : 1,
+  "price" : 5
+}

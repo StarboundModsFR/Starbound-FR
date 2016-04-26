@@ -1,0 +1,35 @@
+﻿{
+  "objectName" : "woodtable",
+  "colonyTags" : ["commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une simple table en bois.",
+  "shortdescription" : "Table en Bois",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 15,
+
+  "apexDescription" : "Une table en bois trés simple.",
+  "avianDescription" : "La plus simple des tables.",
+  "floranDescription" : "Table en bois ssssimples.",
+  "glitchDescription" : "Observation. Une table trés simple.",
+  "humanDescription" : "Pas grand chose à dire au sujet de cette table.",
+  "hylotlDescription" : "Trés simple.",
+  "novakidDescription" : "Juste une table.",
+
+  "inventoryIcon" : "woodtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

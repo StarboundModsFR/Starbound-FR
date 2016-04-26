@@ -1,0 +1,37 @@
+﻿{
+  "objectName" : "medievalchair",
+  "colonyTags" : ["glitch","glitchvillage"],
+  "rarity" : "Common",
+  "description" : "Une chaise glitch .Donne mal au cul assez rapidement.",
+  "shortdescription" : "Chaise Glitch",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "Une chaise en bois dur pour une salle à manger.",
+  "avianDescription" : "Un siège en bois inconfortable. Décoré avec modestie.",
+  "floranDescription" : "Le sssiège pointu fait une bonne arme.",
+  "glitchDescription" : "Observer. Une chaise de salle à manger commune. Style typique de Glitch.",
+  "humanDescription" : "Une chaise de Glitch. Il est dure et inconfortable.",
+  "hylotlDescription" : "Les Glitch semblent aimer ce genre de meubles...",
+
+  "inventoryIcon" : "medievalchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}

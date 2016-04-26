@@ -1,0 +1,10 @@
+{
+  "codexId" : "kluexdelusion01",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_04.png",
+  "itemName" : "kluexdelusion01Codex",
+  "rarity" : "common",
+  "description" : "L'illusion de Kluex #1",
+  "shortdescription" : "Illusion de Kluex #1"
+}

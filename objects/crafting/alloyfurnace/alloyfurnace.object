@@ -1,0 +1,100 @@
+﻿{
+  "objectName" : "alloyfurnace",
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurnace.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  FOUR EN FER",
+        "subtitle" : "  Cuit des minerais et fait des alliages!",
+        "icon" : {
+          "file" : "/interface/crafting/alloyfurnace.png"
+        }
+      }
+    },
+    "filter" : [ "stonefurnace", "alloyfurnace" ]
+  },
+  "printable" : false,
+  "description" : "Avec cet four je peux concevoir d'autres matériaux solides.",
+  "shortdescription" : "^orange;Four en Fer^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 45,
+
+  "apexDescription" : "Un four en fer. Je peux faire de l'acier et d'autres matériaux ici.",
+  "avianDescription" : "Un four en fer. Je peux faire de l'acier et d'autres matériaux ici.",
+  "floranDescription" : "Fourneau son, broche, brûler. Floran braver.",
+  "glitchDescription" : "Intrigué. Le four est la température idéale pour la création d'acier et d'autres alliages.",
+  "humanDescription" : "Un four en fer, assez chaud pour faire fondre l'acier et d'autres matériaux.",
+  "hylotlDescription" : "Un très chaud, imposant, four de fer. Je peux faire des matériaux plus solides avec lui.",
+  "novakidDescription" : "Le rayonnement de chaleur est intense. Si je pouvais faire suer....",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "alloyfurnaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "alloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "alloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "alloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "alloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+  
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

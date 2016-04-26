@@ -1,0 +1,14 @@
+{
+  "itemName" : "sandstonematerial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sandstone.png",
+  "description" : "Grès dur.",
+  "shortdescription" : "Bloc de Gré",
+  "glitchdescription" : "déclaration. Bloc de Gré.",
+  "florandescription" : "Bloc de Gré.",
+  "learnBlueprintsOnPickup" : [
+    "sandstoneblock"
+  ],
+  "materialId" : 23
+}

@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/damagePerShotTitleLabel/value",
+        "value": "Dégâts par Coup:"
+},
+{
+        "op": "replace",
+        "path": "/speedTitleLabel/value",
+        "value": "Cadence de Tir:"
+}
+]

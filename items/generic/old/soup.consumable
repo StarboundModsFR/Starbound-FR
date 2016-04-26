@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "soup",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "soup.png",
+  "description" : "Un bol fumant de soupe de tomate.",
+  "shortdescription" : "Soupe à la Tomate",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

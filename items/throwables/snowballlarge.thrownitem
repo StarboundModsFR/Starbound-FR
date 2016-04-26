@@ -1,0 +1,25 @@
+{
+  "itemName" : "largesnowball",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowballlargeicon.png",
+  "image" : "snowballlargeicon.png",
+  "shortdescription" : "Grande Boule de Neige",
+  "description" : "Une grande boule de neige. P.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.8,
+
+  "projectileType" : "largesnowball",
+  "projectileConfig" : {
+    "speed" : 24,
+    "power" : 3
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "giganticsnowball"
+  ]
+}
+

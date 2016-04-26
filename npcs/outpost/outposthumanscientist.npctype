@@ -1,0 +1,48 @@
+{
+  "type" : "outposthumanscientist",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "offeredQuests" : [ "outpost0.gearup", "humanscientist1.gearup", "humanscientistE1.gearup" ],
+    "turnInQuests" : [ "outpost0.gearup", "humanscientist1.gearup", "humanscientistE1.gearup" ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Le monstre qui détruit la terre pourrait frapper les autres mondes. Nous devons trouver des moyens de riposter!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Le monstre qui détruit la terre pourrait frapper les autres mondes. Nous devons trouver des moyens de riposter!"
+          ],
+          "human" : [
+            "Un survivant! Vous connaîtai des scientifiques qui pourraient m'aider dans mes recherches?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 11 } } ]
+          }
+        ] ]
+    ]
+  }
+}

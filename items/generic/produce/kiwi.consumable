@@ -1,0 +1,19 @@
+{
+  "itemName" : "kiwi",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "kiwiicon.png",
+  "description" : "Texture douce et saveur douce, MIAM.",
+  "shortdescription" : "Kiwi",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "kiwijuice" ]
+}

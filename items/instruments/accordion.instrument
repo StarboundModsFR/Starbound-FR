@@ -1,0 +1,18 @@
+{
+  "itemName" : "accordion",
+  "price" : 1000,
+  "inventoryIcon" : "accordionicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un accordéon. recevez !",
+  "shortdescription" : "Accordéon",
+  "largeImage" : "accordion.png",
+  "image" : "accordion.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "accordion.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, 0],
+  "handPosition" : [0.2, 0],
+  "twoHanded" : true,
+  "kind" : "accordion"
+}

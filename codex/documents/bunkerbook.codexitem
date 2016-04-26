@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerbook",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_11.png",
+  "itemName" : "bunkerbookCodex",
+  "rarity" : "common",
+  "description" : "Manuel de terrain USCM",
+  "shortdescription" : "Manuel"
+}

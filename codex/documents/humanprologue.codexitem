@@ -1,0 +1,9 @@
+{
+  "codexId" : "humanprologue",
+  "title" : "Voyage Humain",
+  "codexkind" : "codex",
+  "itemName" : "humanprologueCodex",
+  "rarity" : "common",
+  "description" : "Un humain ayant des remords. En quelque sorte.",
+  "shortdescription" : "Voyage Humain"
+}

@@ -1,0 +1,17 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un ver géant terrifiant, jetez-le à quelqu'un!"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Wormrang"
+},
+{
+        "op": "replace",
+        "path": "/weaponType",
+        "value": "Boomerang"
+}
+]

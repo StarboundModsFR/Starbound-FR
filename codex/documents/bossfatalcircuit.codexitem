@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossfatalcircuit",
+  "title" : "Textes de lecture",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossfatalcircuitCodex",
+  "rarity" : "common",
+  "description" : "Information sur Circuit mortel, Le Glitch avec un glitch.",
+  "shortdescription" : "Circuit mortel"
+}

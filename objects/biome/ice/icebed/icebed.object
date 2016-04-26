@@ -1,0 +1,46 @@
+﻿{
+  "objectName" : "icebed",
+  "colonyTags" : ["ice"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Un lit de glace. En été, il devient un lit d'eau.",
+  "shortdescription" : "Lit de Glace",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 140,
+
+  "apexDescription" : "Apex se réchauffe en dormant. Ce lit est un désctre imminent.",
+  "avianDescription" : "Je ne pense pas que ce lit est très reposant.",
+  "floranDescription" : "Floran lèche le lit. Lit à un goût froid. Floran mal à la tête.",
+  "glitchDescription" : "Conflit. Ce lit dur est parfait pour le Glitch, mais que faire si il fond?",
+  "humanDescription" : "Ce lit semble vous donner l'accueil froid. Haha...Ha",
+  "hylotlDescription" : "Une utilisation remarquablement intelligente de l'eau.",
+  "novakidDescription" : "J'ai obtenu un feelin, je suis juste trop chaud pour ce lit.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icebedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "icebed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

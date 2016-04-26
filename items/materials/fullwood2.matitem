@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "fullwood2",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "fullwood2.png",
+  "description" : "Rugueux et non raffiné, ce bois semble fraîchement haché.",
+  "shortdescription" : "Bois Brut",
+  "glitchdescription" : "Déclaration. Bois Brut.",
+  "florandescription" : "Bois Frappé.",
+
+  "materialId" : 108
+}

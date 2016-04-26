@@ -1,0 +1,8 @@
+{
+  "itemName" : "brain",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "brain.png",
+  "description" : "ce cerveau semple être parfait pour l'expérimentation.",
+  "shortdescription" : "Cerveau Supérieur"
+}

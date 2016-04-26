@@ -1,0 +1,12 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/blueprintUnlock",
+        "value": "^green;Nouveaux craft: <ItemName>."
+},
+  {
+        "op": "replace",
+        "path": "/blueprintAlreadyKnown",
+        "value": "Vous avez déjà appris le craft de <ItemName>."
+}
+]

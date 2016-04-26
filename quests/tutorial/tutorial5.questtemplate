@@ -1,0 +1,23 @@
+﻿{
+  "id" : "tutorial5.gearup",
+  "title" : "^yellow;Tutoriel V: Houfff, chaud devant!!!",
+  "text" : "Pour créer des items plus avancés, j'aurai besoin d'un ^orange; four en pierre ^green; faisable avec la table de craft. ^white; Avec ce four, je serai capable de transformer des minerais bruts en lingots.",
+  "completionText" : "Stupéfiant, vous pouvez désormais jouer avec le feu. Vous devriez faire cuire des métaux basique tel que le fer ou le cuivre, ce qui me permettrai de faire un four avancé pour plus tard.",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial6.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "stonefurnace" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

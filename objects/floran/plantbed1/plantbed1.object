@@ -1,0 +1,43 @@
+﻿{
+  "objectName" : "plantbed1",
+  "colonyTags" : ["floran","floranprison"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 105,
+  "description" : "Un lit de prison Floran. Dur et poussiéreux.",
+  "shortdescription" : "Lit de Prison Floran",
+  "race" : "floran",
+
+  "apexDescription" : "Un lit de prison rugueux. Ca me rappelle la maison.",
+  "avianDescription" : "Un lit de prison.",
+  "floranDescription" : "Floran n'aime pas ça.",
+  "glitchDescription" : "Dégoûter. Ce lit est infesté d'insectes.",
+  "humanDescription" : "Je connaîs pire....",
+  "hylotlDescription" : "Je ne l'ai jamais dormi sur un lit comme celui-ci.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-7, 7],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "plantbed1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantbed1.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

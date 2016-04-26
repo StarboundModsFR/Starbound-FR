@@ -1,0 +1,10 @@
+{
+  "codexId" : "castleking02",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_02.png",
+  "itemName" : "castleking02Codex",
+  "rarity" : "common",
+  "description" : "L'aspirant Roi #2",
+  "shortdescription" : "L'aspirant Roi"
+}

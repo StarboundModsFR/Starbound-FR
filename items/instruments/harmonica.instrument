@@ -1,0 +1,19 @@
+{
+  "itemName" : "harmonica",
+  "price" : 1000,
+  "inventoryIcon" : "harmonicaicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Un harmonica. L'instrument favori de capitaines spatiaux grisonnants.",
+  "shortdescription" : "Harmonica",
+  "largeImage" : "harmonica.png",
+  "image" : "harmonica.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "harmonica.png",
+  "activeAngle" : 15,
+  "activeHandPosition" : [-0.4, 0.25],
+
+  "handPosition" : [0, 0.1],
+  "twoHanded" : true,
+  "kind" : "harmonica"
+}

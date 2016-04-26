@@ -1,0 +1,10 @@
+{
+  "codexId" : "castleguest",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_09.png",
+  "itemName" : "castleguestCodex",
+  "rarity" : "common",
+  "description" : "Invité dans le château",
+  "shortdescription" : "Invité dans le château"
+}

@@ -1,0 +1,23 @@
+﻿{
+  "id" : "tutorial7.gearup",
+  "title" : "^yellow;Tutoriel VII: Tête d'acier",
+  "text" : "Une ^orange;enclume ^white;sert a bien des choses, comme fabriquer armes et armures. En tout cas, faut la tête bien dur..",
+  "completionText" : "Bien ! Vous êtes libre de le faire ou non, mais une armure serait une bonne idée.",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial8.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "ironanvil" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

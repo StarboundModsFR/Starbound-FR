@@ -1,0 +1,14 @@
+﻿{
+  "id" : "wateringcan.gearup",
+  "title" : "^green;Hééé, une soirée bien arrosé!",
+  "text" : "Pour faire pousser les plantations. J'aurai besoin d'irriger le sol. j'aurai besoin d'un ^orange;arrosoire pour le faire^white;.",
+  "completionText" : "Bravo! Je vais pouvoir me transformer, désomais, en fermier!!",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "woodenwateringcan", "count" : 1, "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "pearlpeaseed", 5] ]
+  ],
+  "moneyRange" : [10, 10],
+  "followUp" : "hoe.gearup"
+}

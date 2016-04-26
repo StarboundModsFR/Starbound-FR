@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Éclairage de plafond coloré trouvés dans les clubs."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lumières de Club"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Il manque le machine à brouillard pour faire une boîte de nuit."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Je me demande quel genre de cristal donnerait une lumière bleue?"
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Est-bleu clair, pas vraiment."
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Indifférent. C'est une lumière bleue."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Des lumières ambiantes pour régler l'humeur. Quelle humeur? Pas sûr."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Une lumière ambiante bleu de boîte de nuit."
+},
+{
+        "op": "add",
+        "path": "/novakidDescription",
+        "value": "Cette lumière bleu éclaire la pièce."
+}
+]

@@ -1,0 +1,10 @@
+﻿{
+  "codexId" : "avianafterlife",
+  "title" : "Textes de lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_08.png",
+  "itemName" : "avianafterlifeCodex",
+  "rarity" : "common",
+  "description" : "L'après-vie Avian",
+  "shortdescription" : "L'après-vie Avian"
+}

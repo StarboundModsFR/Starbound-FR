@@ -1,0 +1,47 @@
+﻿[
+  {
+        "op": "replace",
+        "path": "/description",
+        "value": "Il y a quelque chose de troublant au sujet de ce vieux lit."
+},
+  {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Lit Effrayant"
+},
+  {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Je ne peux pas secouer un mauvais sentiment à ce lit ..."
+},
+  {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Il y a quelque chose de mal avec ce lit, je le sens ..."
+},  
+  {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Floran nerveux au sujet de dormir ici ..."
+},
+  {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Nerveux. Il y a quelque chose de malveillant sur ce meuble."
+},
+  {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Pourquoi dormir, quand vous pouvez rester figé éveillé dans l'horreur?"
+},
+  {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Je dois être désespéré de dormir dans quelque chose comme ça."
+},
+  {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Est-ce que quelque chose se cache?"
+}
+]

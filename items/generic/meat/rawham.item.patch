@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Quelques bandes de bacon. Devrais-je les faire cuire d'abord?"
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Bacon Étranger."
+}
+]

@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "butter",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "butter.png",
+  "description" : "Pour faire tout, être en bonne santé...",
+  "shortdescription" : "Beurre",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

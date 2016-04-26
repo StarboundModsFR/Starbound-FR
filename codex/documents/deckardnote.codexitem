@@ -1,0 +1,10 @@
+{
+  "codexId" : "deckardnote",
+  "title" : "Une note manuscrite",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_01.png",
+  "itemName" : "deckardnoteCodex",
+  "rarity" : "common",
+  "description" : "Note manuscrite.",
+  "shortdescription" : "Note manuscrite"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "itemName" : "silverplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "common",
+  "inventoryIcon" : "silverplatform.png",
+  "description" : "Une plateforme en argent",
+  "shortdescription" : "Plateforme en Argent",
+  "glitchdescription" : "Certifié. Une plateforme en argent.",
+  "florandescription" : "Plateforme en Argent.",
+
+  "materialId" : 1392
+}

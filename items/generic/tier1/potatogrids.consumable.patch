@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "L'éxtérieur dorée et croustillante et l'intérieur moelleux."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Pomme de Terre Grillée"
+}
+]

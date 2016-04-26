@@ -1,0 +1,33 @@
+﻿{
+  "objectName" : "bunkertable2",
+  "colonyTags" : ["human","humanbunker","commerce"],
+  "rarity" : "Common",
+  "description" : "Une table en métal solide.",
+  "shortdescription" : "Table en Métal Solide",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "Une simple table.",
+  "avianDescription" : "Une simple table.",
+  "floranDescription" : "Tableau pour le tranchage.",
+  "glitchDescription" : "Déclaration. Une table.",
+  "humanDescription" : "Ceci est la deuxième table, la plus générique que je connaisse.",
+  "hylotlDescription" : "Une table. Sans particularité.",
+
+  "inventoryIcon" : "bunkertable2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkertable2.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

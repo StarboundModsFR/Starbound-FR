@@ -1,0 +1,11 @@
+﻿{
+  "itemName" : "copperblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperblock.png",
+  "description" : "Ce bloc de cuivre a une empreinte semblable au mécanisme distincte.",
+  "shortdescription" : "Bloc de Cuivre",
+  "humandescription" : "Cela me rappelle l'intérieur du centre médical...",
+
+  "materialId" : 1444
+}

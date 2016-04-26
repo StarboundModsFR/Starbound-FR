@@ -1,0 +1,8 @@
+﻿{
+  "name" : "skeletonflower",
+  "description" : "Une fleur squelettique.",
+  "shortdescription" : "Une fleur squelettique.",
+  "floranDescription" : "Fleur Morte.",
+  "glitchDescription" : "Certifié. Une fleur squelettique.",
+  "images" : [ "1.png", "2.png", "3.png", "4.png" ]
+}

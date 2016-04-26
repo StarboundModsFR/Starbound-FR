@@ -1,0 +1,12 @@
+{
+  "itemName" : "uraniumore",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "uraniumore.png",
+  "description" : "De l'uranium. Une bonne source de carburant.",
+  "shortdescription" : "Minerai d'Uranium",
+    "learnBlueprintsOnPickup" : [
+    "uraniumrod"
+  ],
+  "fuelAmount" : 10
+}

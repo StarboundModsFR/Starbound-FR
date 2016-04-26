@@ -1,0 +1,13 @@
+{
+  "itemName" : "shiprepairkit",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "shiprepairkit.png",
+  "image" : "shiprepairkit.png",
+  "largeImage" : "shiprepairkitBig.png",
+
+  "shortdescription" : "Kit de Réparation",
+  "description" : "Il n'y a pas grand choses, mais cela vous aidera à remettre en forme votre vaisseau.",
+
+  "shipUpgrade" : 1,
+  "unlockMessage" : "Génial! Bien qu'il y ait encore du travail sur le lecteur FTL, vous devriez être en mesure d'atteindre au moins une autre planète du système maintenant."
+}

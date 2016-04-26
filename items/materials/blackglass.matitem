@@ -1,0 +1,12 @@
+{
+  "itemName" : "blackglass",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "blackglassicon.png",
+  "description" : "Un matériau de verre de teinte sombre.",
+  "shortdescription" : "Verre Noir",
+  "glitchdescription" : "Déclaration. Verre noir.",
+  "florandescription" : "Floran vois un Floran dans un verre noir.",
+
+  "materialId" : 110
+}

@@ -1,0 +1,48 @@
+﻿{
+  "objectName" : "woodencraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  TABLE DE FABRICATION",
+        "subtitle" : "  Fabriquer, avec une table!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable" ]
+  },
+  "printable" : false,
+  "description" : "Je peux l'utiliser pour fabriquer divers choses sans mains nues!",
+  "shortdescription" : "^orange;Table de Fabrication^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 35,
+
+  "apexDescription" : "Une table avec un tas d'outils pour un artisan.",
+  "avianDescription" : "Une chance pour montrer la capacité de chacun.",
+  "floranDescription" : "Floran utiliser table. Faire de belles choses.",
+  "glitchDescription" : "Inspiré. Module de Fabrication activé.",
+  "humanDescription" : "Je peux utiliser des matériaux que j'ai trouvé ici pour créer des choses.",
+  "hylotlDescription" : "Une chance pour la création.",
+  "novakidDescription" : "Je peux utiliser des matériaux que j'ai trouvé ici pour créer des choses.",
+
+  "inventoryIcon" : "woodencraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodencraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

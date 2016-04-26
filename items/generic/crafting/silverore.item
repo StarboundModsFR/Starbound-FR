@@ -1,0 +1,11 @@
+{
+  "itemName" : "silverore",
+  "price" : 30,
+  "rarity" : "Common",
+  "inventoryIcon" : "silverore.png",
+  "description" : "C'est de l'argent. Peut-être utilisé pour la fusion.",
+  "shortdescription" : "Minerai d'Argent",
+  "learnBlueprintsOnPickup" : [
+    "silverbar"
+  ]
+}

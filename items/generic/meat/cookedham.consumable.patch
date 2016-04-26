@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Un bel oiseau rôti."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Volaille Rôtie."
+}
+]

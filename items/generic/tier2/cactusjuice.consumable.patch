@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Cool comme un cactus."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Jus de Cactus"
+}
+]

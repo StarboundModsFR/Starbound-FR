@@ -1,0 +1,39 @@
+﻿{
+  "type" : "outpostavianmercenary",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ "avianmercenary4.gearup" ],
+    "turnInQuests" : [ "avianmercenary4.gearup" ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "J'ai servi une fois des astronotes, jusqu'à ce que je réalise que je n'était plus en accord avec eux."
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "J'ai servi une fois des astronotes, jusqu'à ce que je réalise que je n'était plus en accord avec eux."
+          ],
+          "avian" : [
+            "Tu ne dois pas craindre la colère des astronomes dans cet endroit, mon ami."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier3chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "apextier6spants", "parameters" : { "colorIndex" : 11 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "sand2",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sand2.png",
+  "description" : "Sable doux et chaud.",
+  "shortdescription" : "Sable",
+  "glitchdescription" : "Déclaration. Sable.",
+  "florandescription" : "Sssable.",
+
+  "materialId" : 22
+}

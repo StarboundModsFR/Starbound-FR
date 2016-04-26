@@ -1,0 +1,51 @@
+﻿{
+  "itemName" : "cactislammer",
+  "price" : 0,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Utiliser un cactus comme une arme. Personne ne verra cette entrée.",
+  "shortdescription" : "Mart'o-Cactus",
+  "tooltipKind" : "sword",
+  "weaponType" : "Marteau",
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "image" : "cactislammer.png",
+  "firePosition" : [5.5, 1],
+  "fireTime" : 1.6,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer_thorns.ogg" } ] },
+
+  "primaryStances" : {
+    "directional" : false,
+    "projectileType" : "cactislammerswoosh",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 12.4
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-3.5, -21.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-4, -21.5],
+      "duration" : 0.15,
+      "statusEffects" : []
+
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -30],
+      "duration" : 1.0,
+      "statusEffects" : []
+    }
+  }
+}

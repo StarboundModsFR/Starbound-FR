@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "frozendirt",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "frozendirt.png",
+  "shortdescription" : "Terre Gelée",
+  "description" : "La terre gelée, c'est assez solide.",
+  "glitchdescription" : "Certifié. Terre gelée.",
+  "florandescription" : "Terre gelée. Lissse au contact.",
+
+  "materialId" : 198
+}

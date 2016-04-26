@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "De la volaille. Pour être cuite en premier..."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Volaille Crue"
+}
+]

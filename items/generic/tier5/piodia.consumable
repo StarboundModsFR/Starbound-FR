@@ -1,0 +1,19 @@
+{
+  "itemName" : "piodia",
+  "rarity" : "Common",
+  "price" : 415,
+  "inventoryIcon" : "piodia.png",
+  "description" : "Une variante de la pizza - il a une saveur plus cuivrée.",
+  "shortdescription" : "La Piodia",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 405
+    }
+  ] ],
+  "foodValue" : 45,
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

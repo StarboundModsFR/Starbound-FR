@@ -1,0 +1,47 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Numéro Trois."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Trois"
+},
+{
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Trois."
+},
+{
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Trois."
+},
+{
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Sssmiley marrant!"
+},
+{
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Déclaration. Trois."
+},
+{
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Trois."
+},
+{
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Trois."
+},
+{
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Un trois."
+}
+]

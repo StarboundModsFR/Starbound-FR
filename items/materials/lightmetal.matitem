@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "lightmetal",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "lightmetal.png",
+  "shortdescription" : "Métal Léger",
+  "description" : "Un métal léger, perfectionnez pour un laboratoire de recherches.",
+  "glitchdescription" : "Certifié. Un métal léger.",
+  "florandescription" : "Non! Pas de Heavy Metal.",
+
+  "materialId" : 102
+}

@@ -1,0 +1,38 @@
+﻿{
+  "itemName" : "poisonbow",
+  "price" : 0,
+  "inventoryIcon" : "poisonbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "weaponType" : "Arc",
+  "itemTags" : ["weapon","ranged","bow"],
+  "description" : "Il tire des flèches de poison mortel.",
+  "shortdescription" : "Arc Empoisonné",
+  "image" : "poisonbowfull.png:<frame>",
+  "imageFrameSelector" : "poisonBowImageSelector",
+  "handPosition" : [-2, 0],
+  "firePosition" : [20, 1.5],
+  "level" : 4,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "poisonarrow",
+  "powerProjectileType" : "chargedpoisonarrow",
+  "powerProjectileTime" : [0.9, 60],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 4,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.ogg" } ]
+  }
+}

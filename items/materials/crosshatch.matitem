@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "crosshatch",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "crosshatch.png",
+  "shortdescription" : "Fenêtre Lacis",
+  "description" : "Un treillis moisi en bois.",
+  "glitchdescription" : "Déclaration. Un treillis de fenêtre.",
+  "florandescription" : "Fenêtre en Laitue.",
+
+  "materialId" : 25
+}

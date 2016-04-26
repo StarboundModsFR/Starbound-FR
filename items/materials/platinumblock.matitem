@@ -1,0 +1,12 @@
+﻿{
+  "itemName" : "platinumblock",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "platinumblock.png",
+  "description" : "Un bloc entier de platine solide.",
+  "shortdescription" : "Bloc de Platine",
+  "glitchdescription" : "Certifié. Platine.",
+  "florandescription" : "Platine brillant.",
+
+  "materialId" : 35
+}

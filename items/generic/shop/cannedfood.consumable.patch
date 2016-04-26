@@ -1,0 +1,12 @@
+﻿[
+{
+        "op": "replace",
+        "path": "/description",
+        "value": "Ce n'est pas très bon, mais il se conserve beaucoup plus longtemps."
+},
+{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Nourriture en Boîte"
+}
+]

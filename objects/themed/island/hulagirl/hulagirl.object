@@ -1,0 +1,36 @@
+﻿{
+  "objectName" : "hulagirl",
+  "colonyTags" : ["island","pretty"],
+  "rarity" : "Common",
+  "price" : 75,
+  "description" : "Une danse Hawaiienne. Aloha!",
+  "shortdescription" : "Danseuse Hawaiienne",
+  "race" : "generic",
+
+  "apexDescription" : "La femme se balaçant semble jouer ukélélé",
+  "avianDescription" : "Cette fille porte une jupe d'herbe.",
+  "floranDescription" : "Floran ne sait pas si Floran aime...",
+  "glitchDescription" : "Ravie. Le mouvement de balancement a un effet presque hypnotique.",
+  "humanDescription" : "Aloha!",
+  "hylotlDescription" : "Cela me rappelle du sable blanc et mer bleu",
+  "novakidDescription" : "Regarde-la, avec son fluorescent ukulele.",
+
+  "inventoryIcon" : "hulagirlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hulagirl.png:<color>.1",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/themed/island/hulagirl/hulagirl.animation",
+  "animationParts" : {
+    "doll" : "hulagirl.png"
+  },
+
+  "scripts" : [ "/objects/themed/island/hulagirl/hulagirl.lua" ],
+  "scriptDelta" : 10
+}

@@ -1,0 +1,10 @@
+﻿{
+  "codexId" : "huntnote04",
+  "title" : "Matériel de Lecture",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhuntinggroundsbook_14.png",
+  "itemName" : "huntnote04Codex",
+  "rarity" : "common",
+  "description" : "Une note griffonnée écrit en langage Apex #4",
+  "shortdescription" : "Note Griffonné"
+}

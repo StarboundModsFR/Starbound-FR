@@ -1,0 +1,18 @@
+{
+  "itemName" : "ironbar",
+  "price" : 40,
+  "rarity" : "Common",
+  "inventoryIcon" : "ironbar.png",
+  "description" : "C'est une barre de fer. Utiles pour faire une armure, armes...!",
+  "shortdescription" : "Lingot de Fer",
+
+  "learnBlueprintsOnPickup" : [
+    "tier1bed",
+    "tier1chair",
+    "tier1door",
+    "tier1light",
+    "tier1switch",
+    "tier1table",
+    "ironbow"
+  ]
+}

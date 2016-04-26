@@ -1,0 +1,20 @@
+{
+  "itemName" : "hoe",
+  "price" : 125,
+  "inventoryIcon" : "hoe.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Cette beche me permet de préparer le sol. Je peux alors cultiver toutes sortes de cultures!",
+  "shortdescription" : "^orange;Beche^white;",
+  "tooltipKind" : "tool",
+  "largeImage" : "hoebig.png",
+  "image" : "hoe.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops.gearup" ]
+}

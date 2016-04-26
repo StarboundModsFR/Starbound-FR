@@ -1,0 +1,39 @@
+﻿{
+  "objectName" : "tallchair",
+  "colonyTags" : ["odd"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Une grande chaise ridicule",
+  "shortdescription" : "Grande Chaise",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 300,
+
+  "apexDescription" : "Une chaise exceptionnellement grande.",
+  "avianDescription" : "Une trés grande chaise.",
+  "floranDescription" : "Floran bascule dessus, puis tombe. Tout le temps.",
+  "glitchDescription" : "Perplexe. Qui a besoin d'une aussi grande chaise ?",
+  "humanDescription" : "Une trés grande chaise.",
+  "hylotlDescription" : "Qu'est-ce une chaise conçue ridiculement.",
+  "novakidDescription" : "Une super grande chaise. Bien.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tallchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 642]
+
+}

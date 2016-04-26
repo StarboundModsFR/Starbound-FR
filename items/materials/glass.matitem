@@ -1,0 +1,17 @@
+{
+  "itemName" : "glassmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "glass.png",
+  "description" : "Je peux voir ma réflexion... c'est affreux!",
+  "shortdescription" : "Bloc de verre",
+  "glitchdescription" : "Déclaration. Verre.",
+  "florandescription" : "Les Florans adorent ssse regarder dans un miroir.",
+
+  "materialId" : 10,
+
+  "learnBlueprintsOnPickup" : [
+    "bottle",
+    "syringe"
+  ]
+}
