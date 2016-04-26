@@ -1,0 +1,37 @@
+﻿{
+  "objectName" : "floranchair",
+  "colonyTags" : ["floran","floranvillage"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "description" : "Une simple chaise en bois avec des os.",
+  "shortdescription" : "Chaise Primitive",
+  "race" : "floran",
+
+  "apexDescription" : "Une chaise de base de bois et d'os.",
+  "avianDescription" : "I wonder if the bones in Floran furniture ever come from Floran. Do Florans even have bones?",
+  "floranDescription" : "Floran ne gaspillent jamais l'os. De petites parties tiennent la chaise.",
+  "glitchDescription" : "Indifférence. Conception Typique Floran.",
+  "humanDescription" : "Les parties d'os sont nets. Je détesterais m'asseoir sur eux.",
+  "hylotlDescription" : "Les os sur cette chaise ... la mort semble s'être tissé dans les moindres aspects de la vie Floran.",
+
+  "inventoryIcon" : "floranchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}
