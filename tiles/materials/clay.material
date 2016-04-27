@@ -1,25 +1,23 @@
-﻿{
-  "materialId" : 52,
-  "materialName" : "clay",
-  "particleColor" : [127, 126, 156, 255],
-  "itemDrop" : "clay",
-  "description" : "Argile sèche et poussiéreuse.",
-  "shortdescription" : "Argile",
-  "glitchDescription" : "Certifié. Argile.",
-  "floranDescription" : "Argile.",
-  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
-  "tillableMod" : 31,
-  "soil" : true,
-  "health" : 4,
-  "category": "materials",
-
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
-  "renderParameters" : {
-    "texture" : "clay.png",
-    "variants" : 3,
-    "lightTransparent" : false,
-    "multiColored" : false,
-    "occludesBelow" : true,
-    "zLevel" : 1870
-  }
+[
+{
+		"op": "replace",
+    "path: "/description",
+		"value" : "Argile sèche et poussiéreuse."
+},
+{
+		"op": "replace",
+    "path: "/shortdescription",
+		"value" : "Argile"
+},
+{
+		"op": "replace",
+    "path: "/glitchDescription",
+		"value" : "Argile sèche et poussiéreuse."
+},
+{
+		"op": "replace",
+    "path: "/floranDescription",
+		"value" : "Argile sèche et poussiéreuse."
 }
+]
+		  
